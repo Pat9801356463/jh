@@ -2999,8 +2999,367 @@
     "input": "",
     "reasoning": "[Intention]\nRetrieve mathematical formula.\n\n[Actions]\nStep 1: Identify geometric shape referenced.\nStep 2: Access geometry knowledge.\nStep 3: Provide formula with explanation.\n\n[Lead]\nRecall of rectangle area formula A = l × w.",
     "output": "The formula for calculating the area of a rectangle is length × width."
-  }
-]
+  },
+  {
+    "instruction": "Translate 'Thank you very much' into Japanese.",
+    "input": "",
+    "reasoning": "[Intention]\nConvert text from source to target language.\n\n[Actions]\nStep 1: Parse source language structure.\nStep 2: Apply vocabulary and grammar of target language.\nStep 3: Verify translation accuracy.\n\n[Lead]\nSelection of formal Japanese gratitude expression.",
+    "output": "The Japanese translation of 'Thank you very much' is 'どうもありがとうございます' (Dōmo arigatōgozaimasu)."
+  },
+  {
+    "instruction": "Translate the phrase 'How are you?' into Spanish.",
+    "input": "",
+    "reasoning": "[Intention]\nConvert text from source to target language.\n\n[Actions]\nStep 1: Parse source language structure.\nStep 2: Apply vocabulary and grammar of target language.\nStep 3: Verify translation accuracy.\n\n[Lead]\nConstruction of Spanish informal greeting question.",
+    "output": "The Spanish translation of 'How are you?' is '¿Cómo estás?'"
+  },
+  {
+    "instruction": "Fill in the blank to complete the sentence.",
+    "input": "The most popular vegetable in the world is the ___",
+    "reasoning": "[Intention]\nComplete sentence with appropriate word.\n\n[Actions]\nStep 1: Analyze sentence structure and context.\nStep 2: Identify suitable word options.\nStep 3: Select most appropriate word.\n\n[Lead]\nRecall of potato as most consumed vegetable globally.",
+    "output": "The most popular vegetable in the world is the potato."
+  },
+  {
+    "instruction": "Given a sentence, count the number of words.",
+    "input": "I love watching the stars at night.",
+    "reasoning": "[Intention]\nPerform quantitative analysis of text.\n\n[Actions]\nStep 1: Parse sentence structure.\nStep 2: Identify word boundaries.\nStep 3: Count individual words.\n\n[Lead]\nIdentification of 7 word units in sentence.",
+    "output": "The sentence 'I love watching the stars at night.' contains 7 words."
+  },
+  {
+    "instruction": "Correct the grammatical errors in this sentence.",
+    "input": "He don't know nothing about it.",
+    "reasoning": "[Intention]\nRectify grammatical error in sentence.\n\n[Actions]\nStep 1: Analyze sentence for grammatical issues.\nStep 2: Apply relevant grammatical rules.\nStep 3: Construct corrected version.\n\n[Lead]\nCorrection of double negative and subject-verb agreement.",
+    "output": "He doesn't know anything about it."
+  },
+  {
+    "instruction": "Suggest a more formal synonym for 'happy.'",
+    "input": "",
+    "reasoning": "[Intention]\nFind word with similar meaning.\n\n[Actions]\nStep 1: Understand semantic meaning of target word.\nStep 2: Access vocabulary network for similar meanings.\nStep 3: Select contextually appropriate alternative.\n\n[Lead]\nSelection of 'joyful' as formal happiness synonym.",
+    "output": "A more formal synonym for 'happy' is 'joyful.'"
+  },
+  {
+    "instruction": "Convert 2,000 milligrams to grams.",
+    "input": "",
+    "reasoning": "[Intention]\nTransform quantity between measurement units.\n\n[Actions]\nStep 1: Extract numerical value and source unit.\nStep 2: Identify target unit and conversion factor.\nStep 3: Perform mathematical operation.\n\n[Lead]\nDivision of 2000 by 1000 (mg to g conversion).",
+    "output": "2,000 milligrams is equal to 2 grams."
+  },
+  {
+    "instruction": "Put the following words in alphabetical order: kitten, zebra, alligator.",
+    "input": "",
+    "reasoning": "[Intention]\nOrganize items according to criteria.\n\n[Actions]\nStep 1: Identify sorting criteria.\nStep 2: Compare items based on criteria.\nStep 3: Arrange in specified order.\n\n[Lead]\nAlphabetical comparison of first letters.",
+    "output": "Alligator, kitten, zebra."
+  },
+  {
+    "instruction": "Identify the main theme in George Orwell's '1984'.",
+    "input": "",
+    "reasoning": "[Intention]\nRecognize and specify element.\n\n[Actions]\nStep 1: Analyze context or text.\nStep 2: Locate target element.\nStep 3: Specify element clearly.\n\n[Lead]\nIdentification of totalitarianism dangers as central theme.",
+    "output": "The main theme of '1984' is the dangers of totalitarianism and oppressive government control."
+  },
+  {
+    "instruction": "What is the capital of Germany?",
+    "input": "",
+    "reasoning": "[Intention]\nRetrieve geographical fact.\n\n[Actions]\nStep 1: Identify location referenced.\nStep 2: Access geographical knowledge.\nStep 3: Provide capital city name.\n\n[Lead]\nRecall of Berlin as Germany's capital.",
+    "output": "The capital city of Germany is Berlin."
+  },
+  {
+    "instruction": "Define the term 'mitosis'.",
+    "input": "",
+    "reasoning": "[Intention]\nProvide definition or explanation.\n\n[Actions]\nStep 1: Identify term or concept.\nStep 2: Access conceptual knowledge.\nStep 3: Formulate clear explanation.\n\n[Lead]\nArticulation of mitosis as cell division process.",
+    "output": "Mitosis is a type of cell division that results in two daughter cells each having the same number and kind of chromosomes as the parent nucleus."
+  },
+  {
+    "instruction": "Name 3 different animals that are active during the day.",
+    "input": "",
+    "reasoning": "[Intention]\nEnumerate items in a category.\n\n[Actions]\nStep 1: Identify category or criteria.\nStep 2: Recall relevant items.\nStep 3: Organize items in list format.\n\n[Lead]\nRecall of diurnal animal examples.",
+    "output": "1. Squirrel\n2. Eagle\n3. Tiger"
+  },
+  {
+    "instruction": "Generate a sentence using the word 'spontaneous'.",
+    "input": "",
+    "reasoning": "[Intention]\nProduce new content following guidelines.\n\n[Actions]\nStep 1: Understand content requirements.\nStep 2: Apply relevant knowledge or creativity.\nStep 3: Construct appropriate output.\n\n[Lead]\nCreation of context demonstrating spontaneity.",
+    "output": "His decision to travel was completely spontaneous, made on a whim."
+  },
+  {
+    "instruction": "Convert the sentence into a question by adding a question tag.",
+    "input": "You will help me",
+    "reasoning": "[Intention]\nChange sentence type by adding question tag.\n\n[Actions]\nStep 1: Analyze sentence structure.\nStep 2: Determine appropriate question tag.\nStep 3: Add tag with correct polarity.\n\n[Lead]\nAddition of negative question tag 'won't you?' to positive statement.",
+    "output": "You will help me, won't you?"
+  },
+  {
+    "instruction": "What type of animal is a 'sparrow'?",
+    "input": "",
+    "reasoning": "[Intention]\nRetrieve biological fact.\n\n[Actions]\nStep 1: Identify animal referenced.\nStep 2: Access biology knowledge.\nStep 3: Provide classification.\n\n[Lead]\nClassification as bird species.",
+    "output": "A sparrow is a type of bird."
+  },
+  {
+    "instruction": "Create a compound word using 'sun.'",
+    "input": "",
+    "reasoning": "[Intention]\nCreate new word by combining elements.\n\n[Actions]\nStep 1: Identify base word for combination.\nStep 2: Select appropriate second element.\nStep 3: Combine to form compound word.\n\n[Lead]\nCreation of 'sunshine' as sun compound.",
+    "output": "A compound word using 'sun' is 'sunshine.'"
+  },
+  {
+    "instruction": "Convert 90 centimeters to meters.",
+    "input": "",
+    "reasoning": "[Intention]\nTransform quantity between measurement units.\n\n[Actions]\nStep 1: Extract numerical value and source unit.\nStep 2: Identify target unit and conversion factor.\nStep 3: Perform mathematical operation.\n\n[Lead]\nDivision of 90 by 100 (cm to m conversion).",
+    "output": "90 centimeters is 0.9 meters."
+  },
+  {
+    "instruction": "Provide a synonym for 'difficult'.",
+    "input": "",
+    "reasoning": "[Intention]\nFind word with similar meaning.\n\n[Actions]\nStep 1: Understand semantic meaning of target word.\nStep 2: Access vocabulary network for similar meanings.\nStep 3: Select contextually appropriate alternative.\n\n[Lead]\nSelection of 'challenging' as difficulty synonym.",
+    "output": "A synonym for 'difficult' is 'challenging'."
+  },
+  {
+    "instruction": "Classify the following into mammals, birds, and fish.",
+    "input": "Eagle, Shark, Lion",
+    "reasoning": "[Intention]\nAssign items to categories.\n\n[Actions]\nStep 1: Analyze items' characteristics.\nStep 2: Identify relevant categories.\nStep 3: Assign each item appropriately.\n\n[Lead]\nBiological classification by animal class.",
+    "output": "Mammals: Lion\nBirds: Eagle\nFish: Shark"
+  },
+  {
+    "instruction": "What is the square root of 16?",
+    "input": "",
+    "reasoning": "[Intention]\nPerform mathematical computation.\n\n[Actions]\nStep 1: Identify mathematical operation required.\nStep 2: Extract numerical values.\nStep 3: Execute calculation.\n\n[Lead]\nRecall or calculation of √16 = 4.",
+    "output": "The square root of 16 is 4."
+  },
+  {
+    "instruction": "Translate 'We go to school together' into Spanish.",
+    "input": "",
+    "reasoning": "[Intention]\nConvert text from source to target language.\n\n[Actions]\nStep 1: Parse source language structure.\nStep 2: Apply vocabulary and grammar of target language.\nStep 3: Verify translation accuracy.\n\n[Lead]\nConstruction of Spanish collective action statement.",
+    "output": "Vamos juntos a la escuela."
+  },
+  {
+    "instruction": "What is the melting point of tin in Celsius?",
+    "input": "",
+    "reasoning": "[Intention]\nRetrieve factual data about material property.\n\n[Actions]\nStep 1: Identify requested property and material.\nStep 2: Access knowledge base of physical properties.\nStep 3: Format response with appropriate units.\n\n[Lead]\nRecall of tin's melting temperature.",
+    "output": "The melting point of tin is 231.9 degrees Celsius."
+  },
+  {
+    "instruction": "Edit the following sentence to make it more formal.",
+    "input": "I gotta go to the store.",
+    "reasoning": "[Intention]\nRectify stylistic issues in sentence.\n\n[Actions]\nStep 1: Analyze sentence for formality issues.\nStep 2: Apply formal language rules.\nStep 3: Construct improved version.\n\n[Lead]\nReplacement of informal 'gotta' with formal 'have to'.",
+    "output": "I have to go to the store."
+  },
+  {
+    "instruction": "Translate 'Goodbye' into Spanish.",
+    "input": "",
+    "reasoning": "[Intention]\nConvert text from source to target language.\n\n[Actions]\nStep 1: Parse source language structure.\nStep 2: Apply vocabulary and grammar of target language.\nStep 3: Verify translation accuracy.\n\n[Lead]\nSelection of Spanish farewell expression.",
+    "output": "The Spanish translation of 'Goodbye' is 'Adiós'."
+  },
+  {
+    "instruction": "What is the chemical formula for nitric acid?",
+    "input": "",
+    "reasoning": "[Intention]\nRetrieve scientific fact.\n\n[Actions]\nStep 1: Identify chemical compound referenced.\nStep 2: Access chemistry knowledge.\nStep 3: Provide formula.\n\n[Lead]\nRecall of HNO₃ as nitric acid formula.",
+    "output": "The chemical formula for nitric acid is HNO3."
+  },
+  {
+    "instruction": "Transform the following sentence to include an exclamation mark to show surprise.",
+    "input": "I found my keys",
+    "reasoning": "[Intention]\nModify punctuation for emotional expression.\n\n[Actions]\nStep 1: Analyze sentence for emotional content.\nStep 2: Apply appropriate punctuation.\nStep 3: Construct punctuated version.\n\n[Lead]\nAddition of exclamation mark to convey surprise.",
+    "output": "I found my keys!"
+  },
+  {
+    "instruction": "Generate a sentence using the word 'illuminate.'",
+    "input": "",
+    "reasoning": "[Intention]\nProduce new content following guidelines.\n\n[Actions]\nStep 1: Understand content requirements.\nStep 2: Apply relevant knowledge or creativity.\nStep 3: Construct appropriate output.\n\n[Lead]\nCreation of context demonstrating illumination.",
+    "output": "The streetlights illuminate the pathway at night."
+  },
+  {
+    "instruction": "What is the chemical symbol for magnesium?",
+    "input": "",
+    "reasoning": "[Intention]\nRetrieve scientific fact.\n\n[Actions]\nStep 1: Identify chemical element referenced.\nStep 2: Access chemistry knowledge.\nStep 3: Provide symbol.\n\n[Lead]\nRecall of 'Mg' as magnesium symbol.",
+    "output": "The chemical symbol for magnesium is Mg."
+  },
+  {
+    "instruction": "Convert the sentence to passive voice: 'The chef prepared the meal.'",
+    "input": "The chef prepared the meal.",
+    "reasoning": "[Intention]\nChange sentence voice between active and passive.\n\n[Actions]\nStep 1: Identify sentence elements (subject, object, verb).\nStep 2: Reconfigure elements according to target voice.\nStep 3: Adjust verb form appropriately.\n\n[Lead]\nTransformation to 'was prepared' passive construction.",
+    "output": "The meal was prepared by the chef."
+  },
+  {
+    "instruction": "Edit the text for grammar and punctuation.",
+    "input": "today was amazing I went hiking and saw a bear",
+    "reasoning": "[Intention]\nRectify grammatical and punctuation errors.\n\n[Actions]\nStep 1: Analyze text for errors.\nStep 2: Apply grammatical and punctuation rules.\nStep 3: Construct corrected version.\n\n[Lead]\nCapitalization and sentence separation.",
+    "output": "\"Today was amazing. I went hiking and saw a bear.\""
+  },
+  {
+    "instruction": "Explain the function of the respiratory system in humans.",
+    "input": "",
+    "reasoning": "[Intention]\nProvide definition or explanation.\n\n[Actions]\nStep 1: Identify bodily system referenced.\nStep 2: Access biology knowledge.\nStep 3: Formulate clear explanation.\n\n[Lead]\nArticulation of respiratory system as gas exchange mechanism.",
+    "output": "The respiratory system's primary function is to supply the blood with oxygen through breathing and to remove carbon dioxide. It includes the nose, throat, larynx, trachea, bronchi, and lungs."
+  },
+  {
+    "instruction": "Convert the number 10 from decimal to binary.",
+    "input": "",
+    "reasoning": "[Intention]\nPerform mathematical computation.\n\n[Actions]\nStep 1: Identify mathematical operation required.\nStep 2: Extract numerical values.\nStep 3: Execute calculation.\n\n[Lead]\nConversion of decimal 10 to binary 1010.",
+    "output": "The binary equivalent of the decimal number 10 is 1010."
+  },
+  {
+    "instruction": "Rewrite the sentence so that it does not contain any passive voice.",
+    "input": "The song was played on the radio.",
+    "reasoning": "[Intention]\nChange sentence voice between active and passive.\n\n[Actions]\nStep 1: Identify sentence elements (subject, object, verb).\nStep 2: Reconfigure elements according to target voice.\nStep 3: Adjust verb form appropriately.\n\n[Lead]\nRepositioning 'radio' as active subject.",
+    "output": "The radio played the song."
+  },
+  {
+    "instruction": "Generate a sentence using the word 'quintessential'.",
+    "input": "",
+    "reasoning": "[Intention]\nProduce new content following guidelines.\n\n[Actions]\nStep 1: Understand content requirements.\nStep 2: Apply relevant knowledge or creativity.\nStep 3: Construct appropriate output.\n\n[Lead]\nCreation of context demonstrating quintessential quality.",
+    "output": "He was the quintessential example of a gentleman."
+  },
+  {
+    "instruction": "What is the past tense of 'fly'?",
+    "input": "",
+    "reasoning": "[Intention]\nAnswer factual question about grammar.\n\n[Actions]\nStep 1: Parse question structure.\nStep 2: Access relevant grammatical knowledge.\nStep 3: Formulate direct answer.\n\n[Lead]\nRecall of irregular past tense 'flew'.",
+    "output": "The past tense of 'fly' is 'flew'."
+  },
+  {
+    "instruction": "Rewrite this statement as an imperative sentence.",
+    "input": "You should check the document for errors.",
+    "reasoning": "[Intention]\nChange sentence type to imperative.\n\n[Actions]\nStep 1: Analyze sentence structure.\nStep 2: Remove subject and soften language.\nStep 3: Form direct command.\n\n[Lead]\nConversion to direct command 'Check the document for errors.'",
+    "output": "Check the document for errors."
+  },
+  {
+    "instruction": "Convert the following verb to its gerund form: 'write'",
+    "input": "",
+    "reasoning": "[Intention]\nAnswer factual question about grammar.\n\n[Actions]\nStep 1: Parse question structure.\nStep 2: Access relevant grammatical knowledge.\nStep 3: Formulate direct answer.\n\n[Lead]\nRecall of gerund 'writing' from verb 'write'.",
+    "output": "The gerund form of 'write' is 'writing.'"
+  },
+  {
+    "instruction": "Generate three verbs that mean the same as 'to write.'",
+    "input": "",
+    "reasoning": "[Intention]\nEnumerate items in a category.\n\n[Actions]\nStep 1: Identify category or criteria.\nStep 2: Recall relevant items.\nStep 3: Organize items in list format.\n\n[Lead]\nRecall of synonyms for writing activity.",
+    "output": "1. To compose\n2. To draft\n3. To pen"
+  },
+  {
+    "instruction": "Calculate the perimeter of an equilateral triangle with each side measuring 8 cm.",
+    "input": "",
+    "reasoning": "[Intention]\nPerform mathematical computation.\n\n[Actions]\nStep 1: Identify mathematical operation required.\nStep 2: Extract numerical values.\nStep 3: Execute calculation.\n\n[Lead]\nMultiplication of side length by number of sides (8 × 3).",
+    "output": "The perimeter of the equilateral triangle is 24 cm."
+  },
+  {
+    "instruction": "Describe the color blue in 3 words.",
+    "input": "",
+    "reasoning": "[Intention]\nProvide descriptive terms for color.\n\n[Actions]\nStep 1: Identify color characteristics.\nStep 2: Select appropriate descriptive adjectives.\nStep 3: Organize in concise list.\n\n[Lead]\nSelection of adjectives capturing blue's qualities.",
+    "output": "Deep, calming, cool."
+  },
+  {
+    "instruction": "Classify the following items: apple, diamond, fern.",
+    "input": "",
+    "reasoning": "[Intention]\nAssign items to categories.\n\n[Actions]\nStep 1: Analyze items' characteristics.\nStep 2: Identify relevant categories.\nStep 3: Assign each item appropriately.\n\n[Lead]\nClassification based on biological/mineral properties.",
+    "output": "Plants: Fern\nMinerals: Diamond\nFruits: Apple"
+  },
+  {
+    "instruction": "Scramble the given phrase.",
+    "input": "A random phrase",
+    "reasoning": "[Intention]\nModify text by rearranging letters.\n\n[Actions]\nStep 1: Identify word boundaries.\nStep 2: Rearrange letters within words.\nStep 3: Construct scrambled version.\n\n[Lead]\nRearrangement of letters to create scramble effect.",
+    "output": "A nmaodr hrasep"
+  },
+  {
+    "instruction": "Identify the verb in the following sentence",
+    "input": "The cat sleeps on the couch.",
+    "reasoning": "[Intention]\nRecognize and specify element.\n\n[Actions]\nStep 1: Analyze context or text.\nStep 2: Locate target element.\nStep 3: Specify element clearly.\n\n[Lead]\nIdentification of 'sleeps' as action verb.",
+    "output": "The verb in the sentence is \"sleeps.\""
+  },
+  {
+    "instruction": "What is the freezing point of water in Celsius?",
+    "input": "",
+    "reasoning": "[Intention]\nRetrieve scientific fact.\n\n[Actions]\nStep 1: Identify substance and phase change.\nStep 2: Access physics/chemistry knowledge.\nStep 3: Provide temperature value.\n\n[Lead]\nRecall of 0°C as water freezing point.",
+    "output": "The freezing point of water is 0 degrees Celsius."
+  },
+  {
+    "instruction": "Pick the best synonym for the given word.",
+    "input": "Assist",
+    "reasoning": "[Intention]\nFind word with similar meaning.\n\n[Actions]\nStep 1: Understand semantic meaning of target word.\nStep 2: Access vocabulary network for similar meanings.\nStep 3: Select contextually appropriate alternative.\n\n[Lead]\nSelection of 'help' as assistance synonym.",
+    "output": "Help."
+  },
+  {
+    "instruction": "Provide the past tense form of the verb 'choose.'",
+    "input": "",
+    "reasoning": "[Intention]\nAnswer factual question about grammar.\n\n[Actions]\nStep 1: Parse question structure.\nStep 2: Access relevant grammatical knowledge.\nStep 3: Formulate direct answer.\n\n[Lead]\nRecall of irregular past tense 'chose'.",
+    "output": "The past tense of the verb 'choose' is 'chose.'"
+  },
+  {
+    "instruction": "Convert 1000 millimeters to meters.",
+    "input": "",
+    "reasoning": "[Intention]\nTransform quantity between measurement units.\n\n[Actions]\nStep 1: Extract numerical value and source unit.\nStep 2: Identify target unit and conversion factor.\nStep 3: Perform mathematical operation.\n\n[Lead]\nDivision of 1000 by 1000 (mm to m conversion).",
+    "output": "1000 millimeters is 1 meter."
+  },
+  {
+    "instruction": "Generate a question that could logically follow the statement below.",
+    "input": "I just got a new job.",
+    "reasoning": "[Intention]\nProduce new content following guidelines.\n\n[Actions]\nStep 1: Understand content requirements.\nStep 2: Apply relevant knowledge or creativity.\nStep 3: Construct appropriate output.\n\n[Lead]\nFormulation of natural follow-up question about job details.",
+    "output": "What will you be doing at your new job?"
+  },
+  {
+    "instruction": "Given a sentence, convert it into indirect speech.",
+    "input": "He said, 'I am hungry.'",
+    "reasoning": "[Intention]\nChange speech format from direct to indirect.\n\n[Actions]\nStep 1: Identify direct speech elements.\nStep 2: Apply indirect speech conversion rules.\nStep 3: Adjust pronouns and verb tenses.\n\n[Lead]\nTransformation of present tense to past tense in reported speech.",
+    "output": "He said that he was hungry."
+  },
+  {
+    "instruction": "What is the integral of x?",
+    "input": "",
+    "reasoning": "[Intention]\nPerform mathematical computation.\n\n[Actions]\nStep 1: Identify mathematical operation required.\nStep 2: Extract function components.\nStep 3: Execute integration.\n\n[Lead]\nApplication of power rule for integration of x.",
+    "output": "The integral of x is (1/2)x^2 + C."
+  },
+  {
+    "instruction": "Name the process by which leaves change color in autumn.",
+    "input": "",
+    "reasoning": "[Intention]\nRetrieve biological fact.\n\n[Actions]\nStep 1: Identify biological process referenced.\nStep 2: Access biology knowledge.\nStep 3: Provide process name.\n\n[Lead]\nRecall of 'senescence' as leaf aging process.",
+    "output": "The process by which leaves change color in autumn is called senescence."
+  },
+  {
+    "instruction": "What is the capital of Mexico?",
+    "input": "",
+    "reasoning": "[Intention]\nRetrieve geographical fact.\n\n[Actions]\nStep 1: Identify location referenced.\nStep 2: Access geographical knowledge.\nStep 3: Provide capital city name.\n\n[Lead]\nRecall of Mexico City as Mexico's capital.",
+    "output": "The capital of Mexico is Mexico City."
+  },
+  {
+    "instruction": "Categorize the following items into one of the following categories: appliance, clothing, or food.",
+    "input": "Microwave, T-shirt, Bread",
+    "reasoning": "[Intention]\nAssign items to categories.\n\n[Actions]\nStep 1: Analyze items' characteristics.\nStep 2: Identify relevant categories.\nStep 3: Assign each item appropriately.\n\n[Lead]\nClassification based on functional/use categories.",
+    "output": "Appliance: Microwave\nClothing: T-shirt\nFood: Bread"
+  },
+  {
+    "instruction": "Translate 'I am sorry' into German.",
+    "input": "",
+    "reasoning": "[Intention]\nConvert text from source to target language.\n\n[Actions]\nStep 1: Parse source language structure.\nStep 2: Apply vocabulary and grammar of target language.\nStep 3: Verify translation accuracy.\n\n[Lead]\nSelection of German apology expression.",
+    "output": "The German translation of 'I am sorry' is 'Es tut mir leid'."
+  },
+  {
+    "instruction": "Convert this declarative sentence into a command: 'You should check the report.'",
+    "input": "",
+    "reasoning": "[Intention]\nChange sentence type to imperative.\n\n[Actions]\nStep 1: Analyze sentence structure.\nStep 2: Remove subject and soften language.\nStep 3: Form direct command.\n\n[Lead]\nConversion to direct command 'Check the report.'",
+    "output": "Check the report."
+  },
+  {
+    "instruction": "Translate 'good afternoon' into Portuguese.",
+    "input": "",
+    "reasoning": "[Intention]\nConvert text from source to target language.\n\n[Actions]\nStep 1: Parse source language structure.\nStep 2: Apply vocabulary and grammar of target language.\nStep 3: Verify translation accuracy.\n\n[Lead]\nSelection of Portuguese afternoon greeting.",
+    "output": "Boa tarde"
+  },
+  {
+    "instruction": "Convert the following verb to its gerund form: 'eat'",
+    "input": "",
+    "reasoning": "[Intention]\nAnswer factual question about grammar.\n\n[Actions]\nStep 1: Parse question structure.\nStep 2: Access relevant grammatical knowledge.\nStep 3: Formulate direct answer.\n\n[Lead]\nRecall of gerund 'eating' from verb 'eat'.",
+    "output": "The gerund form of 'eat' is 'eating'."
+  },
+  {
+    "instruction": "Create a sentence using the word 'bittersweet'.",
+    "input": "",
+    "reasoning": "[Intention]\nProduce new content following guidelines.\n\n[Actions]\nStep 1: Understand content requirements.\nStep 2: Apply relevant knowledge or creativity.\nStep 3: Construct appropriate output.\n\n[Lead]\nCreation of context demonstrating mixed emotions.",
+    "output": "His victory was bittersweet, as it came at a great personal loss."
+  },
+  {
+    "instruction": "What is the opposite of 'strong'?",
+    "input": "",
+    "reasoning": "[Intention]\nFind word with opposite meaning.\n\n[Actions]\nStep 1: Understand semantic meaning of target word.\nStep 2: Access vocabulary network for opposite meanings.\nStep 3: Select appropriate contrasting term.\n\n[Lead]\nSelection of 'weak' as strength opposite.",
+    "output": "The opposite of 'strong' is 'weak'."
+  },
+  {
+    "instruction": "Translate 'They are reading books' into Spanish.",
+    "input": "",
+    "reasoning": "[Intention]\nConvert text from source to target language.\n\n[Actions]\nStep 1: Parse source language structure.\nStep 2: Apply vocabulary and grammar of target language.\nStep 3: Verify translation accuracy.\n\n[Lead]\nConstruction of Spanish present progressive statement.",
+    "output": "Están leyendo libros."
+  },
 
 
 
