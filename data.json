@@ -6017,5 +6017,604 @@
   "input": "We went to see to the mountains.",
   "reasoning": "[Intention]\nRemove unnecessary repetition.\n\n[Actions]\nStep 1: Identify redundant preposition ('to see to').\nStep 2: Remove extra 'to'.\nStep 3: Maintain core meaning.\n\n[Lead]\nCorrect prepositional phrase structure.",
   "output": "We went to see the mountains."
-}
-]  
+},
+{
+  "instruction": "Calculate the surface area of a sphere with radius 7 cm.",
+  "input": "",
+  "reasoning": "[Intention]\nPerform geometric calculation using sphere surface area formula.\n\n[Actions]\nStep 1: Recall sphere surface area formula: A = 4πr².\nStep 2: Insert radius value: r = 7 cm.\nStep 3: Calculate: 4 × π × 7² = 4 × π × 49 = 196π.\nStep 4: Approximate: 196 × 3.1416 ≈ 615.75.\n\n[Lead]\nApply sphere surface area formula with given radius.",
+  "output": "The surface area of the sphere is approximately 615.75 square centimeters."
+},
+{
+  "instruction": "Rewrite this sentence in the future perfect continuous tense: 'She has been studying for three hours.'",
+  "input": "",
+  "reasoning": "[Intention]\nConvert present perfect continuous to future perfect continuous tense.\n\n[Actions]\nStep 1: Identify tense structure: future perfect continuous = will have been + present participle.\nStep 2: Keep subject 'She' unchanged.\nStep 3: Change 'has been studying' to 'will have been studying'.\nStep 4: Keep time phrase 'for three hours'.\n\n[Lead]\nFuture projection of ongoing action completed by future time.",
+  "output": "She will have been studying for three hours."
+},
+{
+  "instruction": "Identify the type of chemical reaction: 2H₂ + O₂ → 2H₂O",
+  "input": "",
+  "reasoning": "[Intention]\nClassify chemical reaction based on reactants and products.\n\n[Actions]\nStep 1: Analyze equation: hydrogen and oxygen combining to form water.\nStep 2: Recognize pattern: two or more substances combining to form one product.\nStep 3: Identify reaction type as combination/synthesis.\nStep 4: Verify conservation of mass and atoms.\n\n[Lead]\nSynthesis reaction where elements combine to form compound.",
+  "output": "This is a synthesis or combination reaction."
+},
+{
+  "instruction": "Convert the binary number 10101 to decimal.",
+  "input": "",
+  "reasoning": "[Intention]\nPerform base-2 to base-10 conversion.\n\n[Actions]\nStep 1: Write binary digits with place values: 2⁴, 2³, 2², 2¹, 2⁰.\nStep 2: Multiply each digit by its place value: (1×16) + (0×8) + (1×4) + (0×2) + (1×1).\nStep 3: Sum results: 16 + 0 + 4 + 0 + 1 = 21.\n\n[Lead]\nCalculate decimal equivalent using binary place values.",
+  "output": "The decimal equivalent of binary 10101 is 21."
+},
+{
+  "instruction": "Explain the difference between weather and climate.",
+  "input": "",
+  "reasoning": "[Intention]\nProvide clear distinction between two meteorological concepts.\n\n[Actions]\nStep 1: Define weather: short-term atmospheric conditions.\nStep 2: Define climate: long-term weather patterns.\nStep 3: Contrast timescales: weather (days/weeks) vs climate (years/decades).\nStep 4: Provide examples for clarity.\n\n[Lead]\nWeather is short-term, climate is long-term atmospheric patterns.",
+  "output": "Weather refers to short-term atmospheric conditions (temperature, precipitation, wind) over hours to weeks. Climate describes long-term weather patterns and averages over decades or longer in a specific region."
+},
+{
+  "instruction": "Find the derivative of sin(x)cos(x).",
+  "input": "",
+  "reasoning": "[Intention]\nApply calculus differentiation rules to trigonometric product.\n\n[Actions]\nStep 1: Recognize product of two functions: f(x) = sin(x), g(x) = cos(x).\nStep 2: Apply product rule: (fg)' = f'g + fg'.\nStep 3: Differentiate: sin'(x) = cos(x), cos'(x) = -sin(x).\nStep 4: Compute: cos(x)cos(x) + sin(x)(-sin(x)) = cos²(x) - sin²(x).\nStep 5: Recognize identity: cos²(x) - sin²(x) = cos(2x).\n\n[Lead]\nUse product rule and trigonometric identities for simplification.",
+  "output": "The derivative of sin(x)cos(x) is cos²(x) - sin²(x), which simplifies to cos(2x)."
+},
+{
+  "instruction": "Classify the following programming languages as compiled or interpreted: Python, C++, Java, JavaScript.",
+  "input": "",
+  "reasoning": "[Intention]\nCategorize programming languages by execution method.\n\n[Actions]\nStep 1: Recall Python characteristics: typically interpreted (though can be compiled).\nStep 2: Recall C++ characteristics: compiled language.\nStep 3: Recall Java characteristics: compiled to bytecode then interpreted by JVM.\nStep 4: Recall JavaScript characteristics: interpreted (though JIT compilation common).\nStep 5: Provide accurate classifications.\n\n[Lead]\nStandard classifications based on typical execution models.",
+  "output": "Python: Interpreted\nC++: Compiled\nJava: Compiled to bytecode then interpreted\nJavaScript: Interpreted"
+},
+{
+  "instruction": "Calculate the pH of a 0.01 M HCl solution.",
+  "input": "",
+  "reasoning": "[Intention]\nPerform acid concentration to pH calculation.\n\n[Actions]\nStep 1: Recall HCl is strong acid, completely dissociates.\nStep 2: Determine [H⁺] = 0.01 M = 10⁻² M.\nStep 3: Apply pH formula: pH = -log₁₀[H⁺].\nStep 4: Calculate: pH = -log₁₀(10⁻²) = 2.\n\n[Lead]\nStrong acid pH calculation using concentration and logarithmic function.",
+  "output": "The pH of a 0.01 M HCl solution is 2."
+},
+{
+  "instruction": "Rewrite this passive sentence as active voice: 'The novel was written by the famous author in 2020.'",
+  "input": "",
+  "reasoning": "[Intention]\nConvert passive construction to active voice.\n\n[Actions]\nStep 1: Identify agent (famous author) and action (wrote).\nStep 2: Make agent the subject of active sentence.\nStep 3: Change verb to active form ('was written' → 'wrote').\nStep 4: Keep object ('the novel') and time phrase ('in 2020').\n\n[Lead]\nActive construction emphasizing who performed the action.",
+  "output": "The famous author wrote the novel in 2020."
+},
+{
+  "instruction": "Solve for x: 3x² - 12x + 9 = 0",
+  "input": "",
+  "reasoning": "[Intention]\nSolve quadratic equation using factoring or quadratic formula.\n\n[Actions]\nStep 1: Factor out common factor: 3(x² - 4x + 3) = 0.\nStep 2: Factor quadratic: (x - 1)(x - 3) = 0.\nStep 3: Set each factor to zero: x - 1 = 0 or x - 3 = 0.\nStep 4: Solve: x = 1 or x = 3.\n\n[Lead]\nFactor quadratic equation to find roots.",
+  "output": "The solutions are x = 1 and x = 3."
+},
+{
+  "instruction": "Describe the process of cellular respiration in one sentence.",
+  "input": "",
+  "reasoning": "[Intention]\nProvide concise biological process description.\n\n[Actions]\nStep 1: Recall key components: glucose, oxygen, ATP, carbon dioxide, water.\nStep 2: Identify location: mitochondria in eukaryotic cells.\nStep 3: Summarize process: breaking down glucose to produce energy.\nStep 4: Form concise, accurate sentence.\n\n[Lead]\nEnergy production process in cells through glucose breakdown.",
+  "output": "Cellular respiration is the process by which cells break down glucose in the presence of oxygen to produce ATP, carbon dioxide, and water."
+},
+{
+  "instruction": "Convert 45 degrees to radians.",
+  "input": "",
+  "reasoning": "[Intention]\nPerform angular unit conversion.\n\n[Actions]\nStep 1: Recall conversion factor: π radians = 180°.\nStep 2: Set up proportion: 45° × (π/180°).\nStep 3: Simplify: 45/180 = 1/4.\nStep 4: Calculate: (1/4)π = π/4.\n\n[Lead]\nStandard degree to radian conversion using π/180 factor.",
+  "output": "45 degrees is equal to π/4 radians."
+},
+{
+  "instruction": "Identify the literary device: 'The world is a stage.'",
+  "input": "",
+  "reasoning": "[Intention]\nRecognize figurative language technique.\n\n[Actions]\nStep 1: Analyze phrase: direct comparison without 'like' or 'as'.\nStep 2: Recognize world being described as something else (stage).\nStep 3: Identify as metaphor (not simile, not personification).\nStep 4: Confirm no human qualities given to non-human entity.\n\n[Lead]\nDirect comparison establishing equivalence between two unlike things.",
+  "output": "The literary device used is a metaphor."
+},
+{
+  "instruction": "Calculate the work done when a 50 N force moves an object 10 meters in the direction of the force.",
+  "input": "",
+  "reasoning": "[Intention]\nPerform physics work calculation.\n\n[Actions]\nStep 1: Recall work formula: W = F × d × cosθ.\nStep 2: Identify values: F = 50 N, d = 10 m, θ = 0° (same direction).\nStep 3: Calculate cos(0°) = 1.\nStep 4: Compute: W = 50 × 10 × 1 = 500.\n\n[Lead]\nSimple work calculation with force and displacement in same direction.",
+  "output": "The work done is 500 joules."
+},
+{
+  "instruction": "Name the three states of matter and give one example of each.",
+  "input": "",
+  "reasoning": "[Intention]\nList fundamental physical states with examples.\n\n[Actions]\nStep 1: Recall three primary states: solid, liquid, gas.\nStep 2: Select common, clear examples for each.\nStep 3: Ensure examples are unambiguous.\nStep 4: Present in organized format.\n\n[Lead]\nBasic classification of matter with everyday examples.",
+  "output": "1. Solid - Example: Ice\n2. Liquid - Example: Water\n3. Gas - Example: Water vapor"
+},
+{
+  "instruction": "Find the median of: 12, 7, 15, 8, 10, 13, 9",
+  "input": "",
+  "reasoning": "[Intention]\nCalculate statistical median for dataset.\n\n[Actions]\nStep 1: Arrange numbers in ascending order: 7, 8, 9, 10, 12, 13, 15.\nStep 2: Count total numbers: 7 (odd).\nStep 3: Find middle position: (7+1)/2 = 4th position.\nStep 4: Identify 4th number in sorted list: 10.\n\n[Lead]\nMedian calculation for odd-numbered dataset.",
+  "output": "The median is 10."
+},
+{
+  "instruction": "Translate 'Where is the train station?' into Spanish.",
+  "input": "",
+  "reasoning": "[Intention]\nConvert English location inquiry to Spanish.\n\n[Actions]\nStep 1: Translate 'Where is': '¿Dónde está?'\nStep 2: Translate 'the train station': 'la estación de tren'.\nStep 3: Combine with correct word order.\nStep 4: Include question punctuation.\n\n[Lead]\nStandard Spanish phrase for asking location of transportation hub.",
+  "output": "¿Dónde está la estación de tren?"
+},
+{
+  "instruction": "Explain Newton's First Law of Motion.",
+  "input": "",
+  "reasoning": "[Intention]\nProvide physics principle explanation.\n\n[Actions]\nStep 1: Recall law statement: object at rest stays at rest, object in motion stays in motion.\nStep 2: Include key condition: unless acted upon by unbalanced force.\nStep 3: Mention alternative name: Law of Inertia.\nStep 4: Provide clear, concise explanation.\n\n[Lead]\nFundamental principle describing inertia and force effects.",
+  "output": "Newton's First Law of Motion, also called the Law of Inertia, states that an object at rest will remain at rest, and an object in motion will continue in motion with constant velocity, unless acted upon by an unbalanced external force."
+},
+{
+  "instruction": "Simplify: (2x³y²)³",
+  "input": "",
+  "reasoning": "[Intention]\nApply exponent rules to simplify expression.\n\n[Actions]\nStep 1: Apply power of a power rule: (aᵐ)ⁿ = aᵐⁿ.\nStep 2: Raise coefficient to power: 2³ = 8.\nStep 3: Raise x term: (x³)³ = x⁹.\nStep 4: Raise y term: (y²)³ = y⁶.\nStep 5: Combine: 8x⁹y⁶.\n\n[Lead]\nApply exponent rules for coefficients and variables.",
+  "output": "8x⁹y⁶"
+},
+{
+  "instruction": "What is the main function of chloroplasts in plant cells?",
+  "input": "",
+  "reasoning": "[Intention]\nDescribe organelle's primary biological role.\n\n[Actions]\nStep 1: Recall chloroplast function: photosynthesis.\nStep 2: Specify process: converting light energy to chemical energy.\nStep 3: Mention key pigment: chlorophyll.\nStep 4: Note products: glucose and oxygen.\n\n[Lead]\nOrganelle responsible for energy production through photosynthesis.",
+  "output": "The main function of chloroplasts is to perform photosynthesis, converting light energy into chemical energy stored in glucose while producing oxygen as a byproduct."
+},
+{
+  "instruction": "Solve the system of equations: 2x + y = 7, x - y = 2",
+  "input": "",
+  "reasoning": "[Intention]\nSolve simultaneous linear equations using elimination or substitution.\n\n[Actions]\nStep 1: Add the two equations to eliminate y: (2x + y) + (x - y) = 7 + 2.\nStep 2: Simplify: 3x = 9, so x = 3.\nStep 3: Substitute x = 3 into second equation: 3 - y = 2.\nStep 4: Solve for y: y = 1.\nStep 5: Verify solution in both equations.\n\n[Lead]\nUse elimination method to solve linear system.",
+  "output": "The solution is x = 3, y = 1."
+},
+{
+  "instruction": "Identify the subject and predicate in: 'The diligent student completed the assignment quickly.'",
+  "input": "",
+  "reasoning": "[Intention]\nAnalyze sentence structure to identify core components.\n\n[Actions]\nStep 1: Find subject (who/what performs action): 'The diligent student'.\nStep 2: Find predicate (what is said about subject): 'completed the assignment quickly'.\nStep 3: Verify subject includes article and modifier.\nStep 4: Verify predicate includes verb, object, and adverb.\n\n[Lead]\nBasic sentence analysis separating subject and predicate.",
+  "output": "Subject: The diligent student\nPredicate: completed the assignment quickly"
+},
+{
+  "instruction": "Calculate the kinetic energy of a 2 kg object moving at 3 m/s.",
+  "input": "",
+  "reasoning": "[Intention]\nApply physics formula for kinetic energy.\n\n[Actions]\nStep 1: Recall kinetic energy formula: KE = ½mv².\nStep 2: Identify values: m = 2 kg, v = 3 m/s.\nStep 3: Calculate v²: 3² = 9.\nStep 4: Compute: ½ × 2 × 9 = 1 × 9 = 9.\n\n[Lead]\nBasic kinetic energy calculation using mass and velocity.",
+  "output": "The kinetic energy is 9 joules."
+},
+{
+  "instruction": "Convert 5 feet 8 inches to centimeters.",
+  "input": "",
+  "reasoning": "[Intention]\nPerform imperial to metric height conversion.\n\n[Actions]\nStep 1: Convert feet to inches: 5 feet × 12 = 60 inches.\nStep 2: Add remaining inches: 60 + 8 = 68 inches total.\nStep 3: Convert inches to cm: 1 inch = 2.54 cm.\nStep 4: Calculate: 68 × 2.54 = 172.72.\n\n[Lead]\nMulti-step height conversion from imperial to metric.",
+  "output": "5 feet 8 inches is approximately 172.7 centimeters."
+},
+{
+  "instruction": "What is the difference between an element and a compound?",
+  "input": "",
+  "reasoning": "[Intention]\nDistinguish basic chemical concepts.\n\n[Actions]\nStep 1: Define element: pure substance of one type of atom.\nStep 2: Define compound: substance of two or more different elements chemically bonded.\nStep 3: Contrast composition: elements (single atom type) vs compounds (multiple atom types).\nStep 4: Provide examples for clarity.\n\n[Lead]\nFundamental chemical classification based on atomic composition.",
+  "output": "An element is a pure substance made of only one type of atom (e.g., oxygen, gold). A compound is a substance made of two or more different elements chemically bonded in fixed proportions (e.g., water H₂O, salt NaCl)."
+},
+{
+  "instruction": "Find the area of a circle with diameter 14 cm.",
+  "input": "",
+  "reasoning": "[Intention]\nCalculate circle area using diameter.\n\n[Actions]\nStep 1: Find radius: diameter/2 = 14/2 = 7 cm.\nStep 2: Recall area formula: A = πr².\nStep 3: Calculate r²: 7² = 49.\nStep 4: Compute area: π × 49 ≈ 3.1416 × 49 ≈ 153.94.\n\n[Lead]\nCircle area calculation using diameter to find radius first.",
+  "output": "The area is approximately 153.94 square centimeters."
+},
+{
+  "instruction": "Rewrite using the present perfect tense: 'I see that movie.'",
+  "input": "",
+  "reasoning": "[Intention]\nConvert simple present to present perfect tense.\n\n[Actions]\nStep 1: Identify verb in simple present: 'see'.\nStep 2: Change to present perfect: 'have seen' or 'has seen'.\nStep 3: Use correct subject-verb agreement: 'I have'.\nStep 4: Keep object 'that movie'.\n\n[Lead]\nPresent perfect indicates completed action with present relevance.",
+  "output": "I have seen that movie."
+},
+{
+  "instruction": "Balance the chemical equation: Fe + O₂ → Fe₂O₃",
+  "input": "",
+  "reasoning": "[Intention]\nBalance atoms on both sides of chemical equation.\n\n[Actions]\nStep 1: Count atoms: Left: Fe=1, O=2; Right: Fe=2, O=3.\nStep 2: Balance Fe first: Put 2 before Fe on left.\nStep 3: Balance O: Left has 2O, right has 3O. Need common multiple: 6.\nStep 4: Adjust: 4Fe + 3O₂ → 2Fe₂O₃.\nStep 5: Verify: Left: Fe=4, O=6; Right: Fe=4, O=6.\n\n[Lead]\nSystematic balancing ensuring atom conservation.",
+  "output": "4Fe + 3O₂ → 2Fe₂O₃"
+},
+{
+  "instruction": "Calculate the mean of: 15, 22, 18, 25, 20",
+  "input": "",
+  "reasoning": "[Intention]\nCompute arithmetic average of dataset.\n\n[Actions]\nStep 1: Sum all numbers: 15 + 22 + 18 + 25 + 20 = 100.\nStep 2: Count numbers: 5.\nStep 3: Divide sum by count: 100 ÷ 5 = 20.\n\n[Lead]\nBasic mean calculation (sum divided by count).",
+  "output": "The mean is 20."
+},
+{
+  "instruction": "Name the four main types of tissue in the human body.",
+  "input": "",
+  "reasoning": "[Intention]\nList primary biological tissue classifications.\n\n[Actions]\nStep 1: Recall epithelial tissue (covering/lining).\nStep 2: Recall connective tissue (support/binding).\nStep 3: Recall muscle tissue (movement).\nStep 4: Recall nervous tissue (communication/control).\nStep 5: Present in standard order.\n\n[Lead]\nFundamental tissue types with distinct functions.",
+  "output": "1. Epithelial tissue\n2. Connective tissue\n3. Muscle tissue\n4. Nervous tissue"
+},
+{
+  "instruction": "Find the value of x: log₂(x) = 3",
+  "input": "",
+  "reasoning": "[Intention]\nSolve logarithmic equation for variable.\n\n[Actions]\nStep 1: Convert logarithmic equation to exponential form.\nStep 2: Recall: logₐ(b) = c means aᶜ = b.\nStep 3: Apply: 2³ = x.\nStep 4: Calculate: 2³ = 8.\n\n[Lead]\nConvert logarithmic to exponential form to solve.",
+  "output": "x = 8"
+},
+{
+  "instruction": "Describe the water cycle in three steps.",
+  "input": "",
+  "reasoning": "[Intention]\nSummarize hydrological cycle concisely.\n\n[Actions]\nStep 1: Identify evaporation: water heating to vapor.\nStep 2: Identify condensation: vapor cooling to form clouds.\nStep 3: Identify precipitation: water falling as rain/snow.\nStep 4: Ensure logical sequence.\n\n[Lead]\nSimplified three-step representation of water cycle.",
+  "output": "1. Evaporation: Water turns to vapor and rises.\n2. Condensation: Vapor cools and forms clouds.\n3. Precipitation: Water falls back to Earth as rain or snow."
+},
+{
+  "instruction": "Simplify: (3x - 4)(2x + 5)",
+  "input": "",
+  "reasoning": "[Intention]\nExpand binomial multiplication using FOIL method.\n\n[Actions]\nStep 1: Apply FOIL: First: 3x × 2x = 6x².\nStep 2: Outer: 3x × 5 = 15x.\nStep 3: Inner: -4 × 2x = -8x.\nStep 4: Last: -4 × 5 = -20.\nStep 5: Combine like terms: 15x - 8x = 7x.\nStep 6: Write final expression.\n\n[Lead]\nBinomial expansion using distributive property/FOIL.",
+  "output": "6x² + 7x - 20"
+},
+{
+  "instruction": "What is the primary function of the mitochondria?",
+  "input": "",
+  "reasoning": "[Intention]\nDescribe organelle's key biological role.\n\n[Actions]\nStep 1: Recall mitochondria as 'powerhouse of cell'.\nStep 2: Specify process: cellular respiration.\nStep 3: Mention energy production as ATP.\nStep 4: Include oxygen utilization.\n\n[Lead]\nOrganelle responsible for energy production through respiration.",
+  "output": "The primary function of mitochondria is to produce ATP (cellular energy) through the process of cellular respiration, using oxygen to break down nutrients."
+},
+{
+  "instruction": "Convert 2.5 hours to minutes.",
+  "input": "",
+  "reasoning": "[Intention]\nPerform time unit conversion.\n\n[Actions]\nStep 1: Recall conversion: 1 hour = 60 minutes.\nStep 2: Multiply hours by 60: 2.5 × 60.\nStep 3: Calculate: 2.5 × 60 = 150.\n\n[Lead]\nSimple time conversion using multiplication.",
+  "output": "2.5 hours is 150 minutes."
+},
+{
+  "instruction": "Identify the independent and dependent variables: 'A study measures plant growth based on sunlight exposure.'",
+  "input": "",
+  "reasoning": "[Intention]\nAnalyze experimental variables in described scenario.\n\n[Actions]\nStep 1: Identify what is manipulated: sunlight exposure (independent).\nStep 2: Identify what is measured: plant growth (dependent).\nStep 3: Verify relationship: growth depends on sunlight.\nStep 4: Ensure correct classification.\n\n[Lead]\nExperimental design analysis identifying variable roles.",
+  "output": "Independent variable: Sunlight exposure\nDependent variable: Plant growth"
+},
+{
+  "instruction": "Solve for y: 2y/3 = 8",
+  "input": "",
+  "reasoning": "[Intention]\nSolve linear equation with fraction coefficient.\n\n[Actions]\nStep 1: Multiply both sides by 3 to eliminate denominator: 2y = 24.\nStep 2: Divide both sides by 2: y = 12.\nStep 3: Verify: 2×12/3 = 24/3 = 8.\n\n[Lead]\nSolve by clearing fraction then isolating variable.",
+  "output": "y = 12"
+},
+{
+  "instruction": "Name three renewable energy sources.",
+  "input": "",
+  "reasoning": "[Intention]\nList sustainable energy sources that replenish naturally.\n\n[Actions]\nStep 1: Recall solar energy (sunlight).\nStep 2: Recall wind energy (wind power).\nStep 3: Recall hydropower (flowing water).\nStep 4: Ensure sources are genuinely renewable.\n\n[Lead]\nCommon sustainable energy alternatives to fossil fuels.",
+  "output": "1. Solar energy\n2. Wind energy\n3. Hydropower"
+},
+{
+  "instruction": "Find the slope of the line passing through points (2,3) and (5,11).",
+  "input": "",
+  "reasoning": "[Intention]\nCalculate slope using two-point formula.\n\n[Actions]\nStep 1: Recall slope formula: m = (y₂ - y₁)/(x₂ - x₁).\nStep 2: Identify coordinates: (x₁,y₁) = (2,3), (x₂,y₂) = (5,11).\nStep 3: Calculate difference in y: 11 - 3 = 8.\nStep 4: Calculate difference in x: 5 - 2 = 3.\nStep 5: Divide: 8/3.\n\n[Lead]\nSlope calculation using coordinate differences.",
+  "output": "The slope is 8/3."
+},
+{
+  "instruction": "What is the difference between an acid and a base?",
+  "input": "",
+  "reasoning": "[Intention]\nContrast fundamental chemical properties.\n\n[Actions]\nStep 1: Define acid: donates H⁺ ions, pH < 7.\nStep 2: Define base: accepts H⁺ ions, pH > 7.\nStep 3: Contrast pH ranges.\nStep 4: Mention common indicators (litmus paper behavior).\n\n[Lead]\nChemical classification based on proton donation/acceptance and pH.",
+  "output": "An acid donates hydrogen ions (H⁺), has a pH less than 7, and turns blue litmus paper red. A base accepts hydrogen ions, has a pH greater than 7, and turns red litmus paper blue."
+},
+{
+  "instruction": "Calculate the voltage across a 10Ω resistor with 2A current flowing through it.",
+  "input": "",
+  "reasoning": "[Intention]\nApply Ohm's Law to calculate voltage.\n\n[Actions]\nStep 1: Recall Ohm's Law: V = I × R.\nStep 2: Identify values: I = 2A, R = 10Ω.\nStep 3: Multiply: 2 × 10 = 20.\nStep 4: Include unit: volts.\n\n[Lead]\nDirect application of Ohm's Law formula.",
+  "output": "The voltage is 20 volts."
+},
+{
+  "instruction": "Identify the figure of speech: 'The wind whispered through the trees.'",
+  "input": "",
+  "reasoning": "[Intention]\nRecognize literary device attributing human qualities to non-human entity.\n\n[Actions]\nStep 1: Analyze action: 'whispered' is human vocal action.\nStep 2: Identify subject: 'wind' is non-human natural force.\nStep 3: Recognize attribution of human action to nature.\nStep 4: Classify as personification.\n\n[Lead]\nPersonification gives human characteristics to non-human things.",
+  "output": "The figure of speech is personification."
+},
+{
+  "instruction": "Write the prime factorization of 84.",
+  "input": "",
+  "reasoning": "[Intention]\nDecompose number into prime factors.\n\n[Actions]\nStep 1: Divide by smallest prime: 84 ÷ 2 = 42.\nStep 2: Continue: 42 ÷ 2 = 21.\nStep 3: 21 ÷ 3 = 7.\nStep 4: 7 is prime.\nStep 5: Write product: 2 × 2 × 3 × 7.\nStep 6: Express with exponents: 2² × 3 × 7.\n\n[Lead]\nSystematic division by primes to find factors.",
+  "output": "84 = 2² × 3 × 7"
+},
+{
+  "instruction": "Translate to French: 'I would like to order coffee, please.'",
+  "input": "",
+  "reasoning": "[Intention]\nConvert polite English request to French.\n\n[Actions]\nStep 1: Translate 'I would like': 'Je voudrais'.\nStep 2: Translate 'to order': 'commander'.\nStep 3: Translate 'coffee': 'café'.\nStep 4: Translate 'please': 's'il vous plaît'.\nStep 5: Combine with correct word order.\n\n[Lead]\nPolite restaurant/café request in French.",
+  "output": "Je voudrais commander un café, s'il vous plaît."
+},
+{
+  "instruction": "What is the difference between an artery and a vein?",
+  "input": "",
+  "reasoning": "[Intention]\nDistinguish two types of blood vessels.\n\n[Actions]\nStep 1: Define artery: carries blood away from heart.\nStep 2: Define vein: carries blood toward heart.\nStep 3: Contrast direction of blood flow.\nStep 4: Mention additional differences (pressure, valves, oxygen content).\n\n[Lead]\nVascular system vessels with opposite flow directions.",
+  "output": "Arteries carry oxygen-rich blood away from the heart (except pulmonary artery), while veins carry oxygen-poor blood back to the heart (except pulmonary vein). Arteries have thicker walls and higher pressure; veins have valves to prevent backflow."
+},
+{
+  "instruction": "Simplify: √(50) + √(18)",
+  "input": "",
+  "reasoning": "[Intention]\nSimplify radical expressions and combine like terms.\n\n[Actions]\nStep 1: Factor each radicand: 50 = 25×2, 18 = 9×2.\nStep 2: Simplify: √(25×2) = 5√2, √(9×2) = 3√2.\nStep 3: Combine like terms: 5√2 + 3√2 = 8√2.\n\n[Lead]\nSimplify square roots by factoring perfect squares.",
+  "output": "8√2"
+},
+{
+  "instruction": "Name the three branches of the U.S. federal government and their main functions.",
+  "input": "",
+  "reasoning": "[Intention]\nDescribe separation of powers in U.S. government.\n\n[Actions]\nStep 1: Executive branch: enforces laws, President.\nStep 2: Legislative branch: makes laws, Congress.\nStep 3: Judicial branch: interprets laws, courts.\nStep 4: Provide concise function descriptions.\n\n[Lead]\nConstitutional separation of powers framework.",
+  "output": "1. Executive: Enforces laws (President)\n2. Legislative: Makes laws (Congress)\n3. Judicial: Interprets laws (Supreme Court and federal courts)"
+},
+{
+  "instruction": "Find the complement of a 35° angle.",
+  "input": "",
+  "reasoning": "[Intention]\nCalculate angle that sums with given angle to 90°.\n\n[Actions]\nStep 1: Recall complementary angles sum to 90°.\nStep 2: Subtract given angle from 90°.\nStep 3: Calculate: 90° - 35° = 55°.\n\n[Lead]\nSimple subtraction to find complementary angle.",
+  "output": "The complement is 55°."
+},
+{
+  "instruction": "Explain the greenhouse effect in simple terms.",
+  "input": "",
+  "reasoning": "[Intention]\nDescribe atmospheric warming process accessibly.\n\n[Actions]\nStep 1: Identify key gases: CO₂, methane, water vapor.\nStep 2: Describe solar radiation: passes through atmosphere.\nStep 3: Describe heat trapping: infrared radiation absorbed/re-emitted.\nStep 4: Use analogy: like blanket warming Earth.\n\n[Lead]\nNatural process where gases trap heat in atmosphere.",
+  "output": "The greenhouse effect is when gases in Earth's atmosphere trap heat from the sun, similar to how glass traps heat in a greenhouse. This keeps Earth warm enough for life, but increased gases from human activities are enhancing this effect."
+},
+{
+  "instruction": "Solve: 4^(x-1) = 16",
+  "input": "",
+  "reasoning": "[Intention]\nSolve exponential equation by expressing both sides with same base.\n\n[Actions]\nStep 1: Express 16 as power of 4: 16 = 4².\nStep 2: Rewrite equation: 4^(x-1) = 4².\nStep 3: Equate exponents: x - 1 = 2.\nStep 4: Solve: x = 3.\nStep 5: Verify: 4^(3-1) = 4² = 16.\n\n[Lead]\nSolve by matching bases and equating exponents.",
+  "output": "x = 3"
+},
+{
+  "instruction": "What is the difference between weathering and erosion?",
+  "input": "",
+  "reasoning": "[Intention]\nDistinguish two geological processes.\n\n[Actions]\nStep 1: Define weathering: breakdown of rocks in place.\nStep 2: Define erosion: transportation of weathered material.\nStep 3: Contrast: weathering (breakdown) vs erosion (movement).\nStep 4: Provide examples.\n\n[Lead]\nWeathering breaks rocks; erosion moves the pieces.",
+  "output": "Weathering is the breakdown of rocks into smaller pieces without movement (like freezing water cracking rocks). Erosion is the process of transporting these weathered materials away (like rivers carrying sediment)."
+},
+{
+  "instruction": "Calculate the perimeter of a rectangle with length 12 cm and width 8 cm.",
+  "input": "",
+  "reasoning": "[Intention]\nApply rectangle perimeter formula.\n\n[Actions]\nStep 1: Recall formula: P = 2(length + width).\nStep 2: Add dimensions: 12 + 8 = 20.\nStep 3: Multiply by 2: 2 × 20 = 40.\nStep 4: Include units.\n\n[Lead]\nBasic perimeter calculation using rectangle formula.",
+  "output": "The perimeter is 40 cm."
+},
+{
+  "instruction": "Name the five senses.",
+  "input": "",
+  "reasoning": "[Intention]\nList human sensory systems.\n\n[Actions]\nStep 1: Visual: sight.\nStep 2: Auditory: hearing.\nStep 3: Olfactory: smell.\nStep 4: Gustatory: taste.\nStep 5: Tactile: touch.\nStep 6: Present in standard order.\n\n[Lead]\nBasic human sensory modalities.",
+  "output": "1. Sight\n2. Hearing\n3. Smell\n4. Taste\n5. Touch"
+},
+{
+  "instruction": "Find the sum of the interior angles of a hexagon.",
+  "input": "",
+  "reasoning": "[Intention]\nApply polygon interior angle sum formula.\n\n[Actions]\nStep 1: Recall formula: (n-2) × 180°, where n = number of sides.\nStep 2: Identify n for hexagon: 6 sides.\nStep 3: Calculate: (6-2) × 180° = 4 × 180° = 720°.\n\n[Lead]\nFormula application for polygon angle sum.",
+  "output": "The sum of interior angles is 720°."
+},
+{
+  "instruction": "What is the difference between a solid, liquid, and gas at the molecular level?",
+  "input": "",
+  "reasoning": "[Intention]\nDescribe particle arrangement and motion in three states.\n\n[Actions]\nStep 1: Solid: particles tightly packed, vibrate in place.\nStep 2: Liquid: particles close but can slide past each other.\nStep 3: Gas: particles far apart, move freely.\nStep 4: Contrast intermolecular forces and kinetic energy.\n\n[Lead]\nMolecular arrangement and motion differences.",
+  "output": "In solids, particles are tightly packed in fixed positions with strong bonds. In liquids, particles are close but can move past each other with weaker bonds. In gases, particles are far apart, move rapidly, and have negligible intermolecular forces."
+},
+{
+  "instruction": "Solve for x: 3(x + 4) = 2(x - 1) + 10",
+  "input": "",
+  "reasoning": "[Intention]\nSolve linear equation with distribution.\n\n[Actions]\nStep 1: Distribute left: 3x + 12.\nStep 2: Distribute right: 2x - 2 + 10 = 2x + 8.\nStep 3: Set equal: 3x + 12 = 2x + 8.\nStep 4: Subtract 2x: x + 12 = 8.\nStep 5: Subtract 12: x = -4.\nStep 6: Verify solution.\n\n[Lead]\nSolve linear equation using distribution and combining terms.",
+  "output": "x = -4"
+},
+{
+  "instruction": "Name three types of symbiotic relationships.",
+  "input": "",
+  "reasoning": "[Intention]\nList biological interactions between different species.\n\n[Actions]\nStep 1: Mutualism: both species benefit.\nStep 2: Commensalism: one benefits, other unaffected.\nStep 3: Parasitism: one benefits, other harmed.\nStep 4: Provide examples for clarity.\n\n[Lead]\nBiological interactions classified by benefit/harm.",
+  "output": "1. Mutualism: Both benefit (bees and flowers)\n2. Commensalism: One benefits, other unaffected (barnacles on whales)\n3. Parasitism: One benefits, other harmed (ticks on dogs)"
+},
+{
+  "instruction": "Calculate the density of an object with mass 150 g and volume 50 cm³.",
+  "input": "",
+  "reasoning": "[Intention]\nApply density formula to calculate mass per unit volume.\n\n[Actions]\nStep 1: Recall density formula: ρ = m/V.\nStep 2: Identify values: m = 150 g, V = 50 cm³.\nStep 3: Divide: 150 ÷ 50 = 3.\nStep 4: Include units: g/cm³.\n\n[Lead]\nBasic density calculation using mass and volume.",
+  "output": "The density is 3 g/cm³."
+},
+{
+  "instruction": "What is the difference between a simile and a metaphor?",
+  "input": "",
+  "reasoning": "[Intention]\nDistinguish two similar figurative language devices.\n\n[Actions]\nStep 1: Define simile: comparison using 'like' or 'as'.\nStep 2: Define metaphor: direct comparison without 'like' or 'as'.\nStep 3: Contrast: simile (explicit comparison) vs metaphor (implied equivalence).\nStep 4: Provide examples.\n\n[Lead]\nSimile uses comparative words; metaphor states equivalence.",
+  "output": "A simile compares two things using 'like' or 'as' (e.g., 'as brave as a lion'). A metaphor directly states that one thing is another (e.g., 'he is a lion'), implying the comparison without using 'like' or 'as'."
+},
+{
+  "instruction": "Find the mode of: 4, 7, 4, 9, 7, 4, 6, 7, 4",
+  "input": "",
+  "reasoning": "[Intention]\nIdentify most frequently occurring value in dataset.\n\n[Actions]\nStep 1: Count frequency of each number.\nStep 2: 4 appears 4 times.\nStep 3: 7 appears 3 times.\nStep 4: 9 appears 1 time.\nStep 5: 6 appears 1 time.\nStep 6: Identify highest frequency: 4.\n\n[Lead]\nMode is value with highest frequency count.",
+  "output": "The mode is 4."
+},
+{
+  "instruction": "Implement a Python function to check if a number is prime.",
+  "input": "",
+  "reasoning": "[Intention]\nCreate algorithmic solution for prime number detection.\n\n[Actions]\nStep 1: Define function with integer parameter.\nStep 2: Handle edge cases: numbers ≤ 1 are not prime.\nStep 3: Check divisibility from 2 to √n (efficient approach).\nStep 4: Return boolean result.\nStep 5: Include optimization: even numbers > 2 are not prime.\n\n[Lead]\nAlgorithmic prime checking with efficiency considerations.",
+  "output": "```python\ndef is_prime(n):\n    if n <= 1:\n        return False\n    if n == 2:\n        return True\n    if n % 2 == 0:\n        return False\n    for i in range(3, int(n**0.5) + 1, 2):\n        if n % i == 0:\n            return False\n    return True\n```"
+},
+{
+  "instruction": "Prove that the sum of angles in a triangle is 180°.",
+  "input": "",
+  "reasoning": "[Intention]\nProvide geometric proof using parallel lines and transversals.\n\n[Actions]\nStep 1: Draw triangle ABC.\nStep 2: Extend side BC and draw line through A parallel to BC.\nStep 3: Identify alternate interior angles: ∠A = ∠DAB, ∠C = ∠EAC.\nStep 4: Recognize straight line at A: ∠DAB + ∠BAC + ∠EAC = 180°.\nStep 5: Substitute: ∠A + ∠B + ∠C = 180°.\n\n[Lead]\nClassic geometric proof using parallel line properties.",
+  "output": "Given triangle ABC, extend side BC. Draw line through A parallel to BC. ∠DAB = ∠A (alternate interior angles). ∠EAC = ∠C (alternate interior angles). Since DAE is straight line, ∠DAB + ∠BAC + ∠EAC = 180°. Substituting, ∠A + ∠B + ∠C = 180°."
+},
+{
+  "instruction": "Explain the concept of recursion in programming.",
+  "input": "",
+  "reasoning": "[Intention]\nDescribe programming technique where function calls itself.\n\n[Actions]\nStep 1: Define recursion: function solving problem by calling itself.\nStep 2: Identify two parts: base case (termination) and recursive case.\nStep 3: Provide classic example: factorial calculation.\nStep 4: Mention advantages (elegance for certain problems) and disadvantages (stack overflow risk).\n\n[Lead]\nProgramming paradigm where function calls itself with modified parameters.",
+  "output": "Recursion is a programming technique where a function calls itself to solve a problem. It requires: 1) A base case that stops the recursion, and 2) A recursive case that reduces the problem and calls the function again. Example: factorial(n) = n * factorial(n-1) with base case factorial(0) = 1. Recursion is elegant for tree traversal, divide-and-conquer algorithms, but requires careful termination conditions to avoid infinite loops and stack overflow."
+},
+{
+  "instruction": "Calculate the molar mass of sulfuric acid (H₂SO₄).",
+  "input": "",
+  "reasoning": "[Intention]\nCompute molecular weight from atomic masses.\n\n[Actions]\nStep 1: Identify atoms: 2H, 1S, 4O.\nStep 2: Recall atomic masses: H=1.008, S=32.06, O=16.00.\nStep 3: Calculate: (2×1.008) + 32.06 + (4×16.00).\nStep 4: Compute: 2.016 + 32.06 + 64.00 = 98.076.\nStep 5: Round appropriately.\n\n[Lead]\nSum of atomic masses for all atoms in molecule.",
+  "output": "The molar mass of H₂SO₄ is approximately 98.08 g/mol."
+},
+{
+  "instruction": "Solve the differential equation: dy/dx = 2x",
+  "input": "",
+  "reasoning": "[Intention]\nIntegrate simple first-order differential equation.\n\n[Actions]\nStep 1: Recognize as separable differential equation.\nStep 2: Write: dy = 2x dx.\nStep 3: Integrate both sides: ∫dy = ∫2x dx.\nStep 4: Compute: y = x² + C.\nStep 5: Include constant of integration.\n\n[Lead]\nDirect integration of separable differential equation.",
+  "output": "y = x² + C, where C is the constant of integration."
+},
+{
+  "instruction": "Describe the process of protein synthesis in cells.",
+  "input": "",
+  "reasoning": "[Intention]\nExplain central dogma of molecular biology: DNA → RNA → protein.\n\n[Actions]\nStep 1: Transcription: DNA to mRNA in nucleus.\nStep 2: mRNA processing: splicing, capping, polyadenylation.\nStep 3: Translation: mRNA to protein at ribosome.\nStep 4: Include tRNA, amino acids, codon-anticodon pairing.\nStep 5: Mention post-translational modifications.\n\n[Lead]\nTwo-step process: transcription (nucleus) and translation (ribosome).",
+  "output": "Protein synthesis involves two main steps: 1) Transcription in nucleus: DNA is transcribed into mRNA. 2) Translation at ribosome: mRNA is read by ribosome, tRNA brings amino acids matching mRNA codons, forming polypeptide chain. The chain folds into functional protein, often with post-translational modifications."
+},
+{
+  "instruction": "Implement binary search algorithm in pseudocode.",
+  "input": "",
+  "reasoning": "[Intention]\nCreate efficient search algorithm for sorted arrays.\n\n[Actions]\nStep 1: Define function with sorted array and target.\nStep 2: Initialize low=0, high=array length-1.\nStep 3: While low ≤ high, calculate mid.\nStep 4: Compare array[mid] with target.\nStep 5: Adjust search range based on comparison.\nStep 6: Return index if found, -1 if not.\n\n[Lead]\nDivide-and-conquer algorithm with O(log n) complexity.",
+  "output": "```\nfunction binarySearch(array, target):\n    low = 0\n    high = length(array) - 1\n    \n    while low ≤ high:\n        mid = floor((low + high) / 2)\n        \n        if array[mid] == target:\n            return mid\n        else if array[mid] < target:\n            low = mid + 1\n        else:\n            high = mid - 1\n    \n    return -1  # target not found\n```"
+},
+{
+  "instruction": "Calculate the pH of a 0.001 M NaOH solution.",
+  "input": "",
+  "reasoning": "[Intention]\nDetermine basic solution pH from concentration.\n\n[Actions]\nStep 1: Recognize NaOH as strong base, completely dissociates.\nStep 2: Calculate [OH⁻] = 0.001 M = 10⁻³ M.\nStep 3: Find pOH: pOH = -log₁₀[OH⁻] = 3.\nStep 4: Use relationship: pH + pOH = 14.\nStep 5: Calculate: pH = 14 - 3 = 11.\n\n[Lead]\nStrong base pH calculation via pOH and water ion product.",
+  "output": "The pH is 11."
+},
+{
+  "instruction": "Prove that √2 is irrational.",
+  "input": "",
+  "reasoning": "[Intention]\nProvide classic proof by contradiction.\n\n[Actions]\nStep 1: Assume √2 is rational: √2 = a/b in lowest terms.\nStep 2: Square both sides: 2 = a²/b².\nStep 3: Rearrange: a² = 2b².\nStep 4: Conclude a² is even, so a is even.\nStep 5: Write a = 2k, substitute: (2k)² = 2b² → 4k² = 2b² → b² = 2k².\nStep 6: Conclude b² is even, so b is even.\nStep 7: Contradiction: a and b both even (not in lowest terms).\n\n[Lead]\nProof by contradiction assuming rational form leads to contradiction.",
+  "output": "Assume √2 is rational: √2 = a/b where a,b are integers with no common factors. Then 2 = a²/b², so a² = 2b². Thus a² is even, so a is even (a=2k). Substituting: (2k)² = 2b² → 4k² = 2b² → b² = 2k². Thus b² is even, so b is even. Both a and b are even, contradicting they have no common factors. Therefore, √2 is irrational."
+},
+{
+  "instruction": "Explain the difference between HTTP and HTTPS.",
+  "input": "",
+  "reasoning": "[Intention]\nCompare web protocol security features.\n\n[Actions]\nStep 1: Define HTTP: Hypertext Transfer Protocol, unencrypted.\nStep 2: Define HTTPS: HTTP Secure, encrypted with SSL/TLS.\nStep 3: Contrast security: HTTP (plain text) vs HTTPS (encrypted).\nStep 4: Mention ports: HTTP port 80, HTTPS port 443.\nStep 5: Discuss certificate verification in HTTPS.\n\n[Lead]\nHTTPS adds encryption and authentication to HTTP.",
+  "output": "HTTP (Hypertext Transfer Protocol) transmits data in plain text without encryption. HTTPS (HTTP Secure) adds SSL/TLS encryption to protect data in transit. HTTPS uses port 443 (vs HTTP port 80) and requires digital certificates to verify website identity. This prevents eavesdropping, tampering, and impersonation attacks."
+},
+{
+  "instruction": "Find the derivative of ln(x² + 1).",
+  "input": "",
+  "reasoning": "[Intention]\nApply chain rule to composite logarithmic function.\n\n[Actions]\nStep 1: Recognize outer function: ln(u), inner function: u = x² + 1.\nStep 2: Apply chain rule: d/dx[ln(u)] = (1/u) × du/dx.\nStep 3: Differentiate inner function: du/dx = 2x.\nStep 4: Combine: (1/(x² + 1)) × 2x.\nStep 5: Simplify: 2x/(x² + 1).\n\n[Lead]\nChain rule application for natural logarithm of polynomial.",
+  "output": "The derivative is 2x/(x² + 1)."
+},
+{
+  "instruction": "Describe the process of mitosis and its phases.",
+  "input": "",
+  "reasoning": "[Intention]\nExplain eukaryotic cell division stages.\n\n[Actions]\nStep 1: Prophase: chromosomes condense, spindle forms.\nStep 2: Metaphase: chromosomes align at equator.\nStep 3: Anaphase: sister chromatids separate to poles.\nStep 4: Telophase: nuclei reform, chromosomes decondense.\nStep 5: Cytokinesis: cytoplasm divides.\nStep 6: Mention interphase precedes mitosis.\n\n[Lead]\nFour-phase nuclear division process producing identical daughter cells.",
+  "output": "Mitosis has four phases: 1) Prophase: chromosomes condense, nuclear envelope breaks down. 2) Metaphase: chromosomes align at cell equator. 3) Anaphase: sister chromatids separate and move to opposite poles. 4) Telophase: nuclei reform, chromosomes decondense. Followed by cytokinesis where cytoplasm divides, producing two genetically identical daughter cells."
+},
+{
+  "instruction": "Implement a stack data structure with push, pop, and peek operations.",
+  "input": "",
+  "reasoning": "[Intention]\nCreate LIFO (Last-In-First-Out) data structure implementation.\n\n[Actions]\nStep 1: Define class with list storage.\nStep 2: Push: add element to end of list.\nStep 3: Pop: remove and return last element, handle empty stack.\nStep 4: Peek: return last element without removal.\nStep 5: Include size/is_empty methods.\n\n[Lead]\nStack implementation using Python list as underlying storage.",
+  "output": "```python\nclass Stack:\n    def __init__(self):\n        self.items = []\n    \n    def push(self, item):\n        self.items.append(item)\n    \n    def pop(self):\n        if not self.is_empty():\n            return self.items.pop()\n        raise IndexError(\"pop from empty stack\")\n    \n    def peek(self):\n        if not self.is_empty():\n            return self.items[-1]\n        raise IndexError(\"peek from empty stack\")\n    \n    def is_empty(self):\n        return len(self.items) == 0\n    \n    def size(self):\n        return len(self.items)\n```"
+},
+{
+  "instruction": "Calculate the energy of a photon with wavelength 500 nm.",
+  "input": "",
+  "reasoning": "[Intention]\nApply Planck-Einstein relation to calculate photon energy.\n\n[Actions]\nStep 1: Recall formula: E = hc/λ.\nStep 2: Constants: h = 6.626×10⁻³⁴ J·s, c = 3.00×10⁸ m/s.\nStep 3: Convert wavelength: 500 nm = 500×10⁻⁹ m = 5.00×10⁻⁷ m.\nStep 4: Calculate: (6.626×10⁻³⁴ × 3.00×10⁸) / (5.00×10⁻⁷).\nStep 5: Compute: (1.9878×10⁻²⁵) / (5.00×10⁻⁷) = 3.9756×10⁻¹⁹ J.\nStep 6: Convert to eV if desired: 1 eV = 1.602×10⁻¹⁹ J.\n\n[Lead]\nPhoton energy calculation using wavelength and Planck's constant.",
+  "output": "The energy is approximately 3.98 × 10⁻¹⁹ joules, or about 2.48 electron volts (eV)."
+},
+{
+  "instruction": "Explain the concept of object-oriented programming (OOP).",
+  "input": "",
+  "reasoning": "[Intention]\nDescribe programming paradigm based on objects and classes.\n\n[Actions]\nStep 1: Define OOP: organizing code around objects with data and methods.\nStep 2: Explain four pillars: encapsulation, inheritance, polymorphism, abstraction.\nStep 3: Describe classes (blueprints) and objects (instances).\nStep 4: Provide real-world analogy.\nStep 5: Mention benefits: modularity, reusability, maintainability.\n\n[Lead]\nProgramming paradigm modeling real-world entities as objects.",
+  "output": "Object-Oriented Programming (OOP) is a programming paradigm based on objects containing data (attributes) and methods (functions). Key concepts: 1) Classes: blueprints for objects. 2) Objects: instances of classes. 3) Encapsulation: bundling data with methods. 4) Inheritance: classes inheriting from parent classes. 5) Polymorphism: objects of different classes responding to same method. 6) Abstraction: hiding complex details. OOP improves code organization, reusability, and maintenance."
+},
+{
+  "instruction": "Solve the quadratic equation: x² - 5x + 6 = 0",
+  "input": "",
+  "reasoning": "[Intention]\nFind roots using factoring method.\n\n[Actions]\nStep 1: Identify coefficients: a=1, b=-5, c=6.\nStep 2: Look for factors of 6 that sum to -5: -2 and -3.\nStep 3: Write factored form: (x - 2)(x - 3) = 0.\nStep 4: Set each factor to zero: x - 2 = 0 or x - 3 = 0.\nStep 5: Solve: x = 2 or x = 3.\n\n[Lead]\nFactor quadratic trinomial to find solutions.",
+  "output": "The solutions are x = 2 and x = 3."
+},
+{
+  "instruction": "Describe the structure and function of DNA.",
+  "input": "",
+  "reasoning": "[Intention]\nExplain molecular biology of genetic material.\n\n[Actions]\nStep 1: Structure: double helix with sugar-phosphate backbone.\nStep 2: Nucleotides: A, T, C, G with complementary pairing (A-T, C-G).\nStep 3: Function: stores genetic information as base sequence.\nStep 4: Processes: replication, transcription, mutation.\nStep 5: Location: primarily in nucleus of eukaryotic cells.\n\n[Lead]\nDouble-stranded helical molecule encoding genetic instructions.",
+  "output": "DNA (deoxyribonucleic acid) is a double-stranded helix with sugar-phosphate backbones and nitrogenous bases (adenine, thymine, cytosine, guanine) forming complementary pairs (A-T, C-G). It stores genetic information as sequences of bases, which code for proteins. DNA replicates for cell division, undergoes transcription to produce RNA, and can mutate to create genetic variation. In eukaryotes, it's mainly in the nucleus."
+},
+{
+  "instruction": "Calculate the time complexity of bubble sort algorithm.",
+  "input": "",
+  "reasoning": "[Intention]\nAnalyze algorithm efficiency in Big O notation.\n\n[Actions]\nStep 1: Describe bubble sort: repeatedly swaps adjacent elements.\nStep 2: Worst case: array reverse sorted, requires n-1 passes.\nStep 3: Each pass compares n-i elements (i decreases each pass).\nStep 4: Total comparisons: (n-1) + (n-2) + ... + 1 = n(n-1)/2.\nStep 5: Simplify to O(n²).\nStep 6: Mention best case O(n) with optimization.\n\n[Lead]\nAlgorithm analysis showing quadratic time complexity.",
+  "output": "Bubble sort has O(n²) time complexity in worst and average cases, where n is number of elements. This comes from n(n-1)/2 comparisons. With optimization (early termination if no swaps), best case is O(n) for already sorted arrays. Space complexity is O(1) as it sorts in-place."
+},
+{
+  "instruction": "Find the integral of e^(2x) dx.",
+  "input": "",
+  "reasoning": "[Intention]\nPerform integration of exponential function.\n\n[Actions]\nStep 1: Recognize integral form: ∫e^(kx) dx.\nStep 2: Recall formula: ∫e^(kx) dx = (1/k)e^(kx) + C.\nStep 3: Apply with k = 2.\nStep 4: Compute: (1/2)e^(2x) + C.\n\n[Lead]\nDirect integration using exponential integration rule.",
+  "output": "∫e^(2x) dx = (1/2)e^(2x) + C"
+},
+{
+  "instruction": "Explain the difference between aerobic and anaerobic respiration.",
+  "input": "",
+  "reasoning": "[Intention]\nCompare two cellular energy production processes.\n\n[Actions]\nStep 1: Aerobic: requires oxygen, occurs in mitochondria.\nStep 2: Anaerobic: occurs without oxygen, in cytoplasm.\nStep 3: Contrast ATP yield: aerobic (~36 ATP) vs anaerobic (2 ATP).\nStep 4: Compare end products: aerobic (CO₂ + H₂O) vs anaerobic (lactic acid or ethanol + CO₂).\nStep 5: Mention efficiency and organisms using each.\n\n[Lead]\nAerobic uses oxygen for complete glucose breakdown; anaerobic is oxygen-independent partial breakdown.",
+  "output": "Aerobic respiration requires oxygen, occurs in mitochondria, completely breaks down glucose to CO₂ and H₂O, producing ~36 ATP per glucose. Anaerobic respiration occurs without oxygen, in cytoplasm, partially breaks glucose producing 2 ATP, with end products like lactic acid (in muscles) or ethanol + CO₂ (in yeast). Aerobic is more efficient but requires oxygen; anaerobic provides quick energy when oxygen is limited."
+},  
+{
+  "instruction": "Implement Dijkstra's algorithm for finding shortest paths in a graph.",
+  "input": "",
+  "reasoning": "[Intention]\nCreate algorithmic solution for single-source shortest path problem.\n\n[Actions]\nStep 1: Initialize distance array with infinity for all vertices except source (0).\nStep 2: Use priority queue (min-heap) to select vertex with minimum distance.\nStep 3: For each neighbor, calculate tentative distance through current vertex.\nStep 4: Update distance if shorter path found.\nStep 5: Mark vertex as visited, continue until all vertices processed.\nStep 6: Return distance array and optionally path reconstruction.\n\n[Lead]\nGreedy algorithm for weighted graphs without negative edges.",
+  "output": "```python\nimport heapq\n\ndef dijkstra(graph, start):\n    n = len(graph)\n    dist = [float('inf')] * n\n    dist[start] = 0\n    pq = [(0, start)]\n    visited = [False] * n\n    \n    while pq:\n        current_dist, u = heapq.heappop(pq)\n        if visited[u]:\n            continue\n        visited[u] = True\n        \n        for v, weight in graph[u]:\n            new_dist = current_dist + weight\n            if new_dist < dist[v]:\n                dist[v] = new_dist\n                heapq.heappush(pq, (new_dist, v))\n    \n    return dist\n```"
+},
+{
+  "instruction": "Prove the Pythagorean theorem: a² + b² = c² for right triangles.",
+  "input": "",
+  "reasoning": "[Intention]\nProvide geometric proof using area rearrangement.\n\n[Actions]\nStep 1: Draw right triangle with sides a, b, hypotenuse c.\nStep 2: Construct square with side (a+b).\nStep 3: Arrange four copies of triangle inside square.\nStep 4: Calculate total area two ways: (a+b)² and 4×(ab/2) + c².\nStep 5: Set equal: (a+b)² = 2ab + c².\nStep 6: Expand: a² + 2ab + b² = 2ab + c².\nStep 7: Simplify: a² + b² = c².\n\n[Lead]\nClassic geometric proof using area comparison.",
+  "output": "Construct square with side (a+b). Inside, arrange four right triangles with legs a,b. The inner space forms a square with side c. Total area: (a+b)² = a² + 2ab + b². Also total area = 4 triangles + inner square = 4×(ab/2) + c² = 2ab + c². Equating: a² + 2ab + b² = 2ab + c² ⇒ a² + b² = c²."
+},
+{
+  "instruction": "Explain the concept of quantum superposition.",
+  "input": "",
+  "reasoning": "[Intention]\nDescribe quantum mechanical principle where systems exist in multiple states simultaneously.\n\n[Actions]\nStep 1: Define superposition: quantum system can be in multiple states at once.\nStep 2: Contrast with classical systems (definite states).\nStep 3: Use quantum bit (qubit) example: can be |0⟩, |1⟩, or α|0⟩ + β|1⟩.\nStep 4: Explain coefficients as probability amplitudes.\nStep 5: Mention measurement collapses superposition to definite state.\nStep 6: Reference Schrödinger's cat thought experiment.\n\n[Lead]\nFundamental quantum principle enabling parallel computation possibilities.",
+  "output": "Quantum superposition is the principle that a quantum system can exist in multiple states simultaneously until measured. A qubit can be in state |0⟩, |1⟩, or any linear combination α|0⟩ + β|1⟩ where |α|² + |β|² = 1. The coefficients represent probability amplitudes. Upon measurement, the superposition collapses to a definite state with probability given by squared amplitudes. This enables quantum parallelism, where computations on all superposed states occur simultaneously."
+},
+{
+  "instruction": "Solve the differential equation: y'' + 4y = 0",
+  "input": "",
+  "reasoning": "[Intention]\nSolve second-order linear homogeneous differential equation with constant coefficients.\n\n[Actions]\nStep 1: Assume solution form: y = e^(rx).\nStep 2: Characteristic equation: r² + 4 = 0.\nStep 3: Solve: r = ±2i.\nStep 4: General solution for complex roots: y = e^(0x)[C₁cos(2x) + C₂sin(2x)].\nStep 5: Simplify: y = C₁cos(2x) + C₂sin(2x).\n\n[Lead]\nCharacteristic equation method for constant coefficient ODE.",
+  "output": "The general solution is y = C₁cos(2x) + C₂sin(2x), where C₁ and C₂ are arbitrary constants."
+},
+{
+  "instruction": "Describe the TCP/IP model and its layers.",
+  "input": "",
+  "reasoning": "[Intention]\nExplain networking reference model with four abstraction layers.\n\n[Actions]\nStep 1: Application layer: user-level protocols (HTTP, FTP, SMTP).\nStep 2: Transport layer: end-to-end communication (TCP, UDP).\nStep 3: Internet layer: routing and addressing (IP).\nStep 4: Link layer: physical network access (Ethernet, Wi-Fi).\nStep 5: Contrast with OSI model's 7 layers.\nStep 6: Mention encapsulation process across layers.\n\n[Lead]\nFour-layer networking model underlying Internet communication.",
+  "output": "The TCP/IP model has four layers: 1) Application: user applications and protocols (HTTP, DNS, SMTP). 2) Transport: end-to-end communication with reliability (TCP) or speed (UDP). 3) Internet: routing and addressing across networks (IP, ICMP). 4) Link: physical network interface (Ethernet, Wi-Fi). Data is encapsulated at each layer: application data → transport segments → IP packets → network frames."
+},
+{
+  "instruction": "Calculate the Fourier transform of f(t) = e^(-a|t|), a > 0.",
+  "input": "",
+  "reasoning": "[Intention]\nCompute frequency domain representation of symmetric exponential.\n\n[Actions]\nStep 1: Write Fourier transform: F(ω) = ∫_{-∞}^{∞} e^(-a|t|) e^(-iωt) dt.\nStep 2: Split integral for t<0 and t≥0.\nStep 3: For t≥0: ∫₀^∞ e^(-at) e^(-iωt) dt = ∫₀^∞ e^(-(a+iω)t) dt.\nStep 4: Integrate: = 1/(a+iω).\nStep 5: For t<0: ∫_{-∞}^0 e^(at) e^(-iωt) dt = ∫_{-∞}^0 e^((a-iω)t) dt = 1/(a-iω).\nStep 6: Sum: 1/(a+iω) + 1/(a-iω) = 2a/(a²+ω²).\n\n[Lead]\nFourier transform of symmetric exponential yields Lorentzian function.",
+  "output": "F(ω) = 2a/(a² + ω²)"
+},
+{
+  "instruction": "Explain the Central Limit Theorem and its significance.",
+  "input": "",
+  "reasoning": "[Intention]\nDescribe statistical theorem about distribution of sample means.\n\n[Actions]\nStep 1: State theorem: sample means approach normal distribution as n→∞.\nStep 2: Conditions: independent, identically distributed variables with finite variance.\nStep 3: Result: regardless of population distribution, sampling distribution of mean is approximately normal for large n.\nStep 4: Significance: enables inference (confidence intervals, hypothesis testing).\nStep 5: Mention practical rule: n ≥ 30 often sufficient.\n\n[Lead]\nFundamental theorem enabling statistical inference regardless of population distribution.",
+  "output": "The Central Limit Theorem states that the sampling distribution of the mean of independent, identically distributed random variables approaches a normal distribution as sample size increases, regardless of the population's distribution (provided it has finite variance). This enables statistical inference techniques like confidence intervals and hypothesis testing even when population distribution is unknown. Practically, for n ≥ 30, the sampling distribution is approximately normal."
+},
+{
+  "instruction": "Implement quicksort algorithm with in-place partitioning.",
+  "input": "",
+  "reasoning": "[Intention]\nCreate efficient sorting algorithm using divide-and-conquer strategy.\n\n[Actions]\nStep 1: Choose pivot element (commonly last element).\nStep 2: Partition array: elements < pivot to left, > pivot to right.\nStep 3: Recursively apply to left and right subarrays.\nStep 4: Base case: array of size 0 or 1 is already sorted.\nStep 5: Use Lomuto or Hoare partitioning scheme.\nStep 6: Include average O(n log n) time complexity.\n\n[Lead]\nEfficient sorting algorithm with in-place operations.",
+  "output": "```python\ndef quicksort(arr, low, high):\n    if low < high:\n        pi = partition(arr, low, high)\n        quicksort(arr, low, pi - 1)\n        quicksort(arr, pi + 1, high)\n\ndef partition(arr, low, high):\n    pivot = arr[high]\n    i = low - 1\n    for j in range(low, high):\n        if arr[j] <= pivot:\n            i += 1\n            arr[i], arr[j] = arr[j], arr[i]\n    arr[i + 1], arr[high] = arr[high], arr[i + 1]\n    return i + 1\n```"
+},
+{
+  "instruction": "Describe the process of photosynthesis with chemical equation.",
+  "input": "",
+  "reasoning": "[Intention]\nExplain biological process converting light to chemical energy.\n\n[Actions]\nStep 1: Overall equation: 6CO₂ + 6H₂O + light → C₆H₁₂O₆ + 6O₂.\nStep 2: Two stages: light-dependent and light-independent (Calvin cycle).\nStep 3: Light reactions: in thylakoids, produce ATP and NADPH.\nStep 4: Calvin cycle: in stroma, uses ATP/NADPH to fix CO₂ into glucose.\nStep 5: Mention chlorophyll absorption spectra.\nStep 6: Note oxygen comes from water, not CO₂.\n\n[Lead]\nTwo-stage process in chloroplasts converting light energy to glucose.",
+  "output": "Photosynthesis: 6CO₂ + 6H₂O + light energy → C₆H₁₂O₆ + 6O₂. Two stages: 1) Light-dependent reactions in thylakoids: light splits water (photolysis), producing O₂, ATP, and NADPH. 2) Light-independent reactions (Calvin cycle) in stroma: uses ATP and NADPH to fix CO₂ into glucose. Chlorophyll absorbs red and blue light, reflecting green."
+},
+{
+  "instruction": "Prove that there are infinitely many prime numbers.",
+  "input": "",
+  "reasoning": "[Intention]\nProvide Euclid's classic proof by contradiction.\n\n[Actions]\nStep 1: Assume finite number of primes: p₁, p₂, ..., pₙ.\nStep 2: Construct number: N = p₁ × p₂ × ... × pₙ + 1.\nStep 3: N is not divisible by any pᵢ (remainder 1).\nStep 4: Thus N is either prime itself or has prime factor not in list.\nStep 5: Contradiction: new prime found beyond assumed finite set.\nStep 6: Therefore, primes are infinite.\n\n[Lead]\nElegant proof by contradiction using product of assumed finite primes.",
+  "output": "Assume finite primes: p₁, p₂, ..., pₙ. Construct N = p₁p₂...pₙ + 1. N > 1 and not divisible by any pᵢ (remainder 1). Thus N is either prime (contradicting completeness) or has prime factor not in list (also contradiction). Therefore, primes are infinite."
+},
+{
+  "instruction": "Explain the concept of entropy in thermodynamics.",
+  "input": "",
+  "reasoning": "[Intention]\nDescribe thermodynamic property measuring disorder/unavailable energy.\n\n[Actions]\nStep 1: Define entropy (S) as measure of disorder or randomness.\nStep 2: Second law: total entropy of isolated system increases.\nStep 3: Statistical interpretation: number of microstates corresponding to macrostate.\nStep 4: Formula: ΔS = Q_rev/T for reversible processes.\nStep 5: Entropy as 'arrow of time' distinguishing past/future.\nStep 6: Mention connection to information theory.\n\n[Lead]\nThermodynamic quantity representing energy dispersal and system disorder.",
+  "output": "Entropy (S) measures disorder or randomness in a system. The Second Law states entropy of an isolated system increases over time. Statistically, entropy = k_B ln Ω, where Ω is number of microstates. Thermodynamically, ΔS = ∫dQ_rev/T. Entropy increase represents energy becoming less available for work and distinguishes time direction (past→future). In information theory, entropy quantifies uncertainty."
+},
+{
+  "instruction": "Solve the matrix equation: AX = B, where A = [[2,1],[1,3]], B = [[4],[5]]",
+  "input": "",
+  "reasoning": "[Intention]\nSolve linear system using matrix inversion.\n\n[Actions]\nStep 1: Compute determinant of A: det(A) = (2×3) - (1×1) = 5.\nStep 2: Find inverse: A⁻¹ = (1/5)[[3,-1],[-1,2]].\nStep 3: Multiply: X = A⁻¹B.\nStep 4: Calculate: (1/5)[[3,-1],[-1,2]] × [[4],[5]].\nStep 5: Compute: first row: (3×4 + (-1)×5)/5 = (12-5)/5 = 7/5.\nStep 6: Second row: ((-1)×4 + 2×5)/5 = (-4+10)/5 = 6/5.\n\n[Lead]\nSolve linear system by matrix inversion method.",
+  "output": "X = [[7/5], [6/5]] or x = 7/5, y = 6/5"
+},
+{
+  "instruction": "Describe the structure and function of neurons.",
+  "input": "",
+  "reasoning": "[Intention]\nExplain nervous system cells and their communication.\n\n[Actions]\nStep 1: Three parts: cell body (soma), dendrites (receive signals), axon (transmits signals).\nStep 2: Myelin sheath: insulation for faster signal propagation.\nStep 3: Synapses: junctions between neurons for chemical/electrical transmission.\nStep 4: Action potentials: electrical impulses along axon.\nStep 5: Neurotransmitters: chemical messengers across synapses.\nStep 6: Functions: sensory, motor, interneurons.\n\n[Lead]\nSpecialized cells for rapid electrical and chemical signaling.",
+  "output": "Neurons consist of: 1) Cell body (soma) containing nucleus. 2) Dendrites receiving signals from other neurons. 3) Axon transmitting signals to other cells, often insulated by myelin sheath for faster conduction. At axon terminals, synapses release neurotransmitters to communicate with target cells. Neurons generate action potentials (electrical impulses) via ion channel openings. They process and transmit information in nervous system as sensory, motor, or interneurons."
+},
+{
+  "instruction": "Calculate the time dilation factor for an object moving at 0.8c (80% speed of light).",
+  "input": "",
+  "reasoning": "[Intention]\nApply special relativity time dilation formula.\n\n[Actions]\nStep 1: Recall Lorentz factor: γ = 1/√(1 - v²/c²).\nStep 2: Plug v = 0.8c: v²/c² = 0.64.\nStep 3: Calculate: 1 - 0.64 = 0.36.\nStep 4: √0.36 = 0.6.\nStep 5: γ = 1/0.6 ≈ 1.6667.\nStep 6: Interpret: moving clock ticks 1.67 times slower than stationary.\n\n[Lead]\nRelativistic time dilation calculation using Lorentz factor.",
+  "output": "The time dilation factor γ ≈ 1.67. Time for moving object passes 1.67 times slower than for stationary observer."
+},
+{
+  "instruction": "Explain the RSA encryption algorithm steps.",
+  "input": "",
+  "reasoning": "[Intention]\nDescribe public-key cryptosystem for secure communication.\n\n[Actions]\nStep 1: Key generation: choose two large primes p,q; compute n = p×q, φ = (p-1)(q-1).\nStep 2: Choose e: 1 < e < φ, coprime with φ.\nStep 3: Compute d: e×d ≡ 1 mod φ.\nStep 4: Public key: (n,e), private key: (n,d).\nStep 5: Encryption: c = m^e mod n.\nStep 6: Decryption: m = c^d mod n.\nStep 7: Security relies on factoring n being hard.\n\n[Lead]\nPublic-key cryptosystem based on difficulty of integer factorization.",
+  "output": "RSA steps: 1) Choose primes p,q. 2) Compute n = p×q, φ = (p-1)(q-1). 3) Choose e (commonly 65537) with gcd(e,φ)=1. 4) Compute d ≡ e⁻¹ mod φ. 5) Public key: (n,e), private key: (n,d). Encryption: c ≡ m^e mod n. Decryption: m ≡ c^d mod n. Security relies on difficulty of factoring n into p and q."
+},
+{
+  "instruction": "Find the eigenvalues of matrix A = [[4,1],[2,3]].",
+  "input": "",
+  "reasoning": "[Intention]\nSolve characteristic equation to find eigenvalues.\n\n[Actions]\nStep 1: Characteristic equation: det(A - λI) = 0.\nStep 2: A - λI = [[4-λ, 1],[2, 3-λ]].\nStep 3: Determinant: (4-λ)(3-λ) - (1×2) = 0.\nStep 4: Expand: λ² - 7λ + 12 - 2 = λ² - 7λ + 10 = 0.\nStep 5: Factor: (λ-2)(λ-5) = 0.\nStep 6: Eigenvalues: λ = 2, λ = 5.\n\n[Lead]\nSolve characteristic polynomial for eigenvalues.",
+  "output": "The eigenvalues are λ = 2 and λ = 5."
+},
+{
+  "instruction": "Describe the greenhouse gas effect and list three major greenhouse gases.",
+  "input": "",
+  "reasoning": "[Intention]\nExplain atmospheric warming mechanism and key contributing gases.\n\n[Actions]\nStep 1: Describe process: solar radiation passes through atmosphere, Earth absorbs and re-emits infrared.\nStep 2: Greenhouse gases absorb and re-radiate infrared, trapping heat.\nStep 3: List major gases: carbon dioxide (CO₂) from burning fossil fuels.\nStep 4: Methane (CH₄) from agriculture, landfills, fossil fuel extraction.\nStep 5: Nitrous oxide (N₂O) from agriculture, industry.\nStep 6: Mention water vapor as natural greenhouse gas.\n\n[Lead]\nAtmospheric warming by gases that absorb and re-emit infrared radiation.",
+  "output": "Greenhouse effect: atmospheric gases trap heat by absorbing Earth's infrared radiation and re-emitting it in all directions, warming the planet. Three major anthropogenic greenhouse gases: 1) Carbon dioxide (CO₂) from fossil fuel combustion. 2) Methane (CH₄) from livestock, landfills, natural gas. 3) Nitrous oxide (N₂O) from fertilizers, industrial processes."
+},
+{
+  "instruction": "Prove that the sum of first n odd numbers is n².",
+  "input": "",
+  "reasoning": "[Intention]\nProvide mathematical proof using induction or direct formula.\n\n[Actions]\nStep 1: First n odd numbers: 1, 3, 5, ..., (2n-1).\nStep 2: Recognize arithmetic progression with a₁=1, d=2.\nStep 3: Sum formula: Sₙ = (n/2)[2a₁ + (n-1)d].\nStep 4: Substitute: Sₙ = (n/2)[2×1 + (n-1)×2] = (n/2)[2 + 2n - 2].\nStep 5: Simplify: (n/2)×2n = n².\nStep 6: Alternative: visual proof with square arrangement.\n\n[Lead]\nArithmetic series formula or inductive proof.",
+  "output": "The nth odd number is 2n-1. Sum of first n odd numbers: Sₙ = 1 + 3 + 5 + ... + (2n-1). Using arithmetic series formula: Sₙ = (n/2)[first + last] = (n/2)[1 + (2n-1)] = (n/2)(2n) = n²."
+},
+{
+  "instruction": "Explain the difference between classical and operant conditioning.",
+  "input": "",
+  "reasoning": "[Intention]\nCompare two fundamental learning theories in psychology.\n\n[Actions]\nStep 1: Classical conditioning (Pavlov): association between neutral and unconditioned stimuli.\nStep 2: Example: bell (neutral) + food (unconditioned) → salivation.\nStep 3: Operant conditioning (Skinner): behavior modified by consequences.\nStep 4: Reinforcement (increase behavior) vs punishment (decrease behavior).\nStep 5: Contrast: classical (involuntary responses) vs operant (voluntary behaviors).\nStep 6: Mention key researchers and experiments.\n\n[Lead]\nClassical pairs stimuli; operant modifies behavior via consequences.",
+  "output": "Classical conditioning (Pavlov) creates associations between stimuli, eliciting involuntary responses (e.g., bell → salivation). Operant conditioning (Skinner) modifies voluntary behavior through consequences: reinforcement increases behavior (reward), punishment decreases it. Classical deals with reflexive responses; operant with purposeful actions. Example: classical = fear of dentist's office; operant = studying for good grades."
+},
+{
+  "instruction": "Solve the recurrence relation: T(n) = 2T(n/2) + n, T(1) = 1",
+  "input": "",
+  "reasoning": "[Intention]\nSolve divide-and-conquer recurrence using Master Theorem or expansion.\n\n[Actions]\nStep 1: Recognize form: T(n) = aT(n/b) + f(n) with a=2, b=2, f(n)=n.\nStep 2: Compare n^(log_b a) = n^(log₂ 2) = n¹ = n with f(n)=n.\nStep 3: Case 2 of Master Theorem: f(n) = Θ(n^(log_b a)).\nStep 4: Solution: T(n) = Θ(n log n).\nStep 5: Alternatively, expand recurrence tree: each level cost = n, height = log₂ n.\nStep 6: Total cost = n × log₂ n.\n\n[Lead]\nMaster Theorem application for divide-and-conquer algorithm complexity.",
+  "output": "T(n) = Θ(n log n). This describes time complexity of algorithms like merge sort."
+},  
