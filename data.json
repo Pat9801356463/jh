@@ -6618,3 +6618,1684 @@
   "reasoning": "[Intention]\nSolve divide-and-conquer recurrence using Master Theorem or expansion.\n\n[Actions]\nStep 1: Recognize form: T(n) = aT(n/b) + f(n) with a=2, b=2, f(n)=n.\nStep 2: Compare n^(log_b a) = n^(log₂ 2) = n¹ = n with f(n)=n.\nStep 3: Case 2 of Master Theorem: f(n) = Θ(n^(log_b a)).\nStep 4: Solution: T(n) = Θ(n log n).\nStep 5: Alternatively, expand recurrence tree: each level cost = n, height = log₂ n.\nStep 6: Total cost = n × log₂ n.\n\n[Lead]\nMaster Theorem application for divide-and-conquer algorithm complexity.",
   "output": "T(n) = Θ(n log n). This describes time complexity of algorithms like merge sort."
 },  
+{
+    "instruction": "Calculate the area of a circle with diameter 10 cm.",
+    "input": "",
+    "reasoning": "[Intention]\nPerform mathematical computation.\n\n[Actions]\nStep 1: Identify shape and given dimension.\nStep 2: Convert diameter to radius.\nStep 3: Apply circle area formula.\n\n[Lead]\nApplication of A = πr² with r = 5 cm.",
+    "output": "The area of the circle is approximately 78.54 square centimeters."
+  },
+  {
+    "instruction": "Convert 25° Celsius to Fahrenheit.",
+    "input": "",
+    "reasoning": "[Intention]\nTransform temperature between units.\n\n[Actions]\nStep 1: Extract temperature value.\nStep 2: Apply Celsius to Fahrenheit conversion formula.\nStep 3: Perform calculation.\n\n[Lead]\nCalculation using F = (C × 9/5) + 32.",
+    "output": "25° Celsius is equal to 77° Fahrenheit."
+  },
+  {
+    "instruction": "Identify the subject in the sentence: 'The students completed their assignments diligently.'",
+    "input": "",
+    "reasoning": "[Intention]\nRecognize grammatical element.\n\n[Actions]\nStep 1: Analyze sentence structure.\nStep 2: Identify who performs the action.\nStep 3: Specify the subject.\n\n[Lead]\nIdentification of 'The students' as subject noun phrase.",
+    "output": "The subject of the sentence is 'The students'."
+  },
+  {
+    "instruction": "What is the chemical symbol for tungsten?",
+    "input": "",
+    "reasoning": "[Intention]\nRetrieve scientific fact.\n\n[Actions]\nStep 1: Identify chemical element.\nStep 2: Access periodic table knowledge.\nStep 3: Provide symbol.\n\n[Lead]\nRecall of 'W' as tungsten symbol.",
+    "output": "The chemical symbol for tungsten is W."
+  },
+  {
+    "instruction": "Rewrite the sentence in past perfect tense: 'She finishes her work.'",
+    "input": "",
+    "reasoning": "[Intention]\nChange verb tense.\n\n[Actions]\nStep 1: Identify base verb form.\nStep 2: Apply past perfect conjugation rules.\nStep 3: Construct new sentence.\n\n[Lead]\nConversion to 'had finished' past perfect form.",
+    "output": "She had finished her work."
+  },
+  {
+    "instruction": "Find the median of the numbers: 7, 3, 9, 1, 5",
+    "input": "",
+    "reasoning": "[Intention]\nPerform statistical calculation.\n\n[Actions]\nStep 1: Arrange numbers in ascending order.\nStep 2: Identify middle position.\nStep 3: Select median value.\n\n[Lead]\nOrdering and selection of middle value (5).",
+    "output": "The median is 5."
+  },
+  {
+    "instruction": "Translate 'Good evening' into Spanish.",
+    "input": "",
+    "reasoning": "[Intention]\nConvert greeting to target language.\n\n[Actions]\nStep 1: Identify time-specific greeting.\nStep 2: Access Spanish vocabulary.\nStep 3: Provide appropriate translation.\n\n[Lead]\nSelection of 'Buenas noches' for evening greeting.",
+    "output": "The Spanish translation of 'Good evening' is 'Buenas noches'."
+  },
+  {
+    "instruction": "What is the main function of mitochondria in cells?",
+    "input": "",
+    "reasoning": "[Intention]\nRetrieve biological fact.\n\n[Actions]\nStep 1: Identify cellular organelle.\nStep 2: Access cell biology knowledge.\nStep 3: Describe primary function.\n\n[Lead]\nRecall of mitochondria as energy producers.",
+    "output": "Mitochondria are the powerhouses of the cell, responsible for producing energy through cellular respiration."
+  },
+  {
+    "instruction": "Simplify the expression: 3(x + 4) - 2(x - 1)",
+    "input": "",
+    "reasoning": "[Intention]\nPerform algebraic simplification.\n\n[Actions]\nStep 1: Apply distributive property.\nStep 2: Combine like terms.\nStep 3: Simplify expression.\n\n[Lead]\nDistribution and combination to x + 14.",
+    "output": "The simplified expression is x + 14."
+  },
+  {
+    "instruction": "Name the author of 'War and Peace'.",
+    "input": "",
+    "reasoning": "[Intention]\nRetrieve literary fact.\n\n[Actions]\nStep 1: Identify literary work.\nStep 2: Access literature knowledge.\nStep 3: Provide author name.\n\n[Lead]\nRecall of Leo Tolstoy as author.",
+    "output": "The author of 'War and Peace' is Leo Tolstoy."
+  },
+  {
+    "instruction": "Convert 500 milliliters to liters.",
+    "input": "",
+    "reasoning": "[Intention]\nTransform volume between units.\n\n[Actions]\nStep 1: Extract numerical value.\nStep 2: Apply milliliter to liter conversion.\nStep 3: Perform division.\n\n[Lead]\nDivision by 1000: 500 mL ÷ 1000 = 0.5 L.",
+    "output": "500 milliliters is equal to 0.5 liters."
+  },
+  {
+    "instruction": "Identify the type of figurative language: 'The wind whispered through the trees.'",
+    "input": "",
+    "reasoning": "[Intention]\nRecognize literary device.\n\n[Actions]\nStep 1: Analyze sentence for figurative elements.\nStep 2: Identify human attributes given to non-human.\nStep 3: Classify device type.\n\n[Lead]\nRecognition of human action ('whispered') attributed to wind.",
+    "output": "The figurative language used is personification."
+  },
+  {
+    "instruction": "What is the capital of Switzerland?",
+    "input": "",
+    "reasoning": "[Intention]\nRetrieve geographical fact.\n\n[Actions]\nStep 1: Identify country.\nStep 2: Access geographical knowledge.\nStep 3: Provide capital city.\n\n[Lead]\nRecall of Bern as Switzerland's capital.",
+    "output": "The capital of Switzerland is Bern."
+  },
+  {
+    "instruction": "Calculate 15% of 200.",
+    "input": "",
+    "reasoning": "[Intention]\nPerform percentage calculation.\n\n[Actions]\nStep 1: Identify base value and percentage.\nStep 2: Convert percentage to decimal.\nStep 3: Multiply values.\n\n[Lead]\nCalculation: 200 × 0.15 = 30.",
+    "output": "15% of 200 is 30."
+  },
+  {
+    "instruction": "Rewrite using indirect speech: 'John said, \"I will arrive tomorrow.\"'",
+    "input": "",
+    "reasoning": "[Intention]\nChange speech format.\n\n[Actions]\nStep 1: Identify direct speech elements.\nStep 2: Apply indirect speech conversion rules.\nStep 3: Adjust pronouns and tenses.\n\n[Lead]\nTransformation to 'John said that he would arrive the next day.'",
+    "output": "John said that he would arrive the next day."
+  },
+  {
+    "instruction": "What is the SI unit for electric current?",
+    "input": "",
+    "reasoning": "[Intention]\nRetrieve scientific fact.\n\n[Actions]\nStep 1: Identify physical quantity.\nStep 2: Access physics knowledge.\nStep 3: Provide SI unit.\n\n[Lead]\nRecall of ampere as current unit.",
+    "output": "The SI unit for electric current is the ampere (A)."
+  },
+  {
+    "instruction": "Find the greatest common factor of 24 and 36.",
+    "input": "",
+    "reasoning": "[Intention]\nPerform mathematical computation.\n\n[Actions]\nStep 1: List factors of each number.\nStep 2: Identify common factors.\nStep 3: Select largest common factor.\n\n[Lead]\nIdentification of 12 as largest common divisor.",
+    "output": "The greatest common factor of 24 and 36 is 12."
+  },
+  {
+    "instruction": "Classify the triangle with sides 5 cm, 12 cm, and 13 cm.",
+    "input": "",
+    "reasoning": "[Intention]\nIdentify geometric classification.\n\n[Actions]\nStep 1: Check Pythagorean relationship.\nStep 2: Verify triangle inequality.\nStep 3: Classify based on side lengths.\n\n[Lead]\nVerification of 5² + 12² = 13² (right triangle).",
+    "output": "The triangle is a right triangle."
+  },
+  {
+    "instruction": "Translate 'I would like some water' into French.",
+    "input": "",
+    "reasoning": "[Intention]\nConvert polite request to target language.\n\n[Actions]\nStep 1: Parse English sentence structure.\nStep 2: Apply French vocabulary and grammar.\nStep 3: Construct polite French request.\n\n[Lead]\nFormation of 'Je voudrais de l'eau'.",
+    "output": "The French translation is 'Je voudrais de l'eau'."
+  },
+  {
+    "instruction": "What is the process by which plants release water vapor?",
+    "input": "",
+    "reasoning": "[Intention]\nRetrieve biological fact.\n\n[Actions]\nStep 1: Identify plant physiological process.\nStep 2: Access plant biology knowledge.\nStep 3: Provide process name.\n\n[Lead]\nRecall of 'transpiration' as water vapor release.",
+    "output": "The process by which plants release water vapor is called transpiration."
+  },
+  {
+    "instruction": "Calculate the perimeter of a regular pentagon with side length 6 cm.",
+    "input": "",
+    "reasoning": "[Intention]\nPerform geometric calculation.\n\n[Actions]\nStep 1: Identify polygon type and given dimension.\nStep 2: Recall perimeter formula for regular polygon.\nStep 3: Multiply side length by number of sides.\n\n[Lead]\nCalculation: 6 cm × 5 sides = 30 cm.",
+    "output": "The perimeter of the pentagon is 30 cm."
+  },
+  {
+    "instruction": "Convert 3.5 hours to minutes.",
+    "input": "",
+    "reasoning": "[Intention]\nTransform time between units.\n\n[Actions]\nStep 1: Extract time value in hours.\nStep 2: Apply hours to minutes conversion.\nStep 3: Perform multiplication.\n\n[Lead]\nMultiplication: 3.5 × 60 = 210 minutes.",
+    "output": "3.5 hours is equal to 210 minutes."
+  },
+  {
+    "instruction": "Identify the direct object in: 'She gave him the book.'",
+    "input": "",
+    "reasoning": "[Intention]\nRecognize grammatical element.\n\n[Actions]\nStep 1: Analyze sentence for action and recipient.\nStep 2: Identify what is being given.\nStep 3: Specify direct object.\n\n[Lead]\nIdentification of 'the book' as item being given.",
+    "output": "The direct object is 'the book'."
+  },
+  {
+    "instruction": "What is the chemical symbol for lead?",
+    "input": "",
+    "reasoning": "[Intention]\nRetrieve scientific fact.\n\n[Actions]\nStep 1: Identify chemical element.\nStep 2: Access periodic table knowledge.\nStep 3: Provide symbol.\n\n[Lead]\nRecall of 'Pb' as lead symbol.",
+    "output": "The chemical symbol for lead is Pb."
+  },
+  {
+    "instruction": "Rewrite in future continuous tense: 'They study for the exam.'",
+    "input": "",
+    "reasoning": "[Intention]\nChange verb tense.\n\n[Actions]\nStep 1: Identify base verb form.\nStep 2: Apply future continuous conjugation rules.\nStep 3: Construct new sentence.\n\n[Lead]\nConversion to 'will be studying' future continuous form.",
+    "output": "They will be studying for the exam."
+  },
+  {
+    "instruction": "Find the mode of: 4, 7, 4, 9, 7, 4, 2",
+    "input": "",
+    "reasoning": "[Intention]\nPerform statistical calculation.\n\n[Actions]\nStep 1: Count frequency of each number.\nStep 2: Identify number with highest frequency.\nStep 3: Specify mode value.\n\n[Lead]\nIdentification of 4 as most frequent value (appears 3 times).",
+    "output": "The mode is 4."
+  },
+  {
+    "instruction": "Translate 'See you tomorrow' into Italian.",
+    "input": "",
+    "reasoning": "[Intention]\nConvert parting phrase to target language.\n\n[Actions]\nStep 1: Identify time-specific farewell.\nStep 2: Access Italian vocabulary.\nStep 3: Provide appropriate translation.\n\n[Lead]\nSelection of 'A domani' for 'See you tomorrow'.",
+    "output": "The Italian translation is 'A domani'."
+  },
+  {
+    "instruction": "What is the primary function of ribosomes in cells?",
+    "input": "",
+    "reasoning": "[Intention]\nRetrieve biological fact.\n\n[Actions]\nStep 1: Identify cellular organelle.\nStep 2: Access cell biology knowledge.\nStep 3: Describe primary function.\n\n[Lead]\nRecall of ribosomes as protein synthesis sites.",
+    "output": "Ribosomes are responsible for protein synthesis in cells."
+  },
+  {
+    "instruction": "Solve for x: 2x + 8 = 20",
+    "input": "",
+    "reasoning": "[Intention]\nSolve linear equation.\n\n[Actions]\nStep 1: Isolate variable term.\nStep 2: Perform inverse operations.\nStep 3: Calculate solution.\n\n[Lead]\nSubtraction and division: x = (20 - 8) ÷ 2 = 6.",
+    "output": "x = 6"
+  },
+  {
+    "instruction": "Name the author of 'The Old Man and the Sea'.",
+    "input": "",
+    "reasoning": "[Intention]\nRetrieve literary fact.\n\n[Actions]\nStep 1: Identify literary work.\nStep 2: Access literature knowledge.\nStep 3: Provide author name.\n\n[Lead]\nRecall of Ernest Hemingway as author.",
+    "output": "The author of 'The Old Man and the Sea' is Ernest Hemingway."
+  },
+  {
+    "instruction": "Convert 2.5 kilometers to meters.",
+    "input": "",
+    "reasoning": "[Intention]\nTransform distance between units.\n\n[Actions]\nStep 1: Extract numerical value.\nStep 2: Apply kilometer to meter conversion.\nStep 3: Perform multiplication.\n\n[Lead]\nMultiplication: 2.5 km × 1000 = 2500 m.",
+    "output": "2.5 kilometers is equal to 2500 meters."
+  },
+  {
+    "instruction": "Identify the literary device: 'His voice was thunder in the quiet room.'",
+    "input": "",
+    "reasoning": "[Intention]\nRecognize figurative language.\n\n[Actions]\nStep 1: Analyze comparison in sentence.\nStep 2: Identify figurative relationship.\nStep 3: Classify device type.\n\n[Lead]\nRecognition of direct comparison without 'like' or 'as'.",
+    "output": "The literary device used is a metaphor."
+  },
+  {
+    "instruction": "What is the capital of Austria?",
+    "input": "",
+    "reasoning": "[Intention]\nRetrieve geographical fact.\n\n[Actions]\nStep 1: Identify country.\nStep 2: Access geographical knowledge.\nStep 3: Provide capital city.\n\n[Lead]\nRecall of Vienna as Austria's capital.",
+    "output": "The capital of Austria is Vienna."
+  },
+  {
+    "instruction": "Calculate 30% of 150.",
+    "input": "",
+    "reasoning": "[Intention]\nPerform percentage calculation.\n\n[Actions]\nStep 1: Identify base value and percentage.\nStep 2: Convert percentage to decimal.\nStep 3: Multiply values.\n\n[Lead]\nCalculation: 150 × 0.30 = 45.",
+    "output": "30% of 150 is 45."
+  },
+  {
+    "instruction": "Rewrite as reported speech: 'She asked, \"Can you help me?\"'",
+    "input": "",
+    "reasoning": "[Intention]\nChange question to reported form.\n\n[Actions]\nStep 1: Identify direct question elements.\nStep 2: Apply reported speech conversion rules.\nStep 3: Adjust pronouns and verb forms.\n\n[Lead]\nTransformation to 'She asked if I could help her.'",
+    "output": "She asked if I could help her."
+  },
+  {
+    "instruction": "What is the SI unit for temperature?",
+    "input": "",
+    "reasoning": "[Intention]\nRetrieve scientific fact.\n\n[Actions]\nStep 1: Identify physical quantity.\nStep 2: Access physics knowledge.\nStep 3: Provide SI unit.\n\n[Lead]\nRecall of kelvin as SI temperature unit.",
+    "output": "The SI unit for temperature is the kelvin (K)."
+  },
+  {
+    "instruction": "Find the least common multiple of 8 and 12.",
+    "input": "",
+    "reasoning": "[Intention]\nPerform mathematical computation.\n\n[Actions]\nStep 1: List multiples of each number.\nStep 2: Identify common multiples.\nStep 3: Select smallest common multiple.\n\n[Lead]\nIdentification of 24 as smallest common multiple.",
+    "output": "The least common multiple of 8 and 12 is 24."
+  },
+  {
+    "instruction": "Classify the angle measuring 135 degrees.",
+    "input": "",
+    "reasoning": "[Intention]\nIdentify angle classification.\n\n[Actions]\nStep 1: Compare angle measure to classification ranges.\nStep 2: Determine appropriate category.\nStep 3: Specify classification.\n\n[Lead]\nRecognition that 135° is between 90° and 180°.",
+    "output": "A 135-degree angle is an obtuse angle."
+  },
+  {
+    "instruction": "Translate 'How much does this cost?' into German.",
+    "input": "",
+    "reasoning": "[Intention]\nConvert price inquiry to target language.\n\n[Actions]\nStep 1: Parse English question structure.\nStep 2: Apply German vocabulary and grammar.\nStep 3: Construct German question.\n\n[Lead]\nFormation of 'Wie viel kostet das?'",
+    "output": "The German translation is 'Wie viel kostet das?'"
+  },
+  {
+    "instruction": "What is the process by which plants bend toward light?",
+    "input": "",
+    "reasoning": "[Intention]\nRetrieve biological fact.\n\n[Actions]\nStep 1: Identify plant growth response.\nStep 2: Access plant physiology knowledge.\nStep 3: Provide process name.\n\n[Lead]\nRecall of 'phototropism' as light-directed growth.",
+    "output": "The process by which plants bend toward light is called phototropism."
+  },
+  {
+    "instruction": "Calculate the volume of a rectangular prism with dimensions 3 cm × 4 cm × 5 cm.",
+    "input": "",
+    "reasoning": "[Intention]\nPerform geometric calculation.\n\n[Actions]\nStep 1: Identify shape and given dimensions.\nStep 2: Recall volume formula for rectangular prism.\nStep 3: Multiply length, width, and height.\n\n[Lead]\nCalculation: 3 × 4 × 5 = 60 cubic cm.",
+    "output": "The volume is 60 cubic centimeters."
+  },
+  {
+    "instruction": "Convert 0.75 kilograms to grams.",
+    "input": "",
+    "reasoning": "[Intention]\nTransform mass between units.\n\n[Actions]\nStep 1: Extract mass value in kilograms.\nStep 2: Apply kilogram to gram conversion.\nStep 3: Perform multiplication.\n\n[Lead]\nMultiplication: 0.75 × 1000 = 750 grams.",
+    "output": "0.75 kilograms is equal to 750 grams."
+  },
+  {
+    "instruction": "Identify the predicate adjective in: 'The sky appears blue today.'",
+    "input": "",
+    "reasoning": "[Intention]\nRecognize grammatical element.\n\n[Actions]\nStep 1: Analyze sentence for linking verb and description.\nStep 2: Identify adjective following linking verb.\nStep 3: Specify predicate adjective.\n\n[Lead]\nIdentification of 'blue' as adjective describing subject via linking verb.",
+    "output": "The predicate adjective is 'blue'."
+  },
+  {
+    "instruction": "What is the chemical symbol for silicon?",
+    "input": "",
+    "reasoning": "[Intention]\nRetrieve scientific fact.\n\n[Actions]\nStep 1: Identify chemical element.\nStep 2: Access periodic table knowledge.\nStep 3: Provide symbol.\n\n[Lead]\nRecall of 'Si' as silicon symbol.",
+    "output": "The chemical symbol for silicon is Si."
+  },
+  {
+    "instruction": "Rewrite in present perfect continuous tense: 'I work on this project.'",
+    "input": "",
+    "reasoning": "[Intention]\nChange verb tense.\n\n[Actions]\nStep 1: Identify base verb form.\nStep 2: Apply present perfect continuous conjugation rules.\nStep 3: Construct new sentence.\n\n[Lead]\nConversion to 'have been working' present perfect continuous form.",
+    "output": "I have been working on this project."
+  },
+  {
+    "instruction": "Find the range of: 12, 5, 18, 7, 14, 9",
+    "input": "",
+    "reasoning": "[Intention]\nPerform statistical calculation.\n\n[Actions]\nStep 1: Identify maximum and minimum values.\nStep 2: Calculate difference.\nStep 3: Specify range value.\n\n[Lead]\nCalculation: 18 (max) - 5 (min) = 13.",
+    "output": "The range is 13."
+  },
+  {
+    "instruction": "Translate 'Nice to meet you' into Japanese.",
+    "input": "",
+    "reasoning": "[Intention]\nConvert greeting phrase to target language.\n\n[Actions]\nStep 1: Identify social greeting.\nStep 2: Access Japanese vocabulary.\nStep 3: Provide appropriate translation.\n\n[Lead]\nSelection of 'Hajimemashite' for 'Nice to meet you'.",
+    "output": "The Japanese translation is 'Hajimemashite'."
+  },
+  {
+    "instruction": "What is the function of the nucleus in animal cells?",
+    "input": "",
+    "reasoning": "[Intention]\nRetrieve biological fact.\n\n[Actions]\nStep 1: Identify cellular organelle.\nStep 2: Access cell biology knowledge.\nStep 3: Describe primary function.\n\n[Lead]\nRecall of nucleus as genetic control center.",
+    "output": "The nucleus contains genetic material (DNA) and controls cellular activities."
+  },
+  {
+    "instruction": "Solve for y: 3y - 7 = 14",
+    "input": "",
+    "reasoning": "[Intention]\nSolve linear equation.\n\n[Actions]\nStep 1: Isolate variable term.\nStep 2: Perform inverse operations.\nStep 3: Calculate solution.\n\n[Lead]\nAddition and division: y = (14 + 7) ÷ 3 = 7.",
+    "output": "y = 7"
+  },
+  {
+    "instruction": "Name the author of 'Crime and Punishment'.",
+    "input": "",
+    "reasoning": "[Intention]\nRetrieve literary fact.\n\n[Actions]\nStep 1: Identify literary work.\nStep 2: Access literature knowledge.\nStep 3: Provide author name.\n\n[Lead]\nRecall of Fyodor Dostoevsky as author.",
+    "output": "The author of 'Crime and Punishment' is Fyodor Dostoevsky."
+  },
+  {
+    "instruction": "Convert 1200 millimeters to centimeters.",
+    "input": "",
+    "reasoning": "[Intention]\nTransform length between units.\n\n[Actions]\nStep 1: Extract length value.\nStep 2: Apply millimeter to centimeter conversion.\nStep 3: Perform division.\n\n[Lead]\nDivision: 1200 mm ÷ 10 = 120 cm.",
+    "output": "1200 millimeters is equal to 120 centimeters."
+  },
+  {
+    "instruction": "Identify the figure of speech: 'The stars winked at us from the dark sky.'",
+    "input": "",
+    "reasoning": "[Intention]\nRecognize figurative language.\n\n[Actions]\nStep 1: Analyze human action attributed to non-human.\nStep 2: Identify type of personification.\nStep 3: Classify literary device.\n\n[Lead]\nRecognition of human action ('winked') given to stars.",
+    "output": "The figure of speech is personification."
+  },
+  {
+    "instruction": "What is the capital of Finland?",
+    "input": "",
+    "reasoning": "[Intention]\nRetrieve geographical fact.\n\n[Actions]\nStep 1: Identify country.\nStep 2: Access geographical knowledge.\nStep 3: Provide capital city.\n\n[Lead]\nRecall of Helsinki as Finland's capital.",
+    "output": "The capital of Finland is Helsinki."
+  },
+  {
+    "instruction": "Calculate 125% of 80.",
+    "input": "",
+    "reasoning": "[Intention]\nPerform percentage calculation.\n\n[Actions]\nStep 1: Identify base value and percentage.\nStep 2: Convert percentage to decimal.\nStep 3: Multiply values.\n\n[Lead]\nCalculation: 80 × 1.25 = 100.",
+    "output": "125% of 80 is 100."
+  },
+  {
+    "instruction": "Rewrite as indirect command: 'He said, \"Please close the door.\"'",
+    "input": "",
+    "reasoning": "[Intention]\nChange command to reported form.\n\n[Actions]\nStep 1: Identify direct command elements.\nStep 2: Apply reported speech conversion rules for commands.\nStep 3: Adjust pronouns and verb forms.\n\n[Lead]\nTransformation to 'He asked me to close the door.'",
+    "output": "He asked me to close the door."
+  },
+  {
+    "instruction": "What is the SI unit for amount of substance?",
+    "input": "",
+    "reasoning": "[Intention]\nRetrieve scientific fact.\n\n[Actions]\nStep 1: Identify physical quantity.\nStep 2: Access chemistry knowledge.\nStep 3: Provide SI unit.\n\n[Lead]\nRecall of mole as SI unit for amount of substance.",
+    "output": "The SI unit for amount of substance is the mole (mol)."
+  },
+  {
+    "instruction": "Find the prime factors of 84.",
+    "input": "",
+    "reasoning": "[Intention]\nPerform mathematical factorization.\n\n[Actions]\nStep 1: Test divisibility by small primes.\nStep 2: Continue factorization until prime factors.\nStep 3: Express result as product of primes.\n\n[Lead]\nFactorization: 84 = 2² × 3 × 7.",
+    "output": "The prime factors of 84 are 2, 2, 3, and 7 (or 2² × 3 × 7)."
+  },
+  {
+    "instruction": "Classify the triangle with angles 40°, 60°, and 80°.",
+    "input": "",
+    "reasoning": "[Intention]\nIdentify geometric classification.\n\n[Actions]\nStep 1: Sum angle measures.\nStep 2: Compare each angle to 90°.\nStep 3: Classify based on angle types.\n\n[Lead]\nRecognition that all angles are less than 90°.",
+    "output": "The triangle is an acute triangle."
+  },
+  {
+    "instruction": "Translate 'Where is the train station?' into Spanish.",
+    "input": "",
+    "reasoning": "[Intention]\nConvert location inquiry to target language.\n\n[Actions]\nStep 1: Parse English question structure.\nStep 2: Apply Spanish vocabulary and grammar.\nStep 3: Construct Spanish question.\n\n[Lead]\nFormation of '¿Dónde está la estación de tren?'",
+    "output": "The Spanish translation is '¿Dónde está la estación de tren?'"
+  },
+  {
+    "instruction": "What is the process by which plants respond to gravity?",
+    "input": "",
+    "reasoning": "[Intention]\nRetrieve biological fact.\n\n[Actions]\nStep 1: Identify plant growth response.\nStep 2: Access plant physiology knowledge.\nStep 3: Provide process name.\n\n[Lead]\nRecall of 'gravitropism' as gravity-directed growth.",
+    "output": "The process by which plants respond to gravity is called gravitropism."
+  },
+  {
+    "instruction": "Convert 25 degrees Celsius to Fahrenheit.",
+    "input": "",
+    "reasoning": "[Intention]\nPerform temperature unit conversion.\n\n[Actions]\nStep 1: Identify conversion formula.\nStep 2: Apply formula: F = (C × 9/5) + 32.\nStep 3: Calculate with given value.\n\n[Lead]\nApplication of temperature conversion formula.",
+    "output": "25°C is equal to 77°F."
+  },
+  {
+    "instruction": "Identify the subject in the sentence: 'The cat chased the mouse.'",
+    "input": "",
+    "reasoning": "[Intention]\nPerform grammatical analysis.\n\n[Actions]\nStep 1: Parse sentence structure.\nStep 2: Identify noun performing action.\nStep 3: Confirm subject role.\n\n[Lead]\nExtraction of agent noun from sentence.",
+    "output": "The subject is 'The cat'."
+  },
+  {
+    "instruction": "What is the past tense of 'swim'?",
+    "input": "",
+    "reasoning": "[Intention]\nRetrieve verb conjugation.\n\n[Actions]\nStep 1: Access irregular verb forms.\nStep 2: Match verb to past tense form.\nStep 3: Provide correct form.\n\n[Lead]\nRecall of irregular past tense 'swam'.",
+    "output": "The past tense of 'swim' is 'swam'."
+  },
+  {
+    "instruction": "Explain what photosynthesis is.",
+    "input": "",
+    "reasoning": "[Intention]\nProvide biological process explanation.\n\n[Actions]\nStep 1: Define process purpose.\nStep 2: Identify key components.\nStep 3: Describe conversion mechanism.\n\n[Lead]\nDescription of light-to-chemical energy conversion.",
+    "output": "Photosynthesis is the process by which plants convert sunlight, carbon dioxide, and water into glucose and oxygen."
+  },
+  {
+    "instruction": "Rewrite the sentence in passive voice: 'The teacher graded the exams.'",
+    "input": "",
+    "reasoning": "[Intention]\nTransform sentence voice.\n\n[Actions]\nStep 1: Identify subject and object.\nStep 2: Rearrange to passive structure.\nStep 3: Adjust verb form.\n\n[Lead]\nReconstruction with object as subject.",
+    "output": "The exams were graded by the teacher."
+  },
+  {
+    "instruction": "What is the square root of 144?",
+    "input": "",
+    "reasoning": "[Intention]\nCalculate mathematical operation.\n\n[Actions]\nStep 1: Recognize perfect square.\nStep 2: Recall square root value.\nStep 3: Provide numerical answer.\n\n[Lead]\nRecall of 12 × 12 = 144.",
+    "output": "The square root of 144 is 12."
+  },
+  {
+    "instruction": "Translate 'Good morning' to Spanish.",
+    "input": "",
+    "reasoning": "[Intention]\nPerform language translation.\n\n[Actions]\nStep 1: Access Spanish vocabulary.\nStep 2: Match phrase to equivalent.\nStep 3: Provide translation.\n\n[Lead]\nRetrieval of common greeting translation.",
+    "output": "Buenos días."
+  },
+  {
+    "instruction": "Name three types of renewable energy sources.",
+    "input": "",
+    "reasoning": "[Intention]\nList sustainable energy types.\n\n[Actions]\nStep 1: Access energy classification knowledge.\nStep 2: Select renewable examples.\nStep 3: Provide concise list.\n\n[Lead]\nIdentification of naturally replenishing energy sources.",
+    "output": "Solar, wind, and hydroelectric power."
+  },
+  {
+    "instruction": "What is the chemical symbol for gold?",
+    "input": "",
+    "reasoning": "[Intention]\nRetrieve chemical element symbol.\n\n[Actions]\nStep 1: Access periodic table knowledge.\nStep 2: Locate element symbol.\nStep 3: Provide standard notation.\n\n[Lead]\nRecall of Au from Latin 'aurum'.",
+    "output": "The chemical symbol for gold is Au."
+  },
+  {
+    "instruction": "Correct the spelling: 'accomodate'",
+    "input": "",
+    "reasoning": "[Intention]\nPerform spelling correction.\n\n[Actions]\nStep 1: Recognize common misspelling.\nStep 2: Apply spelling rule (double m).\nStep 3: Provide correct form.\n\n[Lead]\nApplication of 'accommodate' spelling rule.",
+    "output": "The correct spelling is 'accommodate'."
+  },
+  {
+    "instruction": "What is the capital of Japan?",
+    "input": "",
+    "reasoning": "[Intention]\nRetrieve geographical fact.\n\n[Actions]\nStep 1: Access country-capital database.\nStep 2: Match Japan to its capital.\nStep 3: Provide answer.\n\n[Lead]\nRecall of Tokyo as Japan's capital.",
+    "output": "The capital of Japan is Tokyo."
+  },
+  {
+    "instruction": "Simplify the expression: 3x + 2x - 5",
+    "input": "",
+    "reasoning": "[Intention]\nSimplify algebraic expression.\n\n[Actions]\nStep 1: Identify like terms.\nStep 2: Combine coefficients.\nStep 3: Present simplified form.\n\n[Lead]\nCombination of 3x and 2x to 5x.",
+    "output": "5x - 5"
+  },
+  {
+    "instruction": "What is an antonym for 'generous'?",
+    "input": "",
+    "reasoning": "[Intention]\nFind opposite meaning word.\n\n[Actions]\nStep 1: Determine core meaning.\nStep 2: Access antonym vocabulary.\nStep 3: Select appropriate opposite.\n\n[Lead]\nSelection of opposite trait 'stingy'.",
+    "output": "An antonym for 'generous' is 'stingy'."
+  },
+  {
+    "instruction": "Convert 5 kilometers to miles.",
+    "input": "",
+    "reasoning": "[Intention]\nPerform distance unit conversion.\n\n[Actions]\nStep 1: Recall conversion factor.\nStep 2: Apply multiplication.\nStep 3: Calculate result.\n\n[Lead]\nApplication of 1 km ≈ 0.621371 miles.",
+    "output": "5 kilometers is approximately 3.11 miles."
+  },
+  {
+    "instruction": "What is the main function of the heart?",
+    "input": "",
+    "reasoning": "[Intention]\nDescribe biological organ function.\n\n[Actions]\nStep 1: Access cardiovascular knowledge.\nStep 2: Identify primary role.\nStep 3: Provide concise description.\n\n[Lead]\nDescription of blood circulation pump.",
+    "output": "The heart pumps blood throughout the body."
+  },
+  {
+    "instruction": "Rewrite as a question: 'She is going to the store.'",
+    "input": "",
+    "reasoning": "[Intention]\nTransform statement to interrogative.\n\n[Actions]\nStep 1: Identify auxiliary verb.\nStep 2: Rearrange word order.\nStep 3: Add question mark.\n\n[Lead]\nInversion of subject and auxiliary verb.",
+    "output": "Is she going to the store?"
+  },
+  {
+    "instruction": "What is the boiling point of water at sea level?",
+    "input": "",
+    "reasoning": "[Intention]\nRetrieve physical property value.\n\n[Actions]\nStep 1: Access water properties knowledge.\nStep 2: Specify standard conditions.\nStep 3: Provide temperature.\n\n[Lead]\nRecall of 100°C at standard pressure.",
+    "output": "100 degrees Celsius (212°F)."
+  },
+  {
+    "instruction": "List the primary colors.",
+    "input": "",
+    "reasoning": "[Intention]\nEnumerate basic color theory elements.\n\n[Actions]\nStep 1: Access color theory knowledge.\nStep 2: Identify additive or subtractive context.\nStep 3: Provide standard set.\n\n[Lead]\nRecall of red, blue, yellow as pigment primaries.",
+    "output": "Red, blue, and yellow."
+  },
+  {
+    "instruction": "What is the past participle of 'write'?",
+    "input": "",
+    "reasoning": "[Intention]\nProvide verb participle form.\n\n[Actions]\nStep 1: Access irregular verb conjugation.\nStep 2: Identify past participle.\nStep 3: Provide correct form.\n\n[Lead]\nRecall of irregular form 'written'.",
+    "output": "The past participle of 'write' is 'written'."
+  },
+  {
+    "instruction": "Calculate 15% of 200.",
+    "input": "",
+    "reasoning": "[Intention]\nPerform percentage calculation.\n\n[Actions]\nStep 1: Convert percentage to decimal.\nStep 2: Multiply by base value.\nStep 3: Compute result.\n\n[Lead]\nMultiplication: 200 × 0.15 = 30.",
+    "output": "30"
+  },
+  {
+    "instruction": "What is the chemical formula for water?",
+    "input": "",
+    "reasoning": "[Intention]\nRetrieve molecular composition.\n\n[Actions]\nStep 1: Access chemical compound knowledge.\nStep 2: Identify elements in water.\nStep 3: Provide molecular formula.\n\n[Lead]\nRecall of H₂O as water's formula.",
+    "output": "H₂O"
+  },
+  {
+    "instruction": "Identify the verb in: 'The birds sing beautifully.'",
+    "input": "",
+    "reasoning": "[Intention]\nPerform grammatical analysis.\n\n[Actions]\nStep 1: Parse sentence for action words.\nStep 2: Identify word showing action.\nStep 3: Confirm verb status.\n\n[Lead]\nExtraction of action word 'sing'.",
+    "output": "The verb is 'sing'."
+  },
+  {
+    "instruction": "Convert 2 hours to minutes.",
+    "input": "",
+    "reasoning": "[Intention]\nPerform time unit conversion.\n\n[Actions]\nStep 1: Recall conversion factor.\nStep 2: Multiply hours by minutes per hour.\nStep 3: Calculate result.\n\n[Lead]\nApplication: 2 × 60 = 120.",
+    "output": "120 minutes"
+  },
+  {
+    "instruction": "What is the opposite of 'vertical'?",
+    "input": "",
+    "reasoning": "[Intention]\nFind directional antonym.\n\n[Actions]\nStep 1: Understand orientation meaning.\nStep 2: Access spatial opposite.\nStep 3: Select correct term.\n\n[Lead]\nSelection of perpendicular orientation 'horizontal'.",
+    "output": "Horizontal"
+  },
+  {
+    "instruction": "Name the largest planet in our solar system.",
+    "input": "",
+    "reasoning": "[Intention]\nRetrieve astronomical fact.\n\n[Actions]\nStep 1: Access solar system knowledge.\nStep 2: Compare planetary sizes.\nStep 3: Identify largest.\n\n[Lead]\nRecall of Jupiter as largest.",
+    "output": "Jupiter"
+  },
+  {
+    "instruction": "Rewrite using a simile: 'She runs fast.'",
+    "input": "",
+    "reasoning": "[Intention]\nTransform with comparative language.\n\n[Actions]\nStep 1: Identify quality to compare.\nStep 2: Select appropriate simile.\nStep 3: Construct comparative phrase.\n\n[Lead]\nCreation of 'as fast as' comparison.",
+    "output": "She runs as fast as a cheetah."
+  },
+  {
+    "instruction": "What is 7 × 8?",
+    "input": "",
+    "reasoning": "[Intention]\nPerform basic multiplication.\n\n[Actions]\nStep 1: Access multiplication table.\nStep 2: Recall product.\nStep 3: Provide answer.\n\n[Lead]\nRecall of 7×8 = 56.",
+    "output": "56"
+  },
+  {
+    "instruction": "Translate 'Thank you' to French.",
+    "input": "",
+    "reasoning": "[Intention]\nPerform language translation.\n\n[Actions]\nStep 1: Access French vocabulary.\nStep 2: Match common phrase.\nStep 3: Provide translation.\n\n[Lead]\nRetrieval of 'merci'.",
+    "output": "Merci"
+  },
+  {
+    "instruction": "What is the plural of 'child'?",
+    "input": "",
+    "reasoning": "[Intention]\nProvide irregular plural form.\n\n[Actions]\nStep 1: Access irregular noun forms.\nStep 2: Identify correct plural.\nStep 3: Provide answer.\n\n[Lead]\nRecall of irregular plural 'children'.",
+    "output": "Children"
+  },
+  {
+    "instruction": "Define 'gravity'.",
+    "input": "",
+    "reasoning": "[Intention]\nProvide physics concept definition.\n\n[Actions]\nStep 1: Access physics knowledge.\nStep 2: Identify core concept.\nStep 3: Formulate concise definition.\n\n[Lead]\nDescription of mass attraction force.",
+    "output": "Gravity is the force that attracts objects with mass toward each other."
+  },
+  {
+    "instruction": "Convert 500 grams to kilograms.",
+    "input": "",
+    "reasoning": "[Intention]\nPerform metric unit conversion.\n\n[Actions]\nStep 1: Recall conversion factor.\nStep 2: Divide by 1000.\nStep 3: Provide result.\n\n[Lead]\nDivision: 500 ÷ 1000 = 0.5.",
+    "output": "0.5 kilograms"
+  },
+  {
+    "instruction": "What is the capital of Australia?",
+    "input": "",
+    "reasoning": "[Intention]\nRetrieve geographical fact.\n\n[Actions]\nStep 1: Access country-capital database.\nStep 2: Match Australia to capital.\nStep 3: Provide answer.\n\n[Lead]\nRecall of Canberra as capital.",
+    "output": "Canberra"
+  },
+  {
+    "instruction": "Simplify: 4(x + 3) - 2x",
+    "input": "",
+    "reasoning": "[Intention]\nSimplify algebraic expression.\n\n[Actions]\nStep 1: Distribute multiplication.\nStep 2: Combine like terms.\nStep 3: Present simplified form.\n\n[Lead]\nDistribution and combination to 2x + 12.",
+    "output": "2x + 12"
+  },
+  {
+    "instruction": "What is a synonym for 'intelligent'?",
+    "input": "",
+    "reasoning": "[Intention]\nFind word with similar meaning.\n\n[Actions]\nStep 1: Determine core meaning.\nStep 2: Access synonym vocabulary.\nStep 3: Select appropriate synonym.\n\n[Lead]\nSelection of 'smart' as synonym.",
+    "output": "Smart"
+  },
+  {
+    "instruction": "Identify the adverb: 'He spoke quietly.'",
+    "input": "",
+    "reasoning": "[Intention]\nPerform grammatical analysis.\n\n[Actions]\nStep 1: Parse sentence for modifying words.\nStep 2: Identify word modifying verb.\nStep 3: Confirm adverb status.\n\n[Lead]\nExtraction of manner adverb 'quietly'.",
+    "output": "The adverb is 'quietly'."
+  },
+  {
+    "instruction": "What is the freezing point of water in Fahrenheit?",
+    "input": "",
+    "reasoning": "[Intention]\nRetrieve temperature value.\n\n[Actions]\nStep 1: Access water properties.\nStep 2: Convert Celsius value.\nStep 3: Provide Fahrenheit equivalent.\n\n[Lead]\nRecall of 32°F freezing point.",
+    "output": "32°F"
+  },
+  {
+    "instruction": "Name three types of triangles.",
+    "input": "",
+    "reasoning": "[Intention]\nList geometric classifications.\n\n[Actions]\nStep 1: Access geometry knowledge.\nStep 2: Select classification criteria.\nStep 3: Provide examples.\n\n[Lead]\nClassification by sides: equilateral, isosceles, scalene.",
+    "output": "Equilateral, isosceles, and scalene."
+  },
+  {
+    "instruction": "What is the past tense of 'go'?",
+    "input": "",
+    "reasoning": "[Intention]\nRetrieve irregular verb form.\n\n[Actions]\nStep 1: Access irregular verb conjugations.\nStep 2: Identify past tense form.\nStep 3: Provide answer.\n\n[Lead]\nRecall of irregular past 'went'.",
+    "output": "Went"
+  },
+  {
+    "instruction": "Calculate the area of a circle with radius 5 cm.",
+    "input": "",
+    "reasoning": "[Intention]\nPerform geometric calculation.\n\n[Actions]\nStep 1: Recall area formula.\nStep 2: Apply formula: πr².\nStep 3: Calculate with given radius.\n\n[Lead]\nCalculation: π × 5² ≈ 78.54.",
+    "output": "Approximately 78.54 cm²"
+  },
+  {
+    "instruction": "What is the chemical symbol for oxygen?",
+    "input": "",
+    "reasoning": "[Intention]\nRetrieve element symbol.\n\n[Actions]\nStep 1: Access periodic table knowledge.\nStep 2: Locate element symbol.\nStep 3: Provide notation.\n\n[Lead]\nRecall of O for oxygen.",
+    "output": "O"
+  },
+  {
+    "instruction": "What is the formula for density?",
+    "input": "",
+    "reasoning": "[Intention]\nRetrieve physics formula.\n\n[Actions]\nStep 1: Access physical property formulas.\nStep 2: Identify density definition.\nStep 3: Provide formula.\n\n[Lead]\nRecall of mass/volume ratio.",
+    "output": "Density = mass / volume"
+  },
+  {
+    "instruction": "Rewrite in past tense: 'She walks to school.'",
+    "input": "",
+    "reasoning": "[Intention]\nTransform verb tense.\n\n[Actions]\nStep 1: Identify verb to change.\nStep 2: Apply past tense form.\nStep 3: Adjust sentence.\n\n[Lead]\nConversion of 'walks' to 'walked'.",
+    "output": "She walked to school."
+  },
+  {
+    "instruction": "Convert 3 feet to inches.",
+    "input": "",
+    "reasoning": "[Intention]\nPerform length unit conversion.\n\n[Actions]\nStep 1: Recall conversion factor.\nStep 2: Multiply feet by 12.\nStep 3: Calculate result.\n\n[Lead]\nApplication: 3 × 12 = 36.",
+    "output": "36 inches"
+  },
+  {
+    "instruction": "What is the main function of the lungs?",
+    "input": "",
+    "reasoning": "[Intention]\nDescribe respiratory organ function.\n\n[Actions]\nStep 1: Access respiratory system knowledge.\nStep 2: Identify primary role.\nStep 3: Provide concise description.\n\n[Lead]\nDescription of gas exchange process.",
+    "output": "The lungs facilitate gas exchange, taking in oxygen and expelling carbon dioxide."
+  },
+  {
+    "instruction": "What is the square of 9?",
+    "input": "",
+    "reasoning": "[Intention]\nCalculate square of number.\n\n[Actions]\nStep 1: Understand squaring operation.\nStep 2: Multiply number by itself.\nStep 3: Provide result.\n\n[Lead]\nCalculation: 9 × 9 = 81.",
+    "output": "81"
+  },
+  {
+    "instruction": "Identify the preposition: 'The book is on the table.'",
+    "input": "",
+    "reasoning": "[Intention]\nPerform grammatical analysis.\n\n[Actions]\nStep 1: Parse sentence for position words.\nStep 2: Identify word showing relationship.\nStep 3: Confirm preposition status.\n\n[Lead]\nExtraction of position word 'on'.",
+    "output": "The preposition is 'on'."
+  },
+  {
+    "instruction": "Translate 'Good evening' to Italian.",
+    "input": "",
+    "reasoning": "[Intention]\nPerform language translation.\n\n[Actions]\nStep 1: Access Italian vocabulary.\nStep 2: Match greeting phrase.\nStep 3: Provide translation.\n\n[Lead]\nRetrieval of 'buona sera'.",
+    "output": "Buona sera"
+  },
+  {
+    "instruction": "What is the boiling point of alcohol?",
+    "input": "",
+    "reasoning": "[Intention]\nRetrieve physical property value.\n\n[Actions]\nStep 1: Access chemical properties.\nStep 2: Specify type (ethanol).\nStep 3: Provide approximate value.\n\n[Lead]\nRecall of 78°C for ethanol.",
+    "output": "Approximately 78°C (172°F) for ethanol."
+  },
+  {
+    "instruction": "Name two parts of a plant cell.",
+    "input": "",
+    "reasoning": "[Intention]\nList cellular components.\n\n[Actions]\nStep 1: Access cell biology knowledge.\nStep 2: Select distinctive plant organelles.\nStep 3: Provide examples.\n\n[Lead]\nIdentification of chloroplasts and cell wall.",
+    "output": "Chloroplasts and cell wall."
+  },
+  {
+    "instruction": "What is 15% of 80?",
+    "input": "",
+    "reasoning": "[Intention]\nPerform percentage calculation.\n\n[Actions]\nStep 1: Convert percentage to decimal.\nStep 2: Multiply by base value.\nStep 3: Compute result.\n\n[Lead]\nMultiplication: 80 × 0.15 = 12.",
+    "output": "12"
+  },
+  {
+    "instruction": "Rewrite as negative: 'I like chocolate.'",
+    "input": "",
+    "reasoning": "[Intention]\nTransform to negative statement.\n\n[Actions]\nStep 1: Identify verb to negate.\nStep 2: Add negation particle.\nStep 3: Adjust sentence structure.\n\n[Lead]\nInsertion of 'do not' before verb.",
+    "output": "I do not like chocolate."
+  },
+  {
+    "instruction": "What is the chemical symbol for carbon?",
+    "input": "",
+    "reasoning": "[Intention]\nRetrieve element symbol.\n\n[Actions]\nStep 1: Access periodic table knowledge.\nStep 2: Locate element symbol.\nStep 3: Provide notation.\n\n[Lead]\nRecall of C for carbon.",
+    "output": "C"
+  },
+  {
+    "instruction": "Convert 2.5 liters to milliliters.",
+    "input": "",
+    "reasoning": "[Intention]\nPerform volume unit conversion.\n\n[Actions]\nStep 1: Recall conversion factor.\nStep 2: Multiply liters by 1000.\nStep 3: Calculate result.\n\n[Lead]\nApplication: 2.5 × 1000 = 2500.",
+    "output": "2500 milliliters"
+  },
+  {
+    "instruction": "What is an antonym for 'brave'?",
+    "input": "",
+    "reasoning": "[Intention]\nFind opposite meaning word.\n\n[Actions]\nStep 1: Determine core meaning.\nStep 2: Access antonym vocabulary.\nStep 3: Select appropriate opposite.\n\n[Lead]\nSelection of opposite trait 'cowardly'.",
+    "output": "Cowardly"
+  },
+  {
+    "instruction": "Identify the conjunction: 'I like tea but not coffee.'",
+    "input": "",
+    "reasoning": "[Intention]\nPerform grammatical analysis.\n\n[Actions]\nStep 1: Parse sentence for connecting words.\nStep 2: Identify word joining clauses.\nStep 3: Confirm conjunction status.\n\n[Lead]\nExtraction of contrast word 'but'.",
+    "output": "The conjunction is 'but'."
+  },
+  {
+    "instruction": "What is the capital of Brazil?",
+    "input": "",
+    "reasoning": "[Intention]\nRetrieve geographical fact.\n\n[Actions]\nStep 1: Access country-capital database.\nStep 2: Match Brazil to capital.\nStep 3: Provide answer.\n\n[Lead]\nRecall of Brasília as capital.",
+    "output": "Brasília"
+  },
+  {
+    "instruction": "Simplify: (x + 3)(x - 2)",
+    "input": "",
+    "reasoning": "[Intention]\nExpand algebraic expression.\n\n[Actions]\nStep 1: Apply FOIL method.\nStep 2: Combine like terms.\nStep 3: Present expanded form.\n\n[Lead]\nDistribution and combination to x² + x - 6.",
+    "output": "x² + x - 6"
+  },
+  {
+    "instruction": "What is the plural of 'mouse' (animal)?",
+    "input": "",
+    "reasoning": "[Intention]\nProvide irregular plural form.\n\n[Actions]\nStep 1: Access irregular noun forms.\nStep 2: Identify correct plural.\nStep 3: Provide answer.\n\n[Lead]\nRecall of irregular plural 'mice'.",
+    "output": "Mice"
+  },
+  {
+    "instruction": "Define 'photosynthesis' in one sentence.",
+    "input": "",
+    "reasoning": "[Intention]\nProvide concise biological definition.\n\n[Actions]\nStep 1: Access biology knowledge.\nStep 2: Identify key process elements.\nStep 3: Formulate concise definition.\n\n[Lead]\nDescription of light-to-food conversion.",
+    "output": "Photosynthesis is the process by which plants convert light energy into chemical energy in the form of glucose."
+  },
+  {
+    "instruction": "What is 3/4 as a decimal?",
+    "input": "",
+    "reasoning": "[Intention]\nConvert fraction to decimal.\n\n[Actions]\nStep 1: Divide numerator by denominator.\nStep 2: Perform division.\nStep 3: Provide decimal result.\n\n[Lead]\nDivision: 3 ÷ 4 = 0.75.",
+    "output": "0.75"
+  },
+  {
+    "instruction": "What is the formula for speed?",
+    "input": "",
+    "reasoning": "[Intention]\nRetrieve physics formula.\n\n[Actions]\nStep 1: Access motion formulas.\nStep 2: Identify speed definition.\nStep 3: Provide formula.\n\n[Lead]\nRecall of distance/time ratio.",
+    "output": "Speed = distance / time"
+  },
+  {
+    "instruction": "Rewrite in future tense: 'They eat dinner.'",
+    "input": "",
+    "reasoning": "[Intention]\nTransform verb tense.\n\n[Actions]\nStep 1: Identify verb to change.\nStep 2: Apply future tense form.\nStep 3: Adjust sentence.\n\n[Lead]\nConversion to 'will eat'.",
+    "output": "They will eat dinner."
+  },
+  {
+    "instruction": "Convert 1000 meters to kilometers.",
+    "input": "",
+    "reasoning": "[Intention]\nPerform length unit conversion.\n\n[Actions]\nStep 1: Recall conversion factor.\nStep 2: Divide meters by 1000.\nStep 3: Calculate result.\n\n[Lead]\nApplication: 1000 ÷ 1000 = 1.",
+    "output": "1 kilometer"
+  },
+  {
+    "instruction": "What is the main function of the kidneys?",
+    "input": "",
+    "reasoning": "[Intention]\nDescribe excretory organ function.\n\n[Actions]\nStep 1: Access urinary system knowledge.\nStep 2: Identify primary role.\nStep 3: Provide concise description.\n\n[Lead]\nDescription of waste filtration and removal.",
+    "output": "The kidneys filter blood to remove waste products and excess fluid, producing urine."
+  },
+  {
+    "instruction": "What is the cube of 3?",
+    "input": "",
+    "reasoning": "[Intention]\nCalculate cube of number.\n\n[Actions]\nStep 1: Understand cubing operation.\nStep 2: Multiply number by itself twice.\nStep 3: Provide result.\n\n[Lead]\nCalculation: 3 × 3 × 3 = 27.",
+    "output": "27"
+  },
+  {
+    "instruction": "Identify the adjective: 'The blue sky is clear.'",
+    "input": "",
+    "reasoning": "[Intention]\nPerform grammatical analysis.\n\n[Actions]\nStep 1: Parse sentence for descriptive words.\nStep 2: Identify words modifying nouns.\nStep 3: Confirm adjective status.\n\n[Lead]\nExtraction of color descriptor 'blue'.",
+    "output": "The adjective is 'blue'."
+  },
+  {
+    "instruction": "Translate 'Please' to Spanish.",
+    "input": "",
+    "reasoning": "[Intention]\nPerform language translation.\n\n[Actions]\nStep 1: Access Spanish vocabulary.\nStep 2: Match polite expression.\nStep 3: Provide translation.\n\n[Lead]\nRetrieval of 'por favor'.",
+    "output": "Por favor"
+  },
+  {
+    "instruction": "What is the melting point of ice?",
+    "input": "",
+    "reasoning": "[Intention]\nRetrieve phase change temperature.\n\n[Actions]\nStep 1: Access water properties.\nStep 2: Specify standard conditions.\nStep 3: Provide temperature.\n\n[Lead]\nRecall of 0°C melting/freezing point.",
+    "output": "0°C (32°F)"
+  },
+  {
+    "instruction": "Name two types of rocks.",
+    "input": "",
+    "reasoning": "[Intention]\nList geological classifications.\n\n[Actions]\nStep 1: Access geology knowledge.\nStep 2: Select rock type examples.\nStep 3: Provide classifications.\n\n[Lead]\nIdentification of igneous and sedimentary.",
+    "output": "Igneous and sedimentary rocks."
+  },
+  {
+    "instruction": "What is 25% of 200?",
+    "input": "",
+    "reasoning": "[Intention]\nPerform percentage calculation.\n\n[Actions]\nStep 1: Convert percentage to decimal.\nStep 2: Multiply by base value.\nStep 3: Compute result.\n\n[Lead]\nMultiplication: 200 × 0.25 = 50.",
+    "output": "50"
+  },
+  {
+    "instruction": "Rewrite as a command: 'You should close the door.'",
+    "input": "",
+    "reasoning": "[Intention]\nTransform to imperative mood.\n\n[Actions]\nStep 1: Remove subject and modal verb.\nStep 2: Use base verb form.\nStep 3: Adjust to command structure.\n\n[Lead]\nReduction to direct instruction 'Close the door.'",
+    "output": "Close the door."
+  },
+  {
+    "instruction": "What is the chemical symbol for sodium?",
+    "input": "",
+    "reasoning": "[Intention]\nRetrieve element symbol.\n\n[Actions]\nStep 1: Access periodic table knowledge.\nStep 2: Locate element symbol.\nStep 3: Provide notation.\n\n[Lead]\nRecall of Na for sodium.",
+    "output": "Na"
+  },
+  {
+    "instruction": "Convert 4 quarts to gallons.",
+    "input": "",
+    "reasoning": "[Intention]\nPerform volume unit conversion.\n\n[Actions]\nStep 1: Recall conversion factor.\nStep 2: Divide quarts by 4.\nStep 3: Calculate result.\n\n[Lead]\nApplication: 4 ÷ 4 = 1.",
+    "output": "1 gallon"
+  },
+  {
+    "instruction": "What is a synonym for 'beautiful'?",
+    "input": "",
+    "reasoning": "[Intention]\nFind word with similar meaning.\n\n[Actions]\nStep 1: Determine core meaning.\nStep 2: Access synonym vocabulary.\nStep 3: Select appropriate synonym.\n\n[Lead]\nSelection of 'gorgeous' as synonym.",
+    "output": "Gorgeous"
+  },
+  {
+    "instruction": "Identify the interjection: 'Wow, that's amazing!'",
+    "input": "",
+    "reasoning": "[Intention]\nPerform grammatical analysis.\n\n[Actions]\nStep 1: Parse sentence for emotional expressions.\nStep 2: Identify exclamatory word.\nStep 3: Confirm interjection status.\n\n[Lead]\nExtraction of exclamation 'Wow'.",
+    "output": "The interjection is 'Wow'."
+  },
+  {
+    "instruction": "What is the capital of Egypt?",
+    "input": "",
+    "reasoning": "[Intention]\nRetrieve geographical fact.\n\n[Actions]\nStep 1: Access country-capital database.\nStep 2: Match Egypt to capital.\nStep 3: Provide answer.\n\n[Lead]\nRecall of Cairo as capital.",
+    "output": "Cairo"
+  },
+  {
+    "instruction": "Solve: 2x + 5 = 15",
+    "input": "",
+    "reasoning": "[Intention]\nSolve linear equation.\n\n[Actions]\nStep 1: Isolate variable term.\nStep 2: Perform inverse operations.\nStep 3: Calculate variable value.\n\n[Lead]\nSubtraction and division to x = 5.",
+    "output": "x = 5"
+  },
+  {
+    "instruction": "What is the plural of 'sheep'?",
+    "input": "",
+    "reasoning": "[Intention]\nProvide irregular plural form.\n\n[Actions]\nStep 1: Access irregular noun forms.\nStep 2: Identify correct plural.\nStep 3: Provide answer.\n\n[Lead]\nRecall of identical singular/plural form.",
+    "output": "Sheep"
+  },
+  {
+    "instruction": "Define 'ecosystem' in one sentence.",
+    "input": "",
+    "reasoning": "[Intention]\nProvide concise ecological definition.\n\n[Actions]\nStep 1: Access ecology knowledge.\nStep 2: Identify key components.\nStep 3: Formulate concise definition.\n\n[Lead]\nDescription of biotic-abiotic interactions.",
+    "output": "An ecosystem is a community of living organisms interacting with each other and their physical environment."
+  },
+  {
+    "instruction": "What is 1/8 as a percentage?",
+    "input": "",
+    "reasoning": "[Intention]\nConvert fraction to percentage.\n\n[Actions]\nStep 1: Convert fraction to decimal.\nStep 2: Multiply decimal by 100.\nStep 3: Add percentage symbol.\n\n[Lead]\nCalculation: (1 ÷ 8) × 100 = 12.5%.",
+    "output": "12.5%"
+  },
+  {
+    "instruction": "What is the formula for calculating force?",
+    "input": "",
+    "reasoning": "[Intention]\nRetrieve physics formula.\n\n[Actions]\nStep 1: Access Newtonian mechanics.\nStep 2: Identify force definition.\nStep 3: Provide formula.\n\n[Lead]\nRecall of Newton's second law: F = ma.",
+    "output": "Force = mass × acceleration"
+  },
+  {
+    "instruction": "Rewrite in present continuous: 'She reads a book.'",
+    "input": "",
+    "reasoning": "[Intention]\nTransform verb aspect.\n\n[Actions]\nStep 1: Identify base verb.\nStep 2: Apply continuous form.\nStep 3: Adjust sentence structure.\n\n[Lead]\nConversion to 'is reading'.",
+    "output": "She is reading a book."
+  },
+  {
+    "instruction": "Convert 5 pounds to kilograms.",
+    "input": "",
+    "reasoning": "[Intention]\nPerform mass unit conversion.\n\n[Actions]\nStep 1: Recall conversion factor.\nStep 2: Multiply pounds by 0.4536.\nStep 3: Calculate result.\n\n[Lead]\nApplication: 5 × 0.4536 ≈ 2.27.",
+    "output": "Approximately 2.27 kilograms"
+  },
+  {
+    "instruction": "What is the main function of the brain?",
+    "input": "",
+    "reasoning": "[Intention]\nDescribe central nervous organ function.\n\n[Actions]\nStep 1: Access neurology knowledge.\nStep 2: Identify primary role.\nStep 3: Provide concise description.\n\n[Lead]\nDescription of control and processing center.",
+    "output": "The brain processes information, controls body functions, and enables thought, emotion, and consciousness."
+  },
+  {
+    "instruction": "What is the square root of 81?",
+    "input": "",
+    "reasoning": "[Intention]\nCalculate square root.\n\n[Actions]\nStep 1: Recognize perfect square.\nStep 2: Recall square root value.\nStep 3: Provide answer.\n\n[Lead]\nRecall of 9 × 9 = 81.",
+    "output": "9"
+  },
+  {
+    "instruction": "Identify the pronoun: 'He gave it to them.'",
+    "input": "",
+    "reasoning": "[Intention]\nPerform grammatical analysis.\n\n[Actions]\nStep 1: Parse sentence for noun substitutes.\nStep 2: Identify words replacing nouns.\nStep 3: Confirm pronoun status.\n\n[Lead]\nExtraction of 'He', 'it', and 'them' as pronouns.",
+    "output": "The pronouns are 'He', 'it', and 'them'."
+  },
+  {
+    "instruction": "Translate 'Excuse me' to French.",
+    "input": "",
+    "reasoning": "[Intention]\nPerform language translation.\n\n[Actions]\nStep 1: Access French vocabulary.\nStep 2: Match polite expression.\nStep 3: Provide translation.\n\n[Lead]\nRetrieval of 'Excusez-moi'.",
+    "output": "Excusez-moi"
+  },
+  {
+    "instruction": "What is the boiling point of mercury?",
+    "input": "",
+    "reasoning": "[Intention]\nRetrieve metal's physical property.\n\n[Actions]\nStep 1: Access element properties.\nStep 2: Specify standard conditions.\nStep 3: Provide temperature.\n\n[Lead]\nRecall of 357°C for mercury.",
+    "output": "Approximately 357°C (674°F)"
+  },
+  {
+    "instruction": "Name two types of clouds.",
+    "input": "",
+    "reasoning": "[Intention]\nList atmospheric formations.\n\n[Actions]\nStep 1: Access meteorology knowledge.\nStep 2: Select cloud classifications.\nStep 3: Provide examples.\n\n[Lead]\nIdentification of cumulus and stratus.",
+    "output": "Cumulus and stratus clouds."
+  },
+  {
+    "instruction": "What is 30% of 150?",
+    "input": "",
+    "reasoning": "[Intention]\nPerform percentage calculation.\n\n[Actions]\nStep 1: Convert percentage to decimal.\nStep 2: Multiply by base value.\nStep 3: Compute result.\n\n[Lead]\nMultiplication: 150 × 0.30 = 45.",
+    "output": "45"
+  },
+  {
+    "instruction": "Rewrite as a question: 'They have finished.'",
+    "input": "",
+    "reasoning": "[Intention]\nTransform to interrogative form.\n\n[Actions]\nStep 1: Identify auxiliary verb.\nStep 2: Invert subject and auxiliary.\nStep 3: Add question mark.\n\n[Lead]\nInversion to 'Have they finished?'",
+    "output": "Have they finished?"
+  },
+  {
+    "instruction": "What is the chemical symbol for potassium?",
+    "input": "",
+    "reasoning": "[Intention]\nRetrieve element symbol.\n\n[Actions]\nStep 1: Access periodic table knowledge.\nStep 2: Locate element symbol.\nStep 3: Provide notation.\n\n[Lead]\nRecall of K for potassium.",
+    "output": "K"
+  },
+  {
+    "instruction": "Convert 2000 milliliters to liters.",
+    "input": "",
+    "reasoning": "[Intention]\nPerform volume unit conversion.\n\n[Actions]\nStep 1: Recall conversion factor.\nStep 2: Divide milliliters by 1000.\nStep 3: Calculate result.\n\n[Lead]\nApplication: 2000 ÷ 1000 = 2.",
+    "output": "2 liters"
+  },
+  {
+    "instruction": "What is an antonym for 'success'?",
+    "input": "",
+    "reasoning": "[Intention]\nFind opposite meaning word.\n\n[Actions]\nStep 1: Determine core meaning.\nStep 2: Access antonym vocabulary.\nStep 3: Select appropriate opposite.\n\n[Lead]\nSelection of 'failure' as antonym.",
+    "output": "Failure"
+  },
+  {
+    "instruction": "Identify the article: 'An apple a day keeps the doctor away.'",
+    "input": "",
+    "reasoning": "[Intention]\nPerform grammatical analysis.\n\n[Actions]\nStep 1: Parse sentence for determiners.\nStep 2: Identify words introducing nouns.\nStep 3: Confirm article status.\n\n[Lead]\nExtraction of 'An', 'a', and 'the' as articles.",
+    "output": "The articles are 'An', 'a', and 'the'."
+  },
+  {
+    "instruction": "What is the capital of Italy?",
+    "input": "",
+    "reasoning": "[Intention]\nRetrieve geographical fact.\n\n[Actions]\nStep 1: Access country-capital database.\nStep 2: Match Italy to capital.\nStep 3: Provide answer.\n\n[Lead]\nRecall of Rome as capital.",
+    "output": "Rome"
+  },
+  {
+    "instruction": "Solve: 3y - 7 = 14",
+    "input": "",
+    "reasoning": "[Intention]\nSolve linear equation.\n\n[Actions]\nStep 1: Isolate variable term.\nStep 2: Perform inverse operations.\nStep 3: Calculate variable value.\n\n[Lead]\nAddition and division to y = 7.",
+    "output": "y = 7"
+  },
+  {
+    "instruction": "What is the plural of 'deer'?",
+    "input": "",
+    "reasoning": "[Intention]\nProvide irregular plural form.\n\n[Actions]\nStep 1: Access irregular noun forms.\nStep 2: Identify correct plural.\nStep 3: Provide answer.\n\n[Lead]\nRecall of identical singular/plural form.",
+    "output": "Deer"
+  },
+  {
+    "instruction": "Define 'photosynthesis' simply.",
+    "input": "",
+    "reasoning": "[Intention]\nProvide simplified biological definition.\n\n[Actions]\nStep 1: Access biology knowledge.\nStep 2: Identify key process.\nStep 3: Formulate simple explanation.\n\n[Lead]\nDescription of plant food-making process.",
+    "output": "Photosynthesis is how plants make food from sunlight."
+  },
+  {
+    "instruction": "What is 0.6 as a fraction in simplest form?",
+    "input": "",
+    "reasoning": "[Intention]\nConvert decimal to fraction.\n\n[Actions]\nStep 1: Express decimal as fraction.\nStep 2: Simplify fraction.\nStep 3: Provide reduced form.\n\n[Lead]\nConversion and simplification to 3/5.",
+    "output": "3/5"
+  },
+  {
+    "instruction": "What is the formula for calculating work?",
+    "input": "",
+    "reasoning": "[Intention]\nRetrieve physics formula.\n\n[Actions]\nStep 1: Access work-energy concepts.\nStep 2: Identify work definition.\nStep 3: Provide formula.\n\n[Lead]\nRecall of force × distance product.",
+    "output": "Work = force × distance"
+  },
+  {
+    "instruction": "Rewrite in past perfect: 'She finished her homework.'",
+    "input": "",
+    "reasoning": "[Intention]\nTransform verb tense.\n\n[Actions]\nStep 1: Identify main verb.\nStep 2: Apply past perfect form.\nStep 3: Adjust sentence.\n\n[Lead]\nConversion to 'had finished'.",
+    "output": "She had finished her homework."
+  },
+  {
+    "instruction": "Convert 10 inches to centimeters.",
+    "input": "",
+    "reasoning": "[Intention]\nPerform length unit conversion.\n\n[Actions]\nStep 1: Recall conversion factor.\nStep 2: Multiply inches by 2.54.\nStep 3: Calculate result.\n\n[Lead]\nApplication: 10 × 2.54 = 25.4.",
+    "output": "25.4 centimeters"
+  },
+  {
+    "instruction": "What is the main function of the stomach?",
+    "input": "",
+    "reasoning": "[Intention]\nDescribe digestive organ function.\n\n[Actions]\nStep 1: Access digestive system knowledge.\nStep 2: Identify primary role.\nStep 3: Provide concise description.\n\n[Lead]\nDescription of food breakdown and storage.",
+    "output": "The stomach breaks down food using acids and enzymes, and stores it before passing to the intestines."
+  },
+  {
+    "instruction": "What is 4 to the power of 3?",
+    "input": "",
+    "reasoning": "[Intention]\nCalculate exponentiation.\n\n[Actions]\nStep 1: Understand exponent operation.\nStep 2: Multiply base by itself exponent times.\nStep 3: Provide result.\n\n[Lead]\nCalculation: 4 × 4 × 4 = 64.",
+    "output": "64"
+  },
+  {
+    "instruction": "Identify the adverb: 'He ran very quickly.'",
+    "input": "",
+    "reasoning": "[Intention]\nPerform grammatical analysis.\n\n[Actions]\nStep 1: Parse sentence for modifying words.\nStep 2: Identify words modifying verbs/adjectives.\nStep 3: Confirm adverb status.\n\n[Lead]\nExtraction of 'very' and 'quickly' as adverbs.",
+    "output": "The adverbs are 'very' and 'quickly'."
+  },
+  {
+    "instruction": "Translate 'Thank you very much' to German.",
+    "input": "",
+    "reasoning": "[Intention]\nPerform language translation.\n\n[Actions]\nStep 1: Access German vocabulary.\nStep 2: Match polite expression.\nStep 3: Provide translation.\n\n[Lead]\nRetrieval of 'Vielen Dank'.",
+    "output": "Vielen Dank"
+  },
+  {
+    "instruction": "What is the freezing point of alcohol?",
+    "input": "",
+    "reasoning": "[Intention]\nRetrieve chemical property.\n\n[Actions]\nStep 1: Access substance properties.\nStep 2: Specify type (ethanol).\nStep 3: Provide temperature.\n\n[Lead]\nRecall of -114°C for ethanol.",
+    "output": "Approximately -114°C (-173°F) for ethanol"
+  },
+  {
+    "instruction": "Name two types of precipitation.",
+    "input": "",
+    "reasoning": "[Intention]\nList weather phenomena.\n\n[Actions]\nStep 1: Access meteorology knowledge.\nStep 2: Select precipitation forms.\nStep 3: Provide examples.\n\n[Lead]\nIdentification of rain and snow.",
+    "output": "Rain and snow."
+  },
+  {
+    "instruction": "What is 75% of 80?",
+    "input": "",
+    "reasoning": "[Intention]\nPerform percentage calculation.\n\n[Actions]\nStep 1: Convert percentage to decimal.\nStep 2: Multiply by base value.\nStep 3: Compute result.\n\n[Lead]\nMultiplication: 80 × 0.75 = 60.",
+    "output": "60"
+  },
+  {
+    "instruction": "Rewrite using a metaphor: 'Time passes quickly.'",
+    "input": "",
+    "reasoning": "[Intention]\nTransform with figurative language.\n\n[Actions]\nStep 1: Identify concept to represent figuratively.\nStep 2: Select metaphorical representation.\nStep 3: Construct metaphorical phrase.\n\n[Lead]\nCreation of 'Time flies' metaphor.",
+    "output": "Time flies."
+  },
+  {
+    "instruction": "What is the chemical symbol for iron?",
+    "input": "",
+    "reasoning": "[Intention]\nRetrieve element symbol.\n\n[Actions]\nStep 1: Access periodic table knowledge.\nStep 2: Locate element symbol.\nStep 3: Provide notation.\n\n[Lead]\nRecall of Fe for iron.",
+    "output": "Fe"
+  },
+  {
+    "instruction": "Convert 3.5 kilometers to meters.",
+    "input": "",
+    "reasoning": "[Intention]\nPerform length unit conversion.\n\n[Actions]\nStep 1: Recall conversion factor.\nStep 2: Multiply kilometers by 1000.\nStep 3: Calculate result.\n\n[Lead]\nApplication: 3.5 × 1000 = 3500.",
+    "output": "3500 meters"
+  },
+  {
+    "instruction": "What is a synonym for 'difficult'?",
+    "input": "",
+    "reasoning": "[Intention]\nFind word with similar meaning.\n\n[Actions]\nStep 1: Determine core meaning.\nStep 2: Access synonym vocabulary.\nStep 3: Select appropriate synonym.\n\n[Lead]\nSelection of 'challenging' as synonym.",
+    "output": "Challenging"
+  },
+  {
+    "instruction": "Identify the direct object: 'She baked a cake.'",
+    "input": "",
+    "reasoning": "[Intention]\nPerform grammatical analysis.\n\n[Actions]\nStep 1: Parse sentence for action receiver.\nStep 2: Identify noun receiving verb action.\nStep 3: Confirm direct object status.\n\n[Lead]\nExtraction of 'a cake' as direct object.",
+    "output": "The direct object is 'a cake'."
+  },
+  {
+    "instruction": "What is the capital of Spain?",
+    "input": "",
+    "reasoning": "[Intention]\nRetrieve geographical fact.\n\n[Actions]\nStep 1: Access country-capital database.\nStep 2: Match Spain to capital.\nStep 3: Provide answer.\n\n[Lead]\nRecall of Madrid as capital.",
+    "output": "Madrid"
+  },
+  {
+    "instruction": "Solve: 5(x + 2) = 35",
+    "input": "",
+    "reasoning": "[Intention]\nSolve linear equation.\n\n[Actions]\nStep 1: Distribute multiplication.\nStep 2: Isolate variable term.\nStep 3: Calculate variable value.\n\n[Lead]\nDistribution and solution to x = 5.",
+    "output": "x = 5"
+  },
+  {
+    "instruction": "What is the plural of 'ox'?",
+    "input": "",
+    "reasoning": "[Intention]\nProvide irregular plural form.\n\n[Actions]\nStep 1: Access irregular noun forms.\nStep 2: Identify correct plural.\nStep 3: Provide answer.\n\n[Lead]\nRecall of irregular plural 'oxen'.",
+    "output": "Oxen"
+  },
+  {
+    "instruction": "Define 'gravity' simply.",
+    "input": "",
+    "reasoning": "[Intention]\nProvide simplified physics definition.\n\n[Actions]\nStep 1: Access physics knowledge.\nStep 2: Identify core concept.\nStep 3: Formulate simple explanation.\n\n[Lead]\nDescription of pulling force between masses.",
+    "output": "Gravity is the force that pulls objects toward each other."
+  },
+  {
+    "instruction": "What is 2/3 as a decimal rounded to two places?",
+    "input": "",
+    "reasoning": "[Intention]\nConvert fraction to decimal.\n\n[Actions]\nStep 1: Divide numerator by denominator.\nStep 2: Perform division.\nStep 3: Round to specified precision.\n\n[Lead]\nCalculation: 2 ÷ 3 ≈ 0.67.",
+    "output": "0.67"
+  },
+  {
+    "instruction": "What is the formula for calculating kinetic energy?",
+    "input": "",
+    "reasoning": "[Intention]\nRetrieve physics formula.\n\n[Actions]\nStep 1: Access energy formulas.\nStep 2: Identify kinetic energy definition.\nStep 3: Provide formula.\n\n[Lead]\nRecall of KE = ½mv².",
+    "output": "Kinetic energy = ½ × mass × velocity²"
+  },
+  {
+    "instruction": "Rewrite in passive voice: 'The cat chased the mouse.'",
+    "input": "",
+    "reasoning": "[Intention]\nTransform sentence voice.\n\n[Actions]\nStep 1: Identify subject and object.\nStep 2: Rearrange to passive structure.\nStep 3: Adjust verb form.\n\n[Lead]\nReconstruction with object as subject: 'The mouse was chased...'",
+    "output": "The mouse was chased by the cat."
+  },
+  {
+    "instruction": "Convert 20 degrees Celsius to Fahrenheit.",
+    "input": "",
+    "reasoning": "[Intention]\nPerform temperature conversion.\n\n[Actions]\nStep 1: Recall conversion formula.\nStep 2: Apply formula: F = (C × 9/5) + 32.\nStep 3: Calculate result.\n\n[Lead]\nApplication: (20 × 9/5) + 32 = 68.",
+    "output": "68°F"
+  },
+  {
+    "instruction": "What is the main function of the liver?",
+    "input": "",
+    "reasoning": "[Intention]\nDescribe metabolic organ function.\n\n[Actions]\nStep 1: Access digestive/metabolic knowledge.\nStep 2: Identify primary roles.\nStep 3: Provide concise description.\n\n[Lead]\nDescription of detoxification and metabolism.",
+    "output": "The liver detoxifies chemicals, metabolizes drugs, and produces bile for digestion."
+  },
+  {
+    "instruction": "What is the cube root of 64?",
+    "input": "",
+    "reasoning": "[Intention]\nCalculate cube root.\n\n[Actions]\nStep 1: Understand cube root operation.\nStep 2: Find number that cubed equals 64.\nStep 3: Provide result.\n\n[Lead]\nRecall of 4 × 4 × 4 = 64.",
+    "output": "4"
+  },
+  {
+    "instruction": "Identify the proper noun: 'John visited Paris last summer.'",
+    "input": "",
+    "reasoning": "[Intention]\nPerform grammatical analysis.\n\n[Actions]\nStep 1: Parse sentence for specific names.\nStep 2: Identify capitalized specific nouns.\nStep 3: Confirm proper noun status.\n\n[Lead]\nExtraction of 'John' and 'Paris' as proper nouns.",
+    "output": "The proper nouns are 'John' and 'Paris'."
+  },
+  {
+    "instruction": "Translate 'Goodbye' to Italian.",
+    "input": "",
+    "reasoning": "[Intention]\nPerform language translation.\n\n[Actions]\nStep 1: Access Italian vocabulary.\nStep 2: Match parting expression.\nStep 3: Provide translation.\n\n[Lead]\nRetrieval of 'Arrivederci'.",
+    "output": "Arrivederci"
+  },
+  {
+    "instruction": "What is the boiling point of nitrogen?",
+    "input": "",
+    "reasoning": "[Intention]\nRetrieve element property.\n\n[Actions]\nStep 1: Access element properties.\nStep 2: Specify standard conditions.\nStep 3: Provide temperature.\n\n[Lead]\nRecall of -196°C for nitrogen.",
+    "output": "-196°C (-321°F)"
+  },
+  {
+    "instruction": "Name two types of energy.",
+    "input": "",
+    "reasoning": "[Intention]\nList energy classifications.\n\n[Actions]\nStep 1: Access physics knowledge.\nStep 2: Select energy type examples.\nStep 3: Provide classifications.\n\n[Lead]\nIdentification of kinetic and potential energy.",
+    "output": "Kinetic energy and potential energy."
+  },
+  {
+    "instruction": "What is 40% of 250?",
+    "input": "",
+    "reasoning": "[Intention]\nPerform percentage calculation.\n\n[Actions]\nStep 1: Convert percentage to decimal.\nStep 2: Multiply by base value.\nStep 3: Compute result.\n\n[Lead]\nMultiplication: 250 × 0.40 = 100.",
+    "output": "100"
+  },
+  {
+    "instruction": "Rewrite as an exclamation: 'That is a beautiful sunset.'",
+    "input": "",
+    "reasoning": "[Intention]\nTransform to exclamatory form.\n\n[Actions]\nStep 1: Identify emotional content.\nStep 2: Add exclamatory structure.\nStep 3: Adjust punctuation.\n\n[Lead]\nConversion to 'What a beautiful sunset!'",
+    "output": "What a beautiful sunset!"
+  },
+  {
+    "instruction": "What is the chemical symbol for calcium?",
+    "input": "",
+    "reasoning": "[Intention]\nRetrieve element symbol.\n\n[Actions]\nStep 1: Access periodic table knowledge.\nStep 2: Locate element symbol.\nStep 3: Provide notation.\n\n[Lead]\nRecall of Ca for calcium.",
+    "output": "Ca"
+  },
+  {
+    "instruction": "Convert 500 milliliters to liters.",
+    "input": "",
+    "reasoning": "[Intention]\nPerform volume unit conversion.\n\n[Actions]\nStep 1: Recall conversion factor.\nStep 2: Divide milliliters by 1000.\nStep 3: Calculate result.\n\n[Lead]\nApplication: 500 ÷ 1000 = 0.5.",
+    "output": "0.5 liters"
+  },
+  {
+    "instruction": "What is an antonym for 'generous'?",
+    "input": "",
+    "reasoning": "[Intention]\nFind opposite meaning word.\n\n[Actions]\nStep 1: Determine core meaning.\nStep 2: Access antonym vocabulary.\nStep 3: Select appropriate opposite.\n\n[Lead]\nSelection of 'stingy' as antonym.",
+    "output": "Stingy"
+  },
+  {
+    "instruction": "Identify the predicate: 'The dog barked loudly.'",
+    "input": "",
+    "reasoning": "[Intention]\nPerform grammatical analysis.\n\n[Actions]\nStep 1: Parse sentence for action/description.\nStep 2: Identify verb and related words.\nStep 3: Confirm predicate portion.\n\n[Lead]\nExtraction of 'barked loudly' as predicate.",
+    "output": "The predicate is 'barked loudly'."
+  },
+  {
+    "instruction": "What is the capital of Canada?",
+    "input": "",
+    "reasoning": "[Intention]\nRetrieve geographical fact.\n\n[Actions]\nStep 1: Access country-capital database.\nStep 2: Match Canada to capital.\nStep 3: Provide answer.\n\n[Lead]\nRecall of Ottawa as capital.",
+    "output": "Ottawa"
+  },
+  {
+    "instruction": "Solve: 2x - 8 = 12",
+    "input": "",
+    "reasoning": "[Intention]\nSolve linear equation.\n\n[Actions]\nStep 1: Isolate variable term.\nStep 2: Perform inverse operations.\nStep 3: Calculate variable value.\n\n[Lead]\nAddition and division to x = 10.",
+    "output": "x = 10"
+  },
+  {
+    "instruction": "What is the plural of 'goose'?",
+    "input": "",
+    "reasoning": "[Intention]\nProvide irregular plural form.\n\n[Actions]\nStep 1: Access irregular noun forms.\nStep 2: Identify correct plural.\nStep 3: Provide answer.\n\n[Lead]\nRecall of irregular plural 'geese'.",
+    "output": "Geese"
+  },
+  {
+    "instruction": "Define 'photosynthesis' in simple terms.",
+    "input": "",
+    "reasoning": "[Intention]\nProvide simplified biological definition.\n\n[Actions]\nStep 1: Access biology knowledge.\nStep 2: Identify key process.\nStep 3: Formulate simple explanation.\n\n[Lead]\nDescription of plant's sunlight-to-food process.",
+    "output": "Photosynthesis is how plants use sunlight to make food."
+  },
+  {
+    "instruction": "What is 5/8 as a decimal?",
+    "input": "",
+    "reasoning": "[Intention]\nConvert fraction to decimal.\n\n[Actions]\nStep 1: Divide numerator by denominator.\nStep 2: Perform division.\nStep 3: Provide result.\n\n[Lead]\nCalculation: 5 ÷ 8 = 0.625.",
+    "output": "0.625"
+  },
+  {
+    "instruction": "What is the formula for calculating pressure?",
+    "input": "",
+    "reasoning": "[Intention]\nRetrieve physics formula.\n\n[Actions]\nStep 1: Access fluid mechanics concepts.\nStep 2: Identify pressure definition.\nStep 3: Provide formula.\n\n[Lead]\nRecall of force/area ratio.",
+    "output": "Pressure = force / area"
+  },
+  {
+    "instruction": "Rewrite in future perfect: 'They will finish the project.'",
+    "input": "",
+    "reasoning": "[Intention]\nTransform verb tense.\n\n[Actions]\nStep 1: Identify main verb.\nStep 2: Apply future perfect form.\nStep 3: Adjust sentence structure.\n\n[Lead]\nConversion to 'will have finished'.",
+    "output": "They will have finished the project."
+  },
+  {
+    "instruction": "Convert 32 ounces to pounds.",
+    "input": "",
+    "reasoning": "[Intention]\nPerform mass unit conversion.\n\n[Actions]\nStep 1: Recall conversion factor.\nStep 2: Divide ounces by 16.\nStep 3: Calculate result.\n\n[Lead]\nApplication: 32 ÷ 16 = 2.",
+    "output": "2 pounds"
+  },
+  {
+    "instruction": "What is the main function of the small intestine?",
+    "input": "",
+    "reasoning": "[Intention]\nDescribe digestive organ function.\n\n[Actions]\nStep 1: Access digestive system knowledge.\nStep 2: Identify primary role.\nStep 3: Provide concise description.\n\n[Lead]\nDescription of nutrient absorption.",
+    "output": "The small intestine absorbs nutrients from digested food into the bloodstream."
+  },
+  {
+    "instruction": "What is 12 squared?",
+    "input": "",
+    "reasoning": "[Intention]\nCalculate square of number.\n\n[Actions]\nStep 1: Understand squaring operation.\nStep 2: Multiply number by itself.\nStep 3: Provide result.\n\n[Lead]\nCalculation: 12 × 12 = 144.",
+    "output": "144"
+  },
+  {
+    "instruction": "Identify the possessive noun: \"John's car is red.\"",
+    "input": "",
+    "reasoning": "[Intention]\nPerform grammatical analysis.\n\n[Actions]\nStep 1: Parse sentence for ownership indicators.\nStep 2: Identify noun showing possession.\nStep 3: Confirm possessive form.\n\n[Lead]\nExtraction of \"John's\" as possessive noun.",
+    "output": "The possessive noun is \"John's\"."
+  },
+  {
+    "instruction": "Translate 'Hello' to Japanese.",
+    "input": "",
+    "reasoning": "[Intention]\nPerform language translation.\n\n[Actions]\nStep 1: Access Japanese vocabulary.\nStep 2: Match greeting expression.\nStep 3: Provide translation.\n\n[Lead]\nRetrieval of 'Konnichiwa'.",
+    "output": "Konnichiwa"
+  },
+  {
+    "instruction": "What is the melting point of gold?",
+    "input": "",
+    "reasoning": "[Intention]\nRetrieve metal property.\n\n[Actions]\nStep 1: Access element properties.\nStep 2: Specify standard conditions.\nStep 3: Provide temperature.\n\n[Lead]\nRecall of 1064°C for gold.",
+    "output": "1064°C (1947°F)"
+  },
+  {
+    "instruction": "Name two types of waves.",
+    "input": "",
+    "reasoning": "[Intention]\nList wave classifications.\n\n[Actions]\nStep 1: Access physics knowledge.\nStep 2: Select wave type examples.\nStep 3: Provide classifications.\n\n[Lead]\nIdentification of transverse and longitudinal waves.",
+    "output": "Transverse waves and longitudinal waves."
+  },
+  {
+    "instruction": "What is 60% of 90?",
+    "input": "",
+    "reasoning": "[Intention]\nPerform percentage calculation.\n\n[Actions]\nStep 1: Convert percentage to decimal.\nStep 2: Multiply by base value.\nStep 3: Compute result.\n\n[Lead]\nMultiplication: 90 × 0.60 = 54.",
+    "output": "54"
+  },
+  {
+    "instruction": "Rewrite using personification: 'The wind blew strongly.'",
+    "input": "",
+    "reasoning": "[Intention]\nTransform with figurative language.\n\n[Actions]\nStep 1: Identify natural element to personify.\nStep 2: Attribute human qualities.\nStep 3: Construct personified phrase.\n\n[Lead]\nAttribution of human action: 'The wind howled.'",
+    "output": "The wind howled angrily."
+  },
+  {
+    "instruction": "What is the chemical symbol for silver?",
+    "input": "",
+    "reasoning": "[Intention]\nRetrieve element symbol.\n\n[Actions]\nStep 1: Access periodic table knowledge.\nStep 2: Locate element symbol.\nStep 3: Provide notation.\n\n[Lead]\nRecall of Ag for silver.",
+    "output": "Ag"
+  },
+  {
+    "instruction": "Convert 1.5 meters to centimeters.",
+    "input": "",
+    "reasoning": "[Intention]\nPerform length unit conversion.\n\n[Actions]\nStep 1: Recall conversion factor.\nStep 2: Multiply meters by 100.\nStep 3: Calculate result.\n\n[Lead]\nApplication: 1.5 × 100 = 150.",
+    "output": "150 centimeters"
+  },
+  {
+    "instruction": "What is a synonym for 'happy'?",
+    "input": "",
+    "reasoning": "[Intention]\nFind word with similar meaning.\n\n[Actions]\nStep 1: Determine core meaning.\nStep 2: Access synonym vocabulary.\nStep 3: Select appropriate synonym.\n\n[Lead]\nSelection of 'joyful' as synonym.",
+    "output": "Joyful"
+  },
+  {
+    "instruction": "Identify the indirect object: 'She gave him a gift.'",
+    "input": "",
+    "reasoning": "[Intention]\nPerform grammatical analysis.\n\n[Actions]\nStep 1: Parse sentence for action recipient.\nStep 2: Identify noun receiving direct object.\nStep 3: Confirm indirect object status.\n\n[Lead]\nExtraction of 'him' as indirect object.",
+    "output": "The indirect object is 'him'."
+  },
+  {
+    "instruction": "What is the capital of Germany?",
+    "input": "",
+    "reasoning": "[Intention]\nRetrieve geographical fact.\n\n[Actions]\nStep 1: Access country-capital database.\nStep 2: Match Germany to capital.\nStep 3: Provide answer.\n\n[Lead]\nRecall of Berlin as capital.",
+    "output": "Berlin"
+  },
+  {
+    "instruction": "Solve: x/3 = 7",
+    "input": "",
+    "reasoning": "[Intention]\nSolve linear equation.\n\n[Actions]\nStep 1: Isolate variable.\nStep 2: Perform inverse operation.\nStep 3: Calculate variable value.\n\n[Lead]\nMultiplication: x = 7 × 3 = 21.",
+    "output": "x = 21"
+  },
+  {
+    "instruction": "What is the plural of 'cactus'?",
+    "input": "",
+    "reasoning": "[Intention]\nProvide irregular plural form.\n\n[Actions]\nStep 1: Access irregular noun forms.\nStep 2: Identify correct plural.\nStep 3: Provide answer.\n\n[Lead]\nRecall of Latin plural 'cacti'.",
+    "output": "Cacti"
+  },
+  {
+    "instruction": "Define 'evaporation' simply.",
+    "input": "",
+    "reasoning": "[Intention]\nProvide simplified physics definition.\n\n[Actions]\nStep 1: Access phase change knowledge.\nStep 2: Identify key process.\nStep 3: Formulate simple explanation.\n\n[Lead]\nDescription of liquid-to-gas change.",
+    "output": "Evaporation is when a liquid turns into a gas."
+  },
+  {
+    "instruction": "What is 0.25 as a fraction in simplest form?",
+    "input": "",
+    "reasoning": "[Intention]\nConvert decimal to fraction.\n\n[Actions]\nStep 1: Express decimal as fraction.\nStep 2: Simplify fraction.\nStep 3: Provide reduced form.\n\n[Lead]\nConversion and simplification to 1/4.",
+    "output": "1/4"
+  },
+  {
+    "instruction": "Calculate the perimeter of a rectangle with length 8cm and width 5cm.",
+    "input": "",
+    "reasoning": "[Intention]\nPerform geometric calculation.\n\n[Actions]\nStep 1: Recall perimeter formula.\nStep 2: Apply formula: P = 2(l + w).\nStep 3: Calculate with given values.\n\n[Lead]\nCalculation: 2 × (8 + 5) = 26.",
+    "output": "26 cm"
+  },
+  {
+    "instruction": "Parse this sentence for grammatical errors: 'He don't like apples.'",
+    "input": "",
+    "reasoning": "[Intention]\nIdentify and correct grammatical mistake.\n\n[Actions]\nStep 1: Analyze subject-verb agreement.\nStep 2: Identify incorrect verb form.\nStep 3: Provide corrected version.\n\n[Lead]\nCorrection of 'don't' to 'doesn't' for third person singular.",
+    "output": "The correct sentence is: 'He doesn't like apples.'"
+  },
+  {
+    "instruction": "Determine if this number is prime: 29",
+    "input": "",
+    "reasoning": "[Intention]\nAnalyze number properties.\n\n[Actions]\nStep 1: Check divisibility by small primes.\nStep 2: Test for factors up to √29.\nStep 3: Determine primality status.\n\n[Lead]\nVerification that 29 has no divisors other than 1 and itself.",
+    "output": "Yes, 29 is a prime number."
+  },
+  {
+    "instruction": "Classify this animal: 'Dolphin'",
+    "input": "",
+    "reasoning": "[Intention]\nProvide biological classification.\n\n[Actions]\nStep 1: Access biological taxonomy.\nStep 2: Identify key characteristics.\nStep 3: Provide classification category.\n\n[Lead]\nIdentification as marine mammal.",
+    "output": "Mammal (specifically a marine mammal)"
+  },
+  {
+    "instruction": "Find the average of these numbers: 12, 15, 18, 21",
+    "input": "",
+    "reasoning": "[Intention]\nCalculate statistical measure.\n\n[Actions]\nStep 1: Sum all numbers.\nStep 2: Divide sum by count of numbers.\nStep 3: Compute result.\n\n[Lead]\nCalculation: (12+15+18+21) ÷ 4 = 66 ÷ 4 = 16.5.",
+    "output": "16.5"
+  },
+  {
+    "instruction": "Identify the literary device: 'The world is a stage.'",
+    "input": "",
+    "reasoning": "[Intention]\nAnalyze figurative language.\n\n[Actions]\nStep 1: Examine comparison structure.\nStep 2: Identify device type.\nStep 3: Provide classification.\n\n[Lead]\nRecognition of direct comparison without 'like' or 'as'.",
+    "output": "Metaphor"
+  },
+  {
+    "instruction": "Balance this chemical equation: H₂ + O₂ → H₂O",
+    "input": "",
+    "reasoning": "[Intention]\nBalance chemical reaction.\n\n[Actions]\nStep 1: Count atoms on both sides.\nStep 2: Adjust coefficients to balance.\nStep 3: Verify atom conservation.\n\n[Lead]\nAdjustment to 2H₂ + O₂ → 2H₂O.",
+    "output": "2H₂ + O₂ → 2H₂O"
+  },
+  {
+    "instruction": "Determine the mode of this dataset: 3, 7, 3, 9, 7, 3, 5",
+    "input": "",
+    "reasoning": "[Intention]\nCalculate statistical measure.\n\n[Actions]\nStep 1: Count frequency of each value.\nStep 2: Identify most frequent value.\nStep 3: Provide mode.\n\n[Lead]\nIdentification of 3 as most frequent (appears 3 times).",
+    "output": "3"
+  },
+  {
+    "instruction": "Identify the error in reasoning: 'All birds can fly. Penguins are birds. Therefore, penguins can fly.'",
+    "input": "",
+    "reasoning": "[Intention]\nAnalyze logical fallacy.\n\n[Actions]\nStep 1: Examine premise truth.\nStep 2: Identify faulty generalization.\nStep 3: Name logical error.\n\n[Lead]\nRecognition of false premise in universal claim.",
+    "output": "The first premise is false: not all birds can fly."
+  },
+  {
+    "instruction": "Calculate the slope between points (2,3) and (6,11).",
+    "input": "",
+    "reasoning": "[Intention]\nPerform coordinate geometry calculation.\n\n[Actions]\nStep 1: Recall slope formula.\nStep 2: Apply formula: m = (y₂ - y₁)/(x₂ - x₁).\nStep 3: Calculate with given coordinates.\n\n[Lead]\nCalculation: (11-3)/(6-2) = 8/4 = 2.",
+    "output": "2"
+  },
+  {
+    "instruction": "Categorize this word by part of speech: 'Swiftly'",
+    "input": "",
+    "reasoning": "[Intention]\nProvide grammatical classification.\n\n[Actions]\nStep 1: Analyze word function.\nStep 2: Identify modification role.\nStep 3: Determine part of speech.\n\n[Lead]\nRecognition of '-ly' suffix indicating manner modification.",
+    "output": "Adverb"
+  },
+  {
+    "instruction": "Find the greatest common factor of 24 and 36.",
+    "input": "",
+    "reasoning": "[Intention]\nCalculate mathematical factor.\n\n[Actions]\nStep 1: List factors of each number.\nStep 2: Identify common factors.\nStep 3: Select largest common factor.\n\n[Lead]\nIdentification of 12 as largest common divisor.",
+    "output": "12"
+  },
+  {
+    "instruction": "Analyze the rhyme scheme of this couplet: 'Roses are red, Violets are blue'",
+    "input": "",
+    "reasoning": "[Intention]\nAnalyze poetic structure.\n\n[Actions]\nStep 1: Examine end sounds.\nStep 2: Identify rhyming patterns.\nStep 3: Assign rhyme scheme notation.\n\n[Lead]\nAssignment of 'AA' for identical end rhymes.",
+    "output": "AA"
+  },
+  {
+    "instruction": "Determine if this triangle is right-angled given sides: 6, 8, 10",
+    "input": "",
+    "reasoning": "[Intention]\nApply Pythagorean theorem.\n\n[Actions]\nStep 1: Square each side.\nStep 2: Check if a² + b² = c².\nStep 3: Verify right triangle condition.\n\n[Lead]\nVerification: 6² + 8² = 36 + 64 = 100 = 10².",
+    "output": "Yes, it is a right-angled triangle."
+  },
+  {
+    "instruction": "Identify the historical period: 'Renaissance'",
+    "input": "",
+    "reasoning": "[Intention]\nProvide historical context.\n\n[Actions]\nStep 1: Access historical knowledge.\nStep 2: Identify key characteristics.\nStep 3: Provide timeframe and description.\n\n[Lead]\nPlacement as 14th-17th century cultural movement.",
+    "output": "A cultural and artistic movement in Europe from the 14th to 17th centuries."
+  },
+  {
+    "instruction": "Calculate the compound interest on $1000 at 5% annual rate for 2 years.",
+    "input": "",
+    "reasoning": "[Intention]\nPerform financial calculation.\n\n[Actions]\nStep 1: Recall compound interest formula.\nStep 2: Apply formula with given values.\nStep 3: Compute final amount and interest.\n\n[Lead]\nCalculation: 1000 × (1.05)² = 1102.50, interest = 102.50.",
+    "output": "$102.50 interest, total $1102.50"
+  },
+  {
+    "instruction": "Identify the poetic meter: 'Shall I compare thee to a summer's day?'",
+    "input": "",
+    "reasoning": "[Intention]\nAnalyze poetic rhythm.\n\n[Actions]\nStep 1: Scan syllable stress pattern.\nStep 2: Identify metrical foot type.\nStep 3: Determine meter pattern.\n\n[Lead]\nRecognition of iambic pentameter pattern.",
+    "output": "Iambic pentameter"
+  },
+  {
+    "instruction": "Determine the valence electrons in oxygen (atomic number 8).",
+    "input": "",
+    "reasoning": "[Intention]\nAnalyze atomic structure.\n\n[Actions]\nStep 1: Access electron configuration.\nStep 2: Identify outermost shell electrons.\nStep 3: Provide count.\n\n[Lead]\nDetermination of 6 valence electrons from 2s²2p⁴.",
+    "output": "6 valence electrons"
+  },
+  {
+    "instruction": "Find the median of this dataset: 4, 7, 1, 9, 5",
+    "input": "",
+    "reasoning": "[Intention]\nCalculate statistical measure.\n\n[Actions]\nStep 1: Sort numbers in ascending order.\nStep 2: Identify middle value.\nStep 3: Provide median.\n\n[Lead]\nSorted: 1,4,5,7,9; middle value = 5.",
+    "output": "5"
+  },
+  {
+    "instruction": "Identify the logical connective: 'It is raining AND I have an umbrella.'",
+    "input": "",
+    "reasoning": "[Intention]\nAnalyze logical structure.\n\n[Actions]\nStep 1: Examine sentence structure.\nStep 2: Identify connecting operator.\nStep 3: Provide logical connective name.\n\n[Lead]\nRecognition of conjunction operator 'AND'.",
+    "output": "Conjunction (AND)"
+  },
+  {
+    "instruction": "Calculate the volume of a cylinder with radius 3cm and height 10cm.",
+    "input": "",
+    "reasoning": "[Intention]\nPerform geometric calculation.\n\n[Actions]\nStep 1: Recall volume formula.\nStep 2: Apply formula: V = πr²h.\nStep 3: Calculate with given values.\n\n[Lead]\nCalculation: π × 3² × 10 ≈ 282.74.",
+    "output": "Approximately 282.74 cm³"
+  },
+  {
+    "instruction": "Identify the type of irony in: 'A fire station burns down.'",
+    "input": "",
+    "reasoning": "[Intention]\nAnalyze literary device.\n\n[Actions]\nStep 1: Examine situational contradiction.\nStep 2: Identify irony type.\nStep 3: Provide classification.\n\n[Lead]\nRecognition of situational irony (opposite of expected).",
+    "output": "Situational irony"
+  },
+  {
+    "instruction": "Determine the oxidation state of carbon in CO₂.",
+    "input": "",
+    "reasoning": "[Intention]\nAnalyze chemical bonding.\n\n[Actions]\nStep 1: Apply oxidation state rules.\nStep 2: Assign oxygen oxidation state.\nStep 3: Calculate carbon oxidation state.\n\n[Lead]\nCalculation: Oxygen = -2 each, total -4, so carbon = +4.",
+    "output": "+4"
+  },
+  {
+    "instruction": "Find the range of this dataset: 8, 3, 12, 5, 9",
+    "input": "",
+    "reasoning": "[Intention]\nCalculate statistical measure.\n\n[Actions]\nStep 1: Identify maximum and minimum values.\nStep 2: Subtract minimum from maximum.\nStep 3: Provide range.\n\n[Lead]\nCalculation: 12 (max) - 3 (min) = 9.",
+    "output": "9"
+  },
+  {
+    "instruction": "Identify the type of government: 'Representatives elected by citizens'",
+    "input": "",
+    "reasoning": "[Intention]\nClassify political system.\n\n[Actions]\nStep 1: Analyze description characteristics.\nStep 2: Match to government type.\nStep 3: Provide classification.\n\n[Lead]\nRecognition of representative democracy features.",
+    "output": "Representative democracy"
+  },
+  {
+    "instruction": "Solve for x: log₂(x) = 4",
+    "input": "",
+    "reasoning": "[Intention]\nSolve logarithmic equation.\n\n[Actions]\nStep 1: Convert logarithmic to exponential form.\nStep 2: Calculate exponential value.\nStep 3: Provide solution.\n\n[Lead]\nConversion: 2⁴ = x = 16.",
+    "output": "x = 16"
+  },
+  {
+    "instruction": "Classify this triangle by angles: Angles 30°, 60°, 90°",
+    "input": "",
+    "reasoning": "[Intention]\nAnalyze geometric properties.\n\n[Actions]\nStep 1: Examine angle measurements.\nStep 2: Identify angle type presence.\nStep 3: Provide classification.\n\n[Lead]\nRecognition of 90° angle indicating right triangle.",
+    "output": "Right triangle"
+  },
+  {
+    "instruction": "Identify the economic system: 'Private ownership of production means'",
+    "input": "",
+    "reasoning": "[Intention]\nClassify economic model.\n\n[Actions]\nStep 1: Analyze ownership characteristics.\nStep 2: Match to economic system.\nStep 3: Provide classification.\n\n[Lead]\nRecognition of capitalism features.",
+    "output": "Capitalism"
+  },
+  {
+    "instruction": "Calculate the discriminant of: x² + 5x + 6 = 0",
+    "input": "",
+    "reasoning": "[Intention]\nPerform algebraic calculation.\n\n[Actions]\nStep 1: Recall discriminant formula.\nStep 2: Apply formula: D = b² - 4ac.\nStep 3: Calculate with coefficients.\n\n[Lead]\nCalculation: 5² - 4(1)(6) = 25 - 24 = 1.",
+    "output": "1"
+  },
+  {
+    "instruction": "Identify the narrative point of view: 'I walked to the store.'",
+    "input": "",
+    "reasoning": "[Intention]\nAnalyze literary perspective.\n\n[Actions]\nStep 1: Examine pronoun usage.\nStep 2: Identify perspective type.\nStep 3: Provide classification.\n\n[Lead]\nRecognition of first-person singular narrator.",
+    "output": "First person"
+  },
+  {
+    "instruction": "Determine if this function is even, odd, or neither: f(x) = x³",
+    "input": "",
+    "reasoning": "[Intention]\nAnalyze function symmetry.\n\n[Actions]\nStep 1: Apply symmetry tests.\nStep 2: Check f(-x) relationship.\nStep 3: Determine symmetry type.\n\n[Lead]\nVerification: f(-x) = (-x)³ = -x³ = -f(x).",
+    "output": "Odd function"
+  },
+  {
+    "instruction": "Identify the type of chemical bond in NaCl.",
+    "input": "",
+    "reasoning": "[Intention]\nClassify chemical bonding.\n\n[Actions]\nStep 1: Analyze element types.\nStep 2: Identify bond formation mechanism.\nStep 3: Provide bond classification.\n\n[Lead]\nRecognition of metal-nonmetal electron transfer.",
+    "output": "Ionic bond"
+  },
+  {
+    "instruction": "Find the next term in sequence: 2, 4, 8, 16, ...",
+    "input": "",
+    "reasoning": "[Intention]\nAnalyze numerical pattern.\n\n[Actions]\nStep 1: Identify pattern type.\nStep 2: Determine rule.\nStep 3: Apply rule to find next term.\n\n[Lead]\nRecognition of doubling pattern: next = 16 × 2 = 32.",
+    "output": "32"
+  },
+  {
+    "instruction": "Classify this literary genre: 'Story about future technology and society'",
+    "input": "",
+    "reasoning": "[Intention]\nCategorize literary work.\n\n[Actions]\nStep 1: Analyze description elements.\nStep 2: Match to genre characteristics.\nStep 3: Provide genre classification.\n\n[Lead]\nRecognition of futuristic speculative fiction.",
+    "output": "Science fiction"
+  },
+  {
+    "instruction": "Calculate the midpoint between (1,2) and (5,8).",
+    "input": "",
+    "reasoning": "[Intention]\nPerform coordinate geometry calculation.\n\n[Actions]\nStep 1: Recall midpoint formula.\nStep 2: Apply formula: M = ((x₁+x₂)/2, (y₁+y₂)/2).\nStep 3: Calculate with given coordinates.\n\n[Lead]\nCalculation: ((1+5)/2, (2+8)/2) = (3,5).",
+    "output": "(3,5)"
+  },
+  {
+    "instruction": "Identify the type of rock formation: 'Formed from cooled magma'",
+    "input": "",
+    "reasoning": "[Intention]\nClassify geological formation.\n\n[Actions]\nStep 1: Analyze formation process.\nStep 2: Match to rock type.\nStep 3: Provide classification.\n\n[Lead]\nRecognition of igneous rock origin.",
+    "output": "Igneous rock"
+  },
+  {
+    "instruction": "Solve the inequality: 2x + 3 > 11",
+    "input": "",
+    "reasoning": "[Intention]\nSolve mathematical inequality.\n\n[Actions]\nStep 1: Isolate variable term.\nStep 2: Perform inverse operations.\nStep 3: Express solution.\n\n[Lead]\nSolving: 2x > 8, x > 4.",
+    "output": "x > 4"
+  },
+  {
+    "instruction": "Identify the artistic movement: 'Emphasis on emotion and individualism'",
+    "input": "",
+    "reasoning": "[Intention]\nClassify artistic style.\n\n[Actions]\nStep 1: Analyze characteristic features.\nStep 2: Match to art movement.\nStep 3: Provide classification.\n\n[Lead]\nRecognition of Romanticism traits.",
+    "output": "Romanticism"
+  },
+  {
+    "instruction": "Calculate the surface area of a cube with side 4cm.",
+    "input": "",
+    "reasoning": "[Intention]\nPerform geometric calculation.\n\n[Actions]\nStep 1: Recall surface area formula.\nStep 2: Apply formula: SA = 6s².\nStep 3: Calculate with given side.\n\n[Lead]\nCalculation: 6 × 4² = 6 × 16 = 96.",
+    "output": "96 cm²"
+  },
+  {
+    "instruction": "Identify the type of logical fallacy: 'Attack on the person instead of the argument'",
+    "input": "",
+    "reasoning": "[Intention]\nClassify reasoning error.\n\n[Actions]\nStep 1: Analyze described behavior.\nStep 2: Match to fallacy type.\nStep 3: Provide classification.\n\n[Lead]\nRecognition of ad hominem characteristics.",
+    "output": "Ad hominem fallacy"
+  },
+  {
+    "instruction": "Calculate the circumference of a circle with diameter 14cm.",
+    "input": "",
+    "reasoning": "[Intention]\nPerform geometric calculation.\n\n[Actions]\nStep 1: Recall circumference formula.\nStep 2: Apply formula: C = πd.\nStep 3: Calculate with given diameter.\n\n[Lead]\nCalculation: π × 14 ≈ 43.98.",
+    "output": "Approximately 43.98 cm"
+  },
+  {
+    "instruction": "Identify the type of imagery: 'The sweet scent of roses filled the air'",
+    "input": "",
+    "reasoning": "[Intention]\nAnalyze sensory description.\n\n[Actions]\nStep 1: Examine sensory appeal.\nStep 2: Identify sense targeted.\nStep 3: Provide imagery classification.\n\n[Lead]\nRecognition of olfactory (smell) imagery.",
+    "output": "Olfactory imagery"
+  },
+  {
+    "instruction": "Determine the pH of a solution with [H⁺] = 1 × 10⁻³ M.",
+    "input": "",
+    "reasoning": "[Intention]\nPerform chemical calculation.\n\n[Actions]\nStep 1: Recall pH formula.\nStep 2: Apply formula: pH = -log[H⁺].\nStep 3: Calculate with given concentration.\n\n[Lead]\nCalculation: -log(10⁻³) = 3.",
+    "output": "pH = 3"
+  },
+  {
+    "instruction": "Find the interquartile range of: 3, 7, 8, 12, 14, 18, 21",
+    "input": "",
+    "reasoning": "[Intention]\nCalculate statistical measure.\n\n[Actions]\nStep 1: Find Q1 and Q3 positions.\nStep 2: Calculate quartile values.\nStep 3: Subtract Q1 from Q3.\n\n[Lead]\nCalculation: Q1 = 7, Q3 = 18, IQR = 18 - 7 = 11.",
+    "output": "11"
+  },
+  {
+    "instruction": "Classify this programming paradigm: 'Focus on procedures and functions'",
+    "input": "",
+    "reasoning": "[Intention]\nCategorize programming approach.\n\n[Actions]\nStep 1: Analyze described characteristics.\nStep 2: Match to programming paradigm.\nStep 3: Provide classification.\n\n[Lead]\nRecognition of procedural programming features.",
+    "output": "Procedural programming"
+  },
+  {
+    "instruction": "Solve the system: x + y = 10, x - y = 2",
+    "input": "",
+    "reasoning": "[Intention]\nSolve simultaneous equations.\n\n[Actions]\nStep 1: Choose solution method.\nStep 2: Apply elimination or substitution.\nStep 3: Calculate variable values.\n\n[Lead]\nAdding equations: 2x = 12, x = 6, then y = 4.",
+    "output": "x = 6, y = 4"
+  },
+  {
+    "instruction": "Identify the musical period: 'Complex polyphony and counterpoint'",
+    "input": "",
+    "reasoning": "[Intention]\nClassify historical music style.\n\n[Actions]\nStep 1: Analyze described characteristics.\nStep 2: Match to musical period.\nStep 3: Provide classification.\n\n[Lead]\nRecognition of Baroque period features.",
+    "output": "Baroque period"
+  },
+  {
+    "instruction": "Calculate the derivative of f(x) = 3x² + 4x - 5",
+    "input": "",
+    "reasoning": "[Intention]\nPerform calculus operation.\n\n[Actions]\nStep 1: Apply power rule to each term.\nStep 2: Differentiate term by term.\nStep 3: Combine derivatives.\n\n[Lead]\nDifferentiation: 6x + 4.",
+    "output": "f'(x) = 6x + 4"
+  },
+  {
+    "instruction": "Identify the type of conflict: 'Character vs. society'",
+    "input": "",
+    "reasoning": "[Intention]\nClassify narrative conflict.\n\n[Actions]\nStep 1: Analyze conflict description.\nStep 2: Match to conflict type.\nStep 3: Provide classification.\n\n[Lead]\nRecognition of external societal conflict.",
+    "output": "External conflict (person vs. society)"
+  },
+  {
+    "instruction": "Determine the genotype ratio for heterozygous cross: Aa × Aa",
+    "input": "",
+    "reasoning": "[Intention]\nPerform genetic calculation.\n\n[Actions]\nStep 1: Set up Punnett square.\nStep 2: Calculate genotype combinations.\nStep 3: Determine ratio.\n\n[Lead]\nPunnett square yields: 1 AA : 2 Aa : 1 aa.",
+    "output": "1:2:1 (AA:Aa:aa)"
+  },
+  {
+    "instruction": "Identify the architectural style: 'Pointed arches and flying buttresses'",
+    "input": "",
+    "reasoning": "[Intention]\nClassify architectural design.\n\n[Actions]\nStep 1: Analyze described features.\nStep 2: Match to architectural style.\nStep 3: Provide classification.\n\n[Lead]\nRecognition of Gothic architecture characteristics.",
+    "output": "Gothic architecture"
+  },
+  {
+    "instruction": "Calculate the probability of rolling a 3 on a fair six-sided die.",
+    "input": "",
+    "reasoning": "[Intention]\nPerform probability calculation.\n\n[Actions]\nStep 1: Identify favorable outcomes.\nStep 2: Identify total possible outcomes.\nStep 3: Calculate probability ratio.\n\n[Lead]\nCalculation: 1 favorable outcome / 6 total outcomes = 1/6.",
+    "output": "1/6 or approximately 0.167"
+  },
+  {
+    "instruction": "Classify this economic concept: 'Price increase leads to decreased demand'",
+    "input": "",
+    "reasoning": "[Intention]\nIdentify economic principle.\n\n[Actions]\nStep 1: Analyze described relationship.\nStep 2: Match to economic law.\nStep 3: Provide classification.\n\n[Lead]\nRecognition of law of demand.",
+    "output": "Law of demand"
+  },
+  {
+    "instruction": "Solve for the hypotenuse in a 45-45-90 triangle with leg = 5.",
+    "input": "",
+    "reasoning": "[Intention]\nApply special triangle properties.\n\n[Actions]\nStep 1: Recall 45-45-90 triangle ratio.\nStep 2: Apply ratio: hypotenuse = leg × √2.\nStep 3: Calculate hypotenuse.\n\n[Lead]\nCalculation: 5 × √2 ≈ 7.07.",
+    "output": "Approximately 7.07"
+  },
+  {
+    "instruction": "Identify the type of government: 'Rule by a single individual with absolute power'",
+    "input": "",
+    "reasoning": "[Intention]\nClassify political system.\n\n[Actions]\nStep 1: Analyze power structure.\nStep 2: Match to government type.\nStep 3: Provide classification.\n\n[Lead]\nRecognition of autocracy/absolutism.",
+    "output": "Autocracy or absolute monarchy"
+  },
+  {
+    "instruction": "Calculate the area of a trapezoid with bases 6 and 10, height 4.",
+    "input": "",
+    "reasoning": "[Intention]\nPerform geometric calculation.\n\n[Actions]\nStep 1: Recall area formula.\nStep 2: Apply formula: A = ½(b₁ + b₂)h.\nStep 3: Calculate with given values.\n\n[Lead]\nCalculation: ½(6 + 10) × 4 = ½(16) × 4 = 32.",
+    "output": "32 square units"
+  },
+  {
+    "instruction": "Identify the logical fallacy: 'Assuming what you're trying to prove'",
+    "input": "",
+    "reasoning": "[Intention]\nClassify reasoning error.\n\n[Actions]\nStep 1: Analyze described circular reasoning.\nStep 2: Match to fallacy type.\nStep 3: Provide classification.\n\n[Lead]\nRecognition of begging the question.",
+    "output": "Begging the question (circular reasoning)"
+  },
+  {
+    "instruction": "Determine the oxidation number of sulfur in H₂SO₄.",
+    "input": "",
+    "reasoning": "[Intention]\nPerform chemical analysis.\n\n[Actions]\nStep 1: Apply oxidation number rules.\nStep 2: Assign known oxidation numbers.\nStep 3: Solve for sulfur oxidation number.\n\n[Lead]\nCalculation: H = +1 each, O = -2 each, S = +6.",
+    "output": "+6"
+  },
+  {
+    "instruction": "Classify this psychological concept: 'Learning through association'",
+    "input": "",
+    "reasoning": "[Intention]\nIdentify psychological theory.\n\n[Actions]\nStep 1: Analyze described learning mechanism.\nStep 2: Match to psychological concept.\nStep 3: Provide classification.\n\n[Lead]\nRecognition of classical conditioning.",
+    "output": "Classical conditioning"
+  },
+  {
+    "instruction": "Calculate the standard deviation of: 2, 4, 6, 8, 10",
+    "input": "",
+    "reasoning": "[Intention]\nPerform statistical calculation.\n\n[Actions]\nStep 1: Calculate mean.\nStep 2: Find squared deviations from mean.\nStep 3: Calculate standard deviation.\n\n[Lead]\nMean = 6, variance = 8, standard deviation ≈ 2.83.",
+    "output": "Approximately 2.83"
+  }
+]
